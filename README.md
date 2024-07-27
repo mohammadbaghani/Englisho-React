@@ -8,7 +8,7 @@
 
 
 Technologies used : 
-React js - WOW js - MUI Material - Bootstrap - Html - Css
+React js - Wow js - MUI Material - Bootstrap - Html - Css
 
 To see the codes please go to branch master
 
