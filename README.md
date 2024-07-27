@@ -2,10 +2,9 @@
 
 برای مشاهده کد ها لطفا به برنچ مستر بروید
 
-مشاهده پروژه به صورت لایو- لینک پایین : 
+مشاهده پروژه به صورت لایو- لینک روبرو : https://englisho.liara.run/
 
 
-https://englisho.liara.run/
 
 
 Technologies used :React js _ WOW js_ MUI Material - Bootstrap - Html - Css
