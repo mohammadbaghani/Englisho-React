@@ -10,7 +10,7 @@
 Technologies used : 
 React js - Wow js - MUI Material - Bootstrap - Html - Css
 
-To see the codes please go to branch master
+***To see the codes please go to branch master***
 
 live view here : https://englisho.liara.run
 
