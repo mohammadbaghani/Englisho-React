@@ -1,0 +1,2825 @@
+* {
+    text-decoration: none;
+}
+
+.zz {
+    margin-top: -307px;
+    color: black !important;
+    padding-bottom: -20px;
+    top: 143px;
+    position: relative;
+    margin-bottom: -47px;
+    display: block !important;
+    padding-top: 45px;
+}
+
+.animation-items {
+    margin-top: 20px;
+}
+
+.shop-items {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+
+    .filterimage {
+        display: none !important;
+    }
+
+    .listimage {
+        display: none !important;
+
+    }
+
+    .cart-body {
+        background-color: black;
+        height: 1500px;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    .btn-parent-orig {
+        position: relative;
+        width: 883px !important;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        top: -1865px !important;
+        margin-top: 306px !important;
+        right: -65px;
+        left: 0px;
+    }
+
+    .band-name-large-animation {
+        align-items: center;
+        text-shadow: none;
+        color: transparent !important;
+        font-family: 'kalame';
+
+        font-size: 30px;
+        margin-top: -135px;
+
+
+        padding-top: 26px;
+        position: absolute;
+        text-align: center;
+        top: -4px;
+        background-color: transparent;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: block !important;
+        right: -6px !important;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        left: 15px;
+        background-size: 100% 100%;
+        font-weight: 400 !important;
+        background-position: 0px 0px;
+
+        filter: saturate(60%) blur(3px) hue-rotate(80deg);
+        transform: skew(1deg) scale(1.23);
+        height: 520px;
+        transition: all 1s;
+    }
+
+    .band-name-large-animation:hover {
+        filter: saturate(60%) blur(2px) hue-rotate(40deg);
+
+    }
+
+    .band-name-large-animation::after {
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'kalame';
+        content: '';
+        font-size: 30px;
+        margin-top: -135px;
+        height: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 26px;
+        position: absolute;
+        text-align: center;
+        top: 347px;
+        background-color: #0c0c25;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: block !important;
+        right: -6px !important;
+        left: 15px;
+        opacity: 0;
+        font-weight: 400 !important;
+        background-color: rgb(5, 106, 131)
+    }
+
+    .actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 310px !important;
+        height: 310px !important;
+        top: -15px !important;
+        justify-content: center !important;
+        border: 3px solid #ebedee;
+        align-items: center !important;
+        border-radius: 300px !important;
+        transform: scale(.9);
+        filter: blur(0px);
+        transition: all .3s !important;
+
+
+    }
+
+    .one {
+        position: absolute !important;
+        display: flex !important;
+        top: 135px !important;
+        right: -10px;
+
+    }
+
+    .tow {
+        position: absolute !important;
+        top: 105px !important;
+        display: flex !important;
+        right: 80px;
+
+    }
+
+    .three {
+        position: absolute !important;
+        display: flex !important;
+        right: 35px !important;
+
+    }
+
+    .all-actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 25% !important;
+        height: 25% !important;
+        top: 94px !important;
+        transform: scale(1.3);
+        margin-right: 65px;
+        justify-content: center !important;
+        border: 2px solid rgb(243, 247, 246);
+        align-items: center !important;
+        border-radius: 5px !important;
+
+
+
+    }
+
+    .all-actressimage:hover {
+
+
+        filter: blur(0px);
+    }
+
+    .emily {
+        top: 400px !important;
+
+
+    }
+
+    .emily-image {
+        top: 0px !important;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .btn-actress:active {
+
+
+        transform: scale(.69) rotate(0deg) !important;
+
+    }
+
+
+    .parent-actressimage {
+        margin-left: auto;
+        margin-right: 30px;
+        z-index: 1;
+        width: 280px !important;
+        height: 280px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        left: 0px;
+        top: -50px;
+        right: 0px;
+        position: relative;
+        margin-bottom: -55px;
+        transition: all .5s !important;
+        transform: scale(.65);
+        overflow: hidden !important;
+        background-color: transparent;
+        border-radius: 300px !important;
+
+    }
+
+
+
+
+
+    .bottom-text {
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        justify-content: center !important;
+        font-family: kalame !important;
+        align-items: center !important;
+        height: 40px !important;
+        direction: ltr;
+        z-index: 2;
+        font-size: 16px !important;
+        right: 19px !important;
+        top: 24px !important;
+        position: absolute;
+        margin-right: auto !important;
+        width: 180px !important;
+        display: flex !important;
+        border-radius: 5px !important;
+        line-height: 30px;
+        font-weight: 500 !important;
+        color: #ffffff !important;
+        background-color: #0c79c2 !important;
+    }
+
+    .formcheck-shop {
+        direction: ltr !important;
+        font-size: 15px;
+        height: 40px;
+        left: 0px !important;
+        margin-bottom: 51px;
+        padding-top: 0 !important;
+        position: relative !important;
+        right: 206px;
+        top: -9px;
+        width: 100px;
+        z-index: 988888881 !important;
+        margin-right: 16px !important;
+        display: flex;
+         border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        transition: all .1s !important;
+        direction: ltr !important;
+        border-radius: 5px;
+        border: .4px solid rgb(150, 150, 150);
+        background-color: transparent !important;
+
+ 
+    }
+
+
+ 
+
+
+     
+
+     
+     
+        
+
+    label {
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        font-family: 'kalame';
+        font-size: 16px;
+        font-weight: 400 !important;
+        color: #ffffff !important;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        padding: 2px;
+        right: 0px;
+        left: 0px;
+        letter-spacing: .6px;
+        background-color: transparent !important;
+        z-index: 333333333 !important;
+
+top: 0px!important;
+
+        margin-left: auto;
+
+        margin-right: auto;
+        transition: all .01s !important;
+    }
+
+    label:hover {
+        transition: all .01s !important;
+        z-index: 99999999;
+        cursor: pointer;
+        color: #ffffff !important;
+
+        background-color:  rgb(12, 121, 194) !important;
+    }
+
+    input[type=checkbox], input[type=radio] {
+        box-sizing: border-box;
+        padding: 0;
+        opacity: 0;
+    }
+
+    label:active {
+        transition: all .03s !important;
+        z-index: 99999999;
+        cursor: pointer;
+
+
+        transform: scale(.99);
+    }
+
+
+    
+    .red {
+        background-color:  rgb(12, 121, 194) !important;
+        border: .4px solid transparent !important;
+
+    }
+
+ 
+
+
+    .valed-parent-filters {
+
+
+        height: 90px;
+        width: 100%;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: 6 !important;
+        display: flex;
+
+        right: 0px;
+        left: 0px;
+        margin-bottom: -199px;
+        position: fixed;
+
+        top: 112px !important;
+        padding-top: 20px;
+        justify-content: center;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        border-radius: 0px !important;
+
+        align-items: center;
+    }
+
+    .valed-parent-filters::before {
+
+
+        content: '';
+        height: 90px;
+        width: 100%;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: -1;
+        display: flex;
+
+        right: 0px;
+        left: 0px;
+
+
+        position: fixed;
+        opacity: 7;
+        top: 112px !important;
+
+        justify-content: center;
+        background-color: transparent;
+        margin-right: auto;
+        align-items: center;
+        border-radius: 0px !important;
+
+        align-items: center;
+    }
+
+    .parent-filters {
+        display: flex;
+
+        height: 45px;
+        width: 100%;
+        right: 0px;
+        left: 0px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    .valed-parent-actressimage {
+        top: 10px !important;
+        margin-right: auto;
+        height: 310px;
+        width: 950px;
+        align-items: center;
+        z-index: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        z-index: 0;
+        display: flex;
+        margin-left: auto;
+        right: 0px;
+        left: 0px;
+        margin-bottom: 1176px;
+        position: relative;
+        padding-top: 80px;
+    }
+
+    .shop-count-count {
+        font-size: 34px;
+        color: #ffffff;
+        right: 56px;
+        font-family: 'Iry';
+        top: -10px;
+        align-self: flex-start !important;
+        background-color: #232fcf;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        transform: scale(.4);
+        border: none !important;
+        z-index: 4;
+        background-color: #2334cf !important;
+        position: absolute !important;
+
+    }
+
+    .shop-count {
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 50px !important;
+        position: fixed;
+        word-spacing: -3px !important;
+
+        left: 0px !important;
+        top: 50px !important;
+        text-align: center;
+        border-radius: 4px !important;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column !important;
+        display: flex !important;
+        border: none !important;
+        background-color: white !important;
+        font-size: 17px;
+        font-weight: 600 !important;
+        padding-right: 5px;
+        margin-right: auto;
+        right: 800px;
+        margin-left: auto;
+        border: none !important;
+        transform: scale(.85);
+        z-index: 66666 !important;
+    }
+
+    .z-i {
+        background-color: transparent !important;
+        width: 120px !important;
+        z-index: 66 !important;
+        word-spacing: -3px !important;
+    }
+
+    .shop-list {
+        color: rgb(255, 255, 255) !important;
+        width: 105px;
+        height: 40px !important;
+        position: fixed;
+        z-index: 30;
+        font-family: kalame;
+        cursor: pointer;
+        left: 20px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        top: 136px !important;
+        text-align: center;
+        border-radius: 5px !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+        display: flex !important;
+        padding: 0px;
+
+        background-color:  rgb(10, 110, 177) !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        transition: all .1s;
+        border: 1px solid rgb(38, 84, 153);
+
+
+    }
+
+    .films {
+        left: 140px !important;
+        margin-right: unset !important;
+        margin-left: auto !important;
+        position: fixed;
+        transition: all .1s;
+    }
+
+
+
+
+    .shop-list:hover {
+        color: rgb(255, 255, 255) !important;
+        background-color:  rgb(10, 103, 165) !important;
+        transition: all .1s;
+    }
+
+    .upper {
+        position: fixed;
+        background-color: #add8e5 !important;
+        top: 320px !important;
+        color: rgb(0, 0, 0) !important;
+        border-radius: 198px !important;
+        transform: scale(.85) rotate(30deg) !important;
+        left: 130px !important;
+        font-weight: 600 !important;
+        font-size: 17px !important;
+        width: 70px !important;
+        height: 70px !important;
+        z-index: 6666666;
+        padding: 7px !important;
+    }
+
+    .shop-count-image {
+        width: 50px;
+        height: 45px;
+        transform: scale(.9);
+        align-self: flex-end !important;
+        left: 2px !important;
+        background-color: transparent;
+        padding: 4px 10px 5px 5px !important;
+        position: absolute !important;
+        display: flex !important;
+        border-radius: 6px;
+        top: 6px;
+    }
+
+    .animation-items {
+        z-index: 0;
+    }
+
+    .shop-body {
+        position: relative;
+
+        margin-bottom: 20px;
+
+        width: 102%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 4655px;
+        right: 0px;
+        left: 0px;
+        background-size: 100% 100%;
+
+        background-repeat: no-repeat !important;
+        background-image: url(n.webp);
+        top: 363px !important;
+
+        background-position: 0px 0px;
+    }
+
+    .shop-body::before {
+        position: absolute;
+
+        margin-bottom: 20px;
+        content: '';
+        width: 102%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 4655px;
+        right: 0px;
+        left: 0px;
+        background-size: 100% 100%;
+
+        background-repeat: no-repeat !important;
+        opacity: .85;
+        background: rgb(0, 0, 0) !important;
+        top: 122px !important;
+        background-position: 0px 0px;
+
+    }
+
+    .animation-items {
+        top: -470px;
+        position: relative;
+        margin-top: 10px;
+        width: 90%;
+        right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 10px;
+        left: 0px;
+        background-size: 100% 100%;
+        padding: 30px;
+        margin-bottom: 184px;
+        background-repeat: no-repeat !important;
+        height: auto!important;
+
+
+
+    }
+
+    .parent-shopha {
+
+        animation-duration: all .3s !important;
+        animation: fade-right !important;
+        width: 32%;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        right: 0px;
+        left: 0px;
+        height: 537px;
+        margin-bottom: -8px;
+        display: flex;
+
+        max-width: 400px;
+        top: 30px;
+
+    }
+
+    .shop-items {
+        top: -1170px;
+        position: absolute;
+        margin-top: 715px;
+        width: 94%;
+        right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+
+    .cart-body {
+        background-color: black;
+        height: 1500px;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    .btn-parent-orig {
+        position: relative;
+        width: 883px !important;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        top: -1865px !important;
+        margin-top: 306px !important;
+        right: -65px;
+        left: 0px;
+    }
+
+    .band-name-large-animation {
+        align-items: center;
+        text-shadow: none;
+        color: transparent !important;
+        font-family: 'kalame';
+
+        font-size: 30px;
+        margin-top: -135px;
+
+
+        padding-top: 26px;
+        position: absolute;
+        text-align: center;
+        top: -4px;
+        background-color: transparent;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: block !important;
+        right: -6px !important;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        left: 15px;
+        background-size: 100% 100%;
+        font-weight: 400 !important;
+        background-position: 0px 0px;
+
+        filter: saturate(60%) blur(3px) hue-rotate(80deg);
+        transform: skew(1deg) scale(1.23);
+        height: 520px;
+        transition: all 1s;
+    }
+
+    .band-name-large-animation:hover {
+        filter: saturate(60%) blur(2px) hue-rotate(40deg);
+
+    }
+
+    .band-name-large-animation::after {
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'kalame';
+        content: '';
+        font-size: 30px;
+        margin-top: -135px;
+        height: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 26px;
+        position: absolute;
+        text-align: center;
+        top: 347px;
+        background-color: #0c0c25;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: block !important;
+        right: -6px !important;
+        left: 15px;
+        opacity: 0;
+        font-weight: 400 !important;
+        background-color: rgb(5, 106, 131)
+    }
+
+    .actressimage {
+
+        position: absolute !important;
+        display: flex !important;
+        width: 242px !important;
+        height: 242px !important;
+        top: 42px !important;
+        justify-content: center !important;
+        border: 3px solid #ebedee;
+        align-items: center !important;
+        border-radius: 300px !important;
+        transform: scale(.9);
+        filter: blur(0px);
+        transition: all .3s !important;
+
+    }
+
+    .one {
+        position: absolute !important;
+        display: flex !important;
+        top: 135px !important;
+        right: -10px;
+
+    }
+
+    .tow {
+        position: absolute !important;
+        top: 105px !important;
+        display: flex !important;
+        right: 80px;
+
+    }
+
+    .three {
+        position: absolute !important;
+        display: flex !important;
+        right: 35px !important;
+
+    }
+
+    .all-actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 25% !important;
+        height: 25% !important;
+        top: 94px !important;
+        transform: scale(1.3);
+        margin-right: 65px;
+        justify-content: center !important;
+        border: 2px solid rgb(243, 247, 246);
+        align-items: center !important;
+        border-radius: 5px !important;
+
+
+
+    }
+
+    .all-actressimage:hover {
+
+
+        filter: blur(0px);
+    }
+
+    .emily {
+        top: 400px !important;
+
+
+    }
+
+    .emily-image {
+        top: 0px !important;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .btn-actress:active {
+
+
+        transform: scale(.69) rotate(0deg) !important;
+
+    }
+
+
+    .parent-actressimage {
+        margin-left: auto;
+        margin-right: 30px;
+        z-index: 1;
+        width: 280px !important;
+        height: 280px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        position: relative;
+        margin-bottom: -55px;
+        transition: all .5s !important;
+        transform: scale(.8);
+        overflow: hidden !important;
+        background-color: transparent;
+        border-radius: 300px !important;
+
+    }
+
+
+
+
+
+    .bottom-text {
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        justify-content: center !important;
+        font-family: kalame !important;
+        align-items: center !important;
+        height: 35px !important;
+        direction: ltr;
+        z-index: 2;
+        font-size: 13px !important;
+        right: 15px !important;
+        top: 34px !important;
+        position: absolute;
+        padding: 0px!important;
+        margin-right: auto !important;
+        width: 140px !important;
+        display: flex !important;
+        border-radius: 5px !important;
+        line-height: 30px;
+        font-weight: 500 !important;
+        color: #ffffff !important;
+        background-color: #0c79c2 !important;
+
+
+    }
+
+
+    .formcheck-shop {
+        direction: ltr !important;
+        font-size: 17px;
+        height: 42px;
+        left: 0px !important;
+        margin-bottom: 51px;
+        padding-top: 0 !important;
+        position: relative !important;
+        right: 160px;
+        top: -3px;
+        width: 100px;
+        z-index: 988888881 !important;
+        margin-right: -5px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: scale(.8);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    label:active {
+        transition: all .03s !important;
+        z-index: 99999999;
+        cursor: pointer;
+
+
+        transform: scale(.99);
+    }
+
+
+
+
+
+    .valed-parent-filters {
+
+
+        height: 90px;
+        width: 100%;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: 6 !important;
+        display: flex;
+
+        right: 0px;
+        left: 0px;
+        margin-bottom: -199px;
+        position: fixed;
+
+        top: 112px !important;
+        padding-top: 20px;
+        justify-content: center;
+
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        border-radius: 0px !important;
+
+        align-items: center;
+    }
+
+    .valed-parent-filters::before {
+
+
+        content: '';
+        height: 90px;
+        width: 100%;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: -1;
+        display: flex;
+
+        right: 0px;
+        left: 0px;
+
+
+        position: fixed;
+        opacity: 7;
+        top: 112px !important;
+
+        justify-content: center;
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        border-radius: 0px !important;
+
+        align-items: center;
+    }
+
+    .parent-filters {
+        display: flex;
+
+        height: 45px;
+        width: 100%;
+        right: 0px;
+        left: 0px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    .valed-parent-actressimage {
+        top: -61px !important;
+        margin-right: auto;
+        height: 310px;
+        width: 778px;
+        align-items: center;
+        z-index: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        z-index: 0;
+        display: flex;
+        margin-left: auto;
+        right: -20px;
+        left: 0px;
+        margin-bottom: 1176px;
+        position: relative;
+        padding-top: 80px;
+    }
+
+    .shop-count-count {
+        font-size: 34px;
+        color: #ffffff;
+        right: 56px;
+        font-family: 'Iry';
+        top: -10px;
+        align-self: flex-start !important;
+        background-color: #232fcf;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        transform: scale(.4);
+        border: none !important;
+        z-index: 4;
+        background-color: #2334cf !important;
+        position: absolute !important;
+
+    }
+
+    .shop-count {
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 50px !important;
+        position: fixed;
+        word-spacing: -3px !important;
+
+        left: 0px !important;
+        top: 53px !important;
+        text-align: center;
+        border-radius: 4px !important;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column !important;
+        display: flex !important;
+        border: none !important;
+        background-color: transparent!important;
+        font-size: 17px;
+        font-weight: 600 !important;
+        padding-right: 5px;
+        margin-right: auto;
+  
+        right: 653px;
+    
+        top: 53px !important;
+       
+        margin-left: auto;
+transform: scale(.78)!important;
+        z-index: 66666 !important;
+    }
+
+    .z-i {
+         background-color: transparent !important;
+        width: 120px !important;
+        z-index: 66 !important;
+        word-spacing: -3px !important;
+    }
+
+    .shop-list {
+        color: rgb(255, 255, 255) !important;
+        width: 90px;
+        height: 35px !important;
+        position: fixed;
+        z-index: 320;
+        font-family: kalame;
+        cursor: pointer;
+        left: 20px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        top: 145px !important;
+        text-align: center;
+        border-radius: 5px !important;
+
+        display: flex !important;
+        padding: 0px;
+
+
+        font-size: 12px !important;
+        font-weight: 500 !important;
+        transition: all .1s;
+
+    }
+
+    .films {
+        left: 130px !important;
+        margin-right: unset !important;
+        margin-left: auto !important;
+        position: fixed;
+        transition: all .1s;
+    }
+
+
+
+
+    .shop-list:hover {
+        color: rgb(255, 255, 255) !important;
+        background-color:  rgb(10, 103, 165) !important;
+        transition: all .1s;
+    }
+
+    .upper {
+        position: fixed;
+        background-color: #add8e5 !important;
+        top: 320px !important;
+        color: rgb(0, 0, 0) !important;
+        border-radius: 198px !important;
+        transform: scale(.85) rotate(30deg) !important;
+        left: 130px !important;
+        font-weight: 600 !important;
+        font-size: 17px !important;
+        width: 70px !important;
+        height: 70px !important;
+        z-index: 6666666;
+        padding: 7px !important;
+    }
+
+    .shop-count-image {
+        width: 50px;
+        height: 45px;
+        transform: scale(.9);
+        align-self: flex-end !important;
+        left: 2px !important;
+        background-color: transparent;
+        padding: 4px 10px 5px 5px !important;
+        position: absolute !important;
+        display: flex !important;
+        border-radius: 6px;
+        top: 6px;
+    }
+
+    .animation-items {
+        z-index: 0;
+    }
+
+    .shop-body {
+
+
+        margin-bottom: 20px;
+
+
+        margin-right: auto;
+        margin-left: auto;
+        height: 4655px;
+        right: 0px;
+        left: 0px;
+        background-size: 100% 100%;
+
+        background-repeat: no-repeat !important;
+        width: 102%;
+
+        top: 363px !important;
+
+        background-position: 0px 0px;
+    }
+
+    .shop-body::before {
+        position: absolute;
+        margin-bottom: 20px;
+        content: '';
+
+        margin-right: auto;
+        margin-left: auto;
+        height: 5955px;
+        right: 0px;
+        left: 0px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat !important;
+        opacity: .85;
+        background: rgb(23, 23, 36) !important;
+        top: 130px !important;
+        background-position: 0px 0px;
+    }
+
+    .animation-items {
+        top: -470px;
+        position: relative;
+        margin-top: 10px;
+        width: 90%;
+        right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 10px;
+        left: 0px;
+        background-size: 100% 100%;
+        padding: 30px;
+        margin-bottom: 184px;
+        background-repeat: no-repeat !important;
+        height: 2100px !important;
+
+
+
+    }
+
+    .parent-shopha {
+
+        animation-duration: all .3s !important;
+        animation: fade-right !important;
+        width: 32%;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        right: 0px;
+        left: 0px;
+        height: 537px;
+        margin-bottom: -8px;
+        display: flex;
+
+        max-width: 400px;
+        top: 30px;
+
+    }
+
+    .shop-items {
+        top: -1361px;
+        position: absolute;
+        margin-top: 715px;
+        width: 95%;
+        right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+    .parent-shopha {
+        width: 42%;
+
+        right: -50px;
+        left: 0px;
+        top: -127px;
+    }
+
+    .actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 181px !important;
+        height: 178px !important;
+        top: 61px;
+        justify-content: center !important;
+      
+        align-items: center !important;
+        border-radius: 18px !important;
+        transform: scale(.79);
+        right: -14px;border: 2px solid rgb(22, 142, 197);
+        margin-right: 6px;
+        margin-left: 11px;
+    }
+
+    .valed-parent-filters {
+        margin-bottom: -97px !important;
+        top: 76px !important;
+        background-color: transparent;
+        z-index: 222222 !important;
+    }
+    
+
+    .bottom-text {
+
+
+      height: 35px !important;
+    font-size: 13px !important;
+    right: 8px !important;
+    top: 170px !important;
+    position: absolute;
+    width: 60px !important;
+    font-weight: 500 !important;
+    line-height: 30px;
+    background-color: transparent !important;
+    line-height: 18px;
+}
+    label:hover {
+        background-color:  rgb(12, 121, 194) !important;
+    }
+
+    .formcheck-shop {
+        top: 50px;
+        margin-left: -17px !important;
+        left: 0px !important;
+        right: -7px; 
+       margin-bottom: 45px!important;
+     
+border: none!important;
+    }
+
+
+    label:active {
+        transition: all .03s !important;
+        z-index: 99999999;
+        cursor: pointer;
+
+
+        transform: scale(1.17);
+    }
+    label {
+        width: 65px;
+        height: 40px;
+        z-index: 99999999;
+        font-family: 'kalame';
+        font-size: 16px;
+        font-weight: 400 !important;
+        color: #ffffff !important;
+        background-color: transparent !important;
+
+
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        padding: 2px;
+        
+        z-index: 333333333 !important;
+        border: 1px solid rgb(131, 131, 131);
+
+
+
+
+    }
+
+
+    .parent-filters {
+
+        flex-direction: column;
+
+
+        right: 0px;
+        left: 0px;
+
+        top: -65px !important;
+
+
+    }
+
+    .parent-filters::before {
+ 
+
+        content: '';
+        display: flex;
+        background-color: #1f3e9e;
+        height: 290px !important;
+        width: 65px;
+        right: 5px;
+        left: unset !important;
+        position: absolute;
+        margin-left: auto;
+        margin-right: unset;
+        margin-top: auto;
+        margin-bottom: auto;
+        top: 0px;
+        /* border: 1px solid #9b9b9b; */
+        border-top: none;
+        border-radius: 5px;
+
+    }
+
+    .valed-parent-filters::before {
+        content: '';
+        height: 107px;
+        width: 110px;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: -1;
+        display: flex;
+        right: unset;
+        left: 10px;
+        position: fixed;
+        opacity: 7;
+        top: 10px !important;
+        justify-content: center;
+
+
+        background-color: #1f3e9e;
+        margin-left: unset;
+        margin-right: auto;
+        border-radius: 5px !important;
+        align-items: center;
+
+        align-items: center;
+        transform: rotate(-180deg);
+    }
+
+    .shop-list {
+        left: 18px !important;
+        top: 70px !important;
+        z-index: 33333333 !important;
+
+    }
+
+    .films {
+        top: 20px !important;
+        left: 18px !important;
+        margin-right: unset !important;
+        margin-left: auto !important;
+        position: fixed;
+        transition: all .1s;
+        z-index: 33333333 !important;
+    }
+
+    .btn-parent-orig {
+        position: relative;
+        width: 72% !important;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        top: -1810px !important;
+        right: 0px;
+        left: 0px;
+    }
+
+    .form-check-input {
+        position: absolute;
+        margin-top: 0.3rem;
+        margin-left: -1.25rem;
+    }
+
+    .valed-parent-actressimage {
+        display: block;
+        position: relative !important;
+        top: 540px !important;
+        left: 0px !important;
+        width: 575px !important;
+        display: flex !important;
+        margin-left: auto !important;
+        right: 0px !important;
+        margin-right: auto;
+    }
+
+    .parent-actressimage {
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        width: 160% !important;
+        height: 260px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        left: 0px;
+        top: 130px;
+        border-radius: 15px !important;
+        position: relative;
+        right: 0px;
+    }
+
+    .shop-items {
+
+        top: -1300px !important;
+
+
+
+
+    }
+
+    .shop-body {
+        position: relative !important;
+        height: 126%;
+        margin-top: 67px;
+        padding-top: 500px;
+
+        top: -349px !important;
+        margin-bottom: 20px;
+    }
+
+    .animation-items {
+        z-index: 0 !important;
+
+        height: 1964px !important;
+        top: 662px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 0px !important;
+        width: 100% !important;
+        margin-bottom: 330px !important;
+
+    }
+
+    .band-name-large-animation {
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'y' !important;
+        font-size: 25px;
+        margin-top: 337px;
+        height: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 28px;
+        position: relative;
+        text-align: center;
+        top: 132px !important;
+        font-weight: 400 !important;
+        z-index: 0;
+        border-radius: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px !important;
+    }
+
+    .zz {
+        color: #000 !important;
+        display: block !important;
+        margin-bottom: -1074px;
+        margin-top: 118px;
+        padding-bottom: -368px;
+        padding-top: 45px;
+        position: relative;
+        top: -678px;
+        background-color: #8fb19b !important;
+    }
+
+    .shopha {
+
+
+        top: -1022px !important;
+        right: 42px !important;
+
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+
+
+    .parent-shopha {
+        width: 59%;
+        right: 0px;
+        left: 0px;
+        top: -13px;
+    }
+
+
+
+
+    .btn-actress {
+        right: 0px;
+        left: 0px;
+        top: 169px;
+        height: -moz-fit-content;
+        height: fit-content;
+        color: rgb(255 255 255);
+        background-color: rgb(238, 91, 5);
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        font-family: dana;
+        z-index: 1;
+        position: absolute !important;
+        margin-right: auto !important;
+        display: flex !important;
+        margin-left: auto !important;
+        width: 63% !important;
+        text-align: center !important;
+        align-items: center !important;
+        justify-content: center !important;
+        align-self: flex-sr !important;
+        font-size: 13px !important;
+        font-weight: 400 !important;
+        transform: skew(-2deg, -2deg);
+        border: 1px solid #ffffff;
+    }
+
+    .actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 100% !important;
+        height: 152px !important;
+        top: 49px;
+        justify-content: center !important;
+        border: 2px solid rgb(22, 142, 197);
+        align-items: center !important;
+        border-radius: 18px !important;
+        transform: scale(.79);
+        right: 0px !important;
+        left: 0px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+
+    .shop-count {
+        color: rgb(255, 255, 255);
+        width: 80px;
+        height: 80px !important;
+        position: fixed;
+        z-index: 30;
+        left: 14px !important;
+        top: 200px !important;
+        padding: 3px 4px !important;
+        border-radius: 8px !important;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: row !important;
+        display: flex !important;
+
+    }
+
+
+
+    .valed-parent-actressimage {
+        position: relative !important;
+        margin-left: auto;
+        width: 100% !important;
+        right: 0px !important;
+        left: 0px !important;
+        margin-bottom: 58px !important;
+        direction: rtl;
+        top: 387px !important;
+        display: flex;
+    }
+
+    .parent-actressimage {
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        width: 80% !important;
+        height: 223px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        left: 0px;
+        top: 505px;
+        border-radius: 15px !important;
+        margin-top: 15px;
+        position: relative;
+        right: 0px;
+    
+    }
+
+    .shop-items {
+        margin-top: 1933px !important;
+    width: 100%;
+    position: relative;
+    height: 165rem;
+    z-index: 0 !important;
+    text-align: center;
+    top: -370px !important;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    right: 0px;
+    left: 0px;
+
+
+    }
+
+    .shop-body {
+        position: relative;
+        top: -106px;
+        height: 10600px;
+        margin-top: 0px;
+        padding-top: 500px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        position: relative;
+        top: -249px !important;
+        margin-bottom: 20px;
+        width: 100%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 0px !important;
+        left: 0px !important;
+
+    }
+    .shop-body::before {
+        position: absolute;
+        margin-bottom: 20px;
+        content: '';
+        margin-right: auto;
+        margin-left: auto;
+        height: 10600px;
+        right: 0px;
+        left: 0px;
+        background-size: 100% 100%;
+        background-repeat: no-repeat !important;
+        opacity: .85;
+        background: rgb(23, 23, 36) !important;
+        top: 130px !important;
+        background-position: 0px 0px;
+    }
+    .band-name-large-animation {
+        top: 112px !important;
+        right: -55px !important;
+    }
+
+    .animation-items {
+        margin-top: 34px !important;
+        z-index: 0 !important;
+        text-align: center;
+        top: 266px !important;
+
+    }
+
+    .zz {
+        height: 150px;
+        margin-top: -132px;
+        width: 520px;
+        left: -55px;
+        position: relative;
+    }
+
+    .shopha {
+        display: block;
+        margin-bottom: -115px !important;
+        top: 532px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        right: 0px !important;
+        left: 0px !important;
+    }
+}
+
+@media screen and (max-width:338px) {
+    .shop-items {
+        margin-top: 1921px !important;
+        width: inherit;
+        position: relative;
+        z-index: 0 !important;
+        text-align: center;
+        top: -478px !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px;
+    }
+
+    .shop-body {
+        position: relative;
+        top: -106px;
+        height: 5545px;
+        margin-top: 67px;
+        padding-top: 500px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        position: relative;
+        top: -249px !important;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .band-name-large-animation {
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'y' !important;
+        font-size: 18px;
+        height: 39px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        position: relative;
+        text-align: center;
+        top: -549px;
+        font-weight: 400 !important;
+        z-index: 0;
+        background-color: #0e0f0f !important;
+        border-radius: 35px;
+        margin-right: auto;
+        margin-left: auto;
+        left: 0px;
+        position: absolute;
+        width: 200px;
+    }
+
+    .animation-items {
+        margin-top: 1921px !important;
+        width: inherit;
+        position: relative;
+        z-index: 0 !important;
+        text-align: center;
+        top: -478px !important;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        right: 0px;
+    }
+
+    .zz {
+        height: 150px;
+        margin-top: -300px;
+        width: 520px;
+        left: -55px;
+        position: relative;
+    }
+
+    .shopha {
+        margin-bottom: -126px !important;
+        top: -1652px !important;
+        transform: scale(.4) !important;
+
+
+
+    }
+
+    .valed-parent-actressimage {
+        position: relative !important;
+        margin-left: 197px !important;
+        width: 41% !important;
+        right: 223px !important;
+        left: 429px !important;
+        margin-bottom: 57px !important;
+        direction: rtl;
+        top: 519px !important;
+        transform: scale(.7);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    label {
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        font-family: 'kalame';
+        font-size: 16px;
+        font-weight: 400 !important;
+        color: #ffffff !important;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        padding: 2px;
+        right: 0px;
+        left: 0px;
+        letter-spacing: .6px;
+        background-color: transparent !important;
+        z-index: 333333333 !important;
+
+top: 0px!important;
+
+        margin-left: auto;
+
+        margin-right: auto;
+        transition: all .01s !important;
+    }
+
+
+
+
+
+    .cart-body {
+        background-color: black;
+        height: 1500px;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    .btn-parent-orig {
+        position: relative;
+        width: 883px !important;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        top: -1865px !important;
+        margin-top: 306px !important;
+        right: -65px;
+        left: 0px;
+    }
+
+    .band-name-large-animation {
+        align-items: center;
+        text-shadow: none;
+        color: rgb(255, 255, 255) !important;
+        font-family: 'kalame';
+        font-size: 49px;
+        margin-top: -135px;
+        padding-top: 26px;
+        position: absolute;
+        text-align: center;opacity: 0;
+        top: 170px;
+        background-color: transparent;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: block !important;
+        right: -6px !important;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        left: 15px;
+        background-size: 100% 100%;
+        font-weight: 400 !important;
+        background-position: 0px 0px;
+        filter: saturate(100%) blur(3.8px) hue-rotate(0deg) brightness(100%);
+        transform: skew(1deg) scale(1.33);
+        height: 220px;
+        transition: all 1s;
+    
+
+    }
+
+    .band-name-large-animation::after {
+        align-items: center;
+        text-shadow: none;
+        color: #ffffff !important;
+        font-family: 'kalame';
+        content: '';
+        font-size: 30px;
+        margin-top: -135px;
+        height: 300px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 26px;
+        position: absolute;
+        text-align: center;
+        top: 347px;
+
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: block !important;
+        right: -6px !important;
+        left: 15px;
+        opacity: .2;
+        font-weight: 400 !important;
+
+    }
+
+
+    .one {
+        position: absolute !important;
+        display: flex !important;
+        top: 135px !important;
+        right: -10px;
+
+    }
+
+    .tow {
+        position: absolute !important;
+        top: 105px !important;
+        display: flex !important;
+        right: 80px;
+
+    }
+
+    .three {
+        position: absolute !important;
+        display: flex !important;
+        right: 35px !important;
+
+    }
+
+    .all-actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 25% !important;
+        height: 25% !important;
+        top: 94px !important;
+        transform: scale(1.3);
+        margin-right: 65px;
+        justify-content: center !important;
+        border: 2px solid rgb(243, 247, 246);
+        align-items: center !important;
+        border-radius: 5px !important;
+
+
+
+    }
+
+    .all-actressimage:hover {
+
+
+        filter: blur(0px);
+    }
+
+    .emily {
+        top: 400px !important;
+
+
+    }
+
+    .emily-image {
+        top: 0px !important;
+
+    }
+
+
+
+    .btn-actressone,
+    .btn-actresstow,
+    .btn-actressthree {
+
+        position: absolute !important;
+        display: flex !important;
+        width: 310px !important;
+        height: 310px !important;
+        top: -15px !important;
+        justify-content: center !important;
+
+        align-items: center !important;
+        border-radius: 300px !important;
+        transform: scale(1);
+
+        transition: all .1s !important;
+
+
+        opacity: .2 !important;
+
+        z-index: 666666666666 !important;
+        background-color: transparent;
+    
+
+    }
+
+
+    .opa {
+        opacity: 85 !important;
+    }
+
+    .opai {
+        filter: blur(0px) grayscale(0%) !important;
+    }
+
+    .btn-actresstow:active.actressimage{
+
+    
+
+        transform: scale(.93)!important;
+
+
+
+    }
+
+
+
+    .btn-actresstone:active.actressimage{
+
+    
+
+        transform: scale(.93)!important;
+
+
+
+    }
+
+
+
+
+
+    .btn-actressthree:active.actressimage{
+
+    
+
+        transform: scale(.93)!important;
+
+
+
+    }
+
+
+
+
+    .btn-actresstow::after,
+    .btn-actressone::after,
+    .btn-actressthree::after {
+        align-items: center !important;
+        background-color: initial !important;
+        border-image: none;
+        border-image: initial;
+        border-radius: 300px !important;
+        color: #fff;
+        content: ' Action اکشن';
+        direction: ltr !important;
+        display: flex !important;
+        flex-direction: row-reverse !important;
+        font-size: 23px !important;
+        font-weight: 400 !important;
+        height: 183% !important;
+        justify-content: center !important;
+        left: 0 !important;
+        letter-spacing: 1px;
+        line-height: 250px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        opacity: 1 !important;
+        padding: 2px 110px;
+        position: absolute !important;
+        right: 0 !important;
+        text-align: center !important;
+        text-shadow: 2px 1px 1px #242424 !important;
+        top: -122px !important;
+        transform: scale(1.6);
+        transition: all .1s !important;
+        width: 310px !important;
+        z-index: 1;
+        z-index: -1 !important;
+    
+ 
+  
+
+    }
+
+
+    .btn-actressthree::after {
+
+
+
+
+
+
+
+
+
+
+
+        content: ' Romantic عاشقانه';
+
+    }
+
+
+    .btn-actressone::after {
+
+
+        content: 'Drama درام';
+
+
+    }
+
+    .actressimage {
+        position: absolute !important;
+        display: flex !important;
+        width: 310px !important;
+        height: 310px !important;
+        top: -15px !important;
+        justify-content: center !important;
+        border: 5px solid rgb(74 74 74) !important;
+        align-items: center !important;
+        border-radius: 300px !important;
+        transform: scale(.95);
+        padding: -19px;
+        transition: all .1s !important;
+        filter: blur(.6px) grayscale(20%);
+
+    }
+
+    .parent-actressimage:hover .actressimage {
+        cursor: pointer;
+
+        transition: all .1s !important;
+
+
+        filter: blur(0px) !important;
+
+
+    }
+
+
+    .parent-actressimage {
+        margin-left: auto;
+        margin-right: 30px;
+        z-index: 1;
+        width: 280px !important;
+        height: 280px !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        left: 0px;
+        top: -60px;
+        right: 20px;
+        position: relative;
+        margin-bottom: -55px;
+        transition: all .5s !important;
+        transform: scale(.6);
+
+        background-color: transparent;
+        border-radius: 300px !important;
+        cursor: pointer;
+
+        box-shadow: 2px 2px 20px 6px #34393b !important;
+
+
+    }
+
+
+
+    .parent-actressimage:hover .btn-actresstow {
+        cursor: pointer;
+
+        transition: all .1s !important;
+
+
+
+        opacity: .6 !important;
+
+    }
+
+    .parent-actressimage:hover .btn-actressone {
+
+        cursor: pointer;
+
+        transition: all .1s !important;
+
+
+
+
+        opacity: .6 !important;
+
+
+    }
+
+    .parent-actressimage:hover .btn-actressthree {
+
+        cursor: pointer;
+
+        transition: all .1s !important;
+
+
+
+
+
+        opacity: .6 !important;
+    }
+
+
+
+
+
+
+
+
+
+    .parent-actressimage:hover .btn-actresstow::after {
+
+
+        opacity: .9 !important;
+
+    }
+
+    .parent-actressimage:hover .btn-actressone::after {
+
+
+        opacity: .9 !important;
+
+    }
+
+    .parent-actressimage:hover .btn-actressthree::after {
+
+
+        opacity: .9 !important;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .btn-actress:active {
+
+
+        transform: scale(.69) rotate(0deg) !important;
+
+    }
+
+
+
+
+
+
+
+
+    .formcheck-shop {
+        align-items: center;
+        background-color: black !important;
+
+        border-radius: 5px;
+        direction: ltr !important;
+        display: flex;
+        font-size: 14px;
+        height: 45px;
+        justify-content: center;
+        left: 11px !important;
+        margin-bottom: 51px;
+        margin-right: 20px !important;
+        padding: 0 !important;
+        position: relative !important;
+        right: 200px;
+        top: -9px;
+        transition: all .1s !important;
+        width: 95px;
+        z-index: 981 !important;
+    
+    }
+
+
+
+
+
+
+
+    .red {
+        background-color:  rgb(12, 121, 194) !important;
+        border: .4px solid transparent !important;
+
+    }
+
+    label:hover {
+        transition: all .01s !important;
+        z-index: 99999999;
+        cursor: pointer;
+        color: #ffffff !important;
+
+        background-color:  rgb(12, 121, 194) !important;
+    }
+
+    .formcheck-shop:hover {
+  
+        background-color: rgb(35, 65, 163) !important;
+
+    }
+
+    .formcheck-shop:active {
+        transition: all .01s !important;
+        z-index: 99999999;
+        cursor: pointer;
+        border: .4px solid rgb(87, 99, 179) !important;
+
+
+    }
+
+
+
+
+
+    .valed-parent-filters {
+
+
+        height: 110px;
+        width: 100%;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: 6 !important;
+        display: flex;
+
+        right: 0px;
+        left: 0px;
+        margin-bottom: -199px;
+        position: fixed;
+
+        top: 114px !important;
+        padding-top: 20px;
+        justify-content: center;
+        background-color: transparent;
+        margin-left: auto;
+
+        margin-right: auto;
+        align-items: center;
+        border-radius: 0px !important;
+
+
+        align-items: center;
+        
+    }
+
+    .valed-parent-filters::before {
+
+
+        content: '';
+        height: 90px;
+        width: 100%;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: -1;
+        display: flex;
+
+        right: 0px;
+        left: 0px;
+
+
+        position: fixed;
+        opacity: 7;
+        top: 112px !important;
+
+        justify-content: center;
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        border-radius: 0px !important;
+
+        align-items: center;
+    }
+
+    .parent-filters {
+        display: flex;
+
+        height: 45px;
+        width: 100%;
+        right: 0px;
+        left: 0px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    .valed-parent-actressimage {
+        top: 30px !important;
+        margin-right: auto;
+        height: 310px;
+        width: 1100px;
+        align-items: center;
+        z-index: 0;
+        padding-left: 0px;
+        padding-right: 0px;
+        z-index: 0;
+        display: flex;
+        margin-left: auto;
+        right: 0px;
+        left: 0px;
+        margin-bottom: 1176px;
+        position: relative;
+        padding-top: 80px;
+
+    }
+
+    .shop-count-count {
+        font-size: 34px!important;
+        color: #ffffff!important;
+        right: 56px!important;
+        font-family: 'Iry';
+        top: -10px!important;
+        align-self: flex-start !important;
+        background-color: #232fcf!important;
+        width: 50px!important;
+        height: 50px!important;
+        display: flex!important;
+        justify-content: center!important;
+        align-items: center!important;
+        border-radius: 50px!important;
+        transform: scale(.37)!important;
+        border: none !important;
+        z-index: 4!important;
+border: 2px solid rgb(17, 107, 209)!important;
+        position: absolute !important;
+left: unset!important;
+  
+background: rgb(59, 72, 160)!important;
+background-color: #232fcf !important;
+background-color: #235ccf !important;
+        max-width: unset!important;
+      min-width:unset!important;
+       padding-left: unset!important;
+ padding-right: unset!important;
+ background-color: #2334cf !important;
+
+    }
+
+    .shop-count {
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 50px !important;
+        position: fixed;
+        word-spacing: -3px !important;
+
+        left: 0px !important;
+        top: 53px !important;
+        text-align: center;
+        border-radius: 4px !important;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column !important;
+        display: flex !important;
+        border: none !important;
+        background-color: transparent !important;
+        font-size: 17px;
+        font-weight: 600 !important;
+        padding-right: 5px;
+        margin-right: auto;
+        right: 900px;
+        margin-left: auto;
+        transition: all .6s;
+        z-index: 66666 !important;
+        transform: scale(.9);
+    }
+
+    .z-i {
+        background-color: transparent !important;
+        width: 120px !important;
+        z-index: 66 !important;
+        word-spacing: -3px !important;   transition: all .6s;
+    }
+.upper-count{
+    transition: all .6s;
+     top: 10px !important;
+
+}
+    .shop-list {
+        color: rgb(255, 255, 255) !important;
+        width: 140px;
+        height: 50px !important;
+        position: fixed;
+        z-index: 30;
+        font-family: kalame;
+        cursor: pointer;
+        left: 30px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        top: 144px !important;
+        text-align: center;
+        border-radius: 5px !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+        display: flex !important;
+        padding: 0px;
+transform:scale(.95) ;
+        background-color: transparent !important;
+        font-size: 15px !important;
+        font-weight: 500 !important;
+        transition: all .1s;
+        padding-right: 25px;
+        border: 1px solid rgb(38, 84, 153);
+        background-color: #2a48ac !important;
+        background-color:  rgb(10, 110, 177) !important;
+    }
+
+    .films {
+        left: 190px !important;
+        margin-right: unset !important;
+        margin-left: auto !important;
+        position: fixed;
+        transition: all .1s;
+    }
+
+
+    .listimage {
+        transform: scale(.7);
+        position: absolute;
+        right: -2px;
+        top: 3px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .shop-list:hover {
+  
+
+        transition: all .1s;
+        background-color:  rgb(10, 103, 165) !important;
+    }
+
+    .shop-list:active{
+
+transform: translateY(1px)scale(.95) ;
+        transition: all .1s;
+       
+    }
+
+    .upper {
+        position: fixed;
+        background-color: #add8e5 !important;
+        top: 320px !important;
+        color: rgb(0, 0, 0) !important;
+        border-radius: 198px !important;
+        transform: scale(.85) rotate(30deg) !important;
+        left: 130px !important;
+        font-weight: 600 !important;
+        font-size: 17px !important;
+        width: 70px !important;
+        height: 70px !important;
+        z-index: 6666666;
+        padding: 7px !important;
+    }
+
+    .shop-count-image {
+        width: 50px;
+        height: 45px;
+        transform: scale(.9);
+        align-self: flex-end !important;
+        left: 2px !important;
+        background-color: transparent;
+        padding: 4px 10px 5px 5px !important;
+        position: absolute !important;
+        display: flex !important;
+        border-radius: 6px;
+        top: 6px;
+    }
+
+    .animation-items {
+        z-index: 0;
+    }
+
+    .shop-body {
+        position: relative;
+
+        margin-bottom: 20px;
+
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 4100px;
+        right: 0px;
+        left: 0px;
+        background-size: 100% 100%;
+
+        background-repeat: no-repeat !important;
+        background-color: black;
+
+        top: 15px !important;
+        background-image: url(n.webp);
+        background-position: 0px 0px;
+        overflow: hidden;
+
+
+        padding-top: 299px;
+
+    }
+
+    .shop-body::before {
+        position: absolute;
+
+        margin-bottom: 20px;
+        content: '';
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 4100px;
+        right: 0px;
+        left: 0px;
+        background-size: 100% 100%;
+
+        background-repeat: no-repeat !important;
+        opacity: .9;
+        background: rgb(0, 0, 0) !important;
+        top: 15px !important;
+
+        background-position: 0px 0px;
+    }
+
+    .animation-items {
+        top: -1160px;
+        position: relative;
+        margin-top: 10px;
+        width: 1150px;
+        right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 10px;
+        left: 0px;
+        background-size: 100% 100%;
+        padding: 30px;
+        margin-bottom: 184px;
+        background-repeat: no-repeat !important;
+        height: auto !important;
+
+        filter: brightness(110%);
+        background-color: transparent;
+    }
+
+    .filterimage {
+        height: 40px;
+        left: 142px;
+        position: absolute;
+        top: 3px;
+        transform: scale(1.09);
+        width: 40px;
+    
+    }
+
+    .bottom-text {
+        align-items: center !important;
+        /* background-color: #313e94 !important; */
+        /* background-color: #0c79c2 !important; */
+        border-radius: 6px !important;
+        color: #fff !important;
+        direction: ltr;
+        display: flex !important;
+        font-family: kalame !important;
+        font-size: 15px !important;
+        font-weight: 500 !important;
+        height: 45px !important;
+        justify-content: flex-start !important;
+        line-height: 30px;
+        margin-bottom: auto;
+        margin-right: auto !important;
+        margin-top: auto;
+        padding-left: 10px;
+        padding-right: 15px;
+        position: absolute;
+        right: 19px !important;
+        text-align: center;
+        top: 33px !important;
+        width: 180px !important;
+        z-index: 2;
+        background-color: #0c79c2 !important;
+    
+    }
+
+
+    .parent-shopha {
+
+        animation-duration: all .3s !important;
+        animation: fade-right !important;
+        width: 32%;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        right: 0px;
+        left: 0px;
+        height: 537px;
+        margin-bottom: -32px;
+        display: flex;
+
+        max-width: 400px;
+        top: 730px;
+
+    }
+
+    .shop-items {
+        top: -1170px;
+        position: absolute;
+        margin-top: 715px;
+        width: 90%;
+        right: 0px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        left: 0px;
+    }
+}
