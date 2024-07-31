@@ -11,12 +11,11 @@ import MuiAccordion, { AccordionProps } from '@mui/material/Accordion';
 import MuiAccordionSummary, {
   AccordionSummaryProps,
 } from '@mui/material/AccordionSummary';
-import Tilt from 'react-parallax-tilt';
+importTilt  from 'react-parallax-tilt';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import './Accordian.css';
-import Type from './typewriter';
 import { useNavigate, } from 'react-router-dom';
 import Footer from './Footer';
 import Ticket from './components/Ticket/Ticket';
@@ -26,7 +25,6 @@ import { MdKeyboardArrowDown } from 'react-icons/md';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import P from './Particlecopy';
-import Typewriter from "react-ts-typewriter";
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({

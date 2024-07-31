@@ -26,7 +26,12 @@
 
 
     .filterimage {
-        display: none !important;
+        height: 40px;
+        position: absolute;
+        left: 141px;
+        transform: scale(.95);
+        width: 40px;
+    
     }
 
     .listimage {
@@ -253,7 +258,7 @@
         height: 40px !important;
         direction: ltr;
         z-index: 2;
-        font-size: 16px !important;
+        font-size: 15px !important;
         right: 19px !important;
         top: 24px !important;
         position: absolute;
@@ -265,6 +270,9 @@
         font-weight: 500 !important;
         color: #ffffff !important;
         background-color: #0c79c2 !important;
+        padding-right: 26px;
+        padding-left: 0px;
+    
     }
 
     .formcheck-shop {
@@ -690,7 +698,8 @@ top: 0px!important;
 
 @media only screen and (max-width: 992px) {
 
-
+    .filterimage {display: none !important;
+    }
     .cart-body {
         background-color: black;
         height: 1500px;
@@ -2747,7 +2756,6 @@ transform: translateY(1px)scale(.95) ;
         margin-bottom: 184px;
         background-repeat: no-repeat !important;
         height: auto !important;
-
         filter: brightness(110%);
         background-color: transparent;
     }
@@ -2758,14 +2766,11 @@ transform: translateY(1px)scale(.95) ;
         position: absolute;
         top: 3px;
         transform: scale(1.09);
-        width: 40px;
-    
+        width: 40px;    
     }
 
     .bottom-text {
         align-items: center !important;
-        /* background-color: #313e94 !important; */
-        /* background-color: #0c79c2 !important; */
         border-radius: 6px !important;
         color: #fff !important;
         direction: ltr;
