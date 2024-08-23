@@ -5,9 +5,9 @@
         font-family: IRY;
         font-size: 22px;
         margin-top: -224px;
-        height: 91px;
+        height: 106px;
         position: absolute;
-        top: 261px;
+        top: 250px;
         font-weight: 400 !important;
         z-index: 1;
         background-color: #e9e9e9;
@@ -44,8 +44,8 @@
         left: 3px;
         height: 114px;      
         align-items: center;   
-        border-radius: 10px;
-        border: 1px solid rgb(221, 221, 221);
+        border-radius: 28px;
+        border-bottom: 5px solid #e7e7e7;
     }
 
     .form-control {
@@ -154,21 +154,21 @@ h1 {
 }
 
 @media screen and (max-width: 576px) {
-
+    .text-todo {
+        font-size: 15px !important;
+    }
     .all-todos {
         top: 422px;
         height: 230px !important;
         z-index: 2222222222222 !important;
-        
-    }
+            }
     .select {
         width: 79% !important;
         position: relative;
         height: 173px !important;
         height: 120px;
         top: -39px !important;
-     
-        right: 56px;
+             right: 56px;
     }
 
     .fa,
@@ -189,7 +189,6 @@ h1 {
         right: -4px;
         transform: scale(.9);
     }
-
     .todo-button {
         border-radius: 7px !important;
         top: -68px !important;
@@ -209,9 +208,7 @@ h1 {
 
 }
 
-
 @media screen and (max-width: 338px) {
-
     .todo-button {
         border-radius: 7px !important;
         top: -73px !important;
@@ -222,7 +219,6 @@ h1 {
         margin-left: auto;
         transform: scale(.8) !important;
     }
-
     .text-todo {
         width: 107% !important;
         background-color: #06101d;
@@ -235,7 +231,6 @@ h1 {
         top: -896px;
         font-weight: 700;
     }
-
     .all-todos {
         position: absolute;
         top: 499px;
@@ -247,7 +242,6 @@ h1 {
         margin-left: auto;
         right: -25px;
     }
-
     .select {
         width: 71% !important;
         position: relative;
@@ -259,42 +253,28 @@ h1 {
         right: 5px;
         top: -129.5px !important;
     }
-
     h1 {
         font-size: 14px;
-
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: auto;        margin-left: auto;
         color: #41494a !important;
         text-shadow: none;
         top: -1192px;
         font-weight: 600;
-
         z-index: 0;
-
-
-
-
     }
-
     .containerinput {
         margin-top: 225px;
         box-shadow: #d1cfd3 2px 3px 4px 1px;
         border-radius: 0px;
-
         z-index: 0 !important;
         display: flex;
         position: relative;
-
         margin-right: auto;
         margin-left: auto;
     }
 }
 
-
-
 @media screen and (min-width: 1200px) {
-
     .text-todo {
         align-items: center !important;
         background-color: #e9e9e9;

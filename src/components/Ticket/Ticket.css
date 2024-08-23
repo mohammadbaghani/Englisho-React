@@ -1,31 +1,21 @@
 @media only screen and (max-width: 1200px) {
-
   .sel-img {
     display: none;
 
   }
-
-
   .up-sel {
     display: none;
   }
-
-
-
-
-
   .copy {
     border-radius: 0;
     color: #ffffff !important;
     font-family: 'Kalame';
     font-size: 17px !important;
-
     height: 55px !important;
     line-height: 60px;
     min-height: auto;
     padding: 0px 10px 0px;
     text-align: center;
-
     top: -28px;
     width: 369px;
     z-index: 444444;
@@ -41,20 +31,20 @@
 
   }
 
-  .countrySelect {
+  .courseSelect {
 
 
     margin-right: auto !important;
     right: -117px !important;
   }
 
-  .citySelect {
+  .groupSelect {
 
     right: 20px;
   }
 
-  .citySelect,
-  .countrySelect {
+  .groupSelect,
+  .courseSelect {
     font-family: 'dana';
     left: 0px;
     justify-content: center;
@@ -72,16 +62,18 @@
     border-bottom: 1px solid #33789c !important;
     background-image: linear-gradient(to left, transparent, transparent, transparent);
   }
+
   .container-select {
     margin-left: auto !important;
     margin-right: auto !important;
     position: relative !important;
     top: -1508px !important;
     height: 400px !important;
-    right: -3px !important; 
+    right: -3px !important;
     background-color: #00060f;
     width: 100%;
   }
+
   .container-select-child {
     display: flex !important;
     height: 140px !important;
@@ -107,6 +99,7 @@
     top: 157px;
     width: 92% !important;
   }
+
   .copy {
     top: -160px !important;
     font-weight: 700 !important;
@@ -122,16 +115,18 @@
     word-spacing: -1px;
   }
 
-  .countrySelect {
+  .courseSelect {
     left: 29px !important;
     margin-right: auto !important;
     right: 257px !important;
     margin-left: auto;
   }
-  .citySelect {
+
+  .groupSelect {
     right: 20px !important;
     margin-left: auto !important;
   }
+
   .container-select {
     top: -362px !important;
     z-index: 333;
@@ -155,12 +150,13 @@
     text-shadow: none !important;
     width: 400px !important;
   }
-  .countrySelect {
+
+  .courseSelect {
     font-size: 14px !important;
     width: 30% !important;
   }
 
-  .citySelect {
+  .groupSelect {
     font-size: 14px !important;
     width: 30% !important;
   }
@@ -175,12 +171,14 @@
     padding-right: 10px !important;
     border-radius: 6px !important;
   }
+
   .container-select {
     top: 817px !important;
     font-size: 11px !important;
     height: 203px !important;
     z-index: 3333333;
   }
+
   .box {
     text-align: center;
     padding-top: 10px;
@@ -190,19 +188,21 @@
     right: 246px;
   }
 
-  .countrySelect {
+  .courseSelect {
     margin-right: auto !important;
     padding-right: 10px !important;
     right: 227px !important;
     font-size: 11px !important;
   }
+
   .copy {
     font-size: 15px !important;
     top: -126px !important;
     word-spacing: -3px;
     text-shadow: none !important;
   }
-  .citySelect {
+
+  .groupSelect {
     padding-right: 10px !important;
     font-size: 11px !important;
   }
@@ -235,16 +235,19 @@
     font-size: 14px !important;
     background-color: #edf3f8 !important
   }
+
   .option:hover {
     cursor: pointer !important;
     background-color: #242437 !important
   }
+
   .move-select {
     border-radius: 10px !important;
     font-weight: 400 !important;
     color: #fff !important;
 
   }
+
   .container-select-child {
     display: flex !important;
     height: 185px !important;
@@ -259,9 +262,11 @@
     z-index: 55555 !important;
     border-radius: 22px;
     transform: scale(1.085);
-    background-color: #011741;background-color: transparent;
+    background-color: #011741;
+    background-color: transparent;
 
   }
+
   .container-select {
     top: -1770px !important;
     background-color: #000a16;
@@ -280,27 +285,29 @@
   .copy {
     border-radius: 0;
     color: #ffffff !important;
-    font-family: 'Kalame-bold';
-    font-size: 24px !important;
+    font-family: 'dana';
+    font-size: 23px !important;
     height: 60px !important;
     line-height: 60px;
     min-height: auto;
     padding: 0px 10px 0px;
     text-align: center;
-    right: 
-    90px;
-    top: -130px;    width: 640px;
-    z-index: 44455555444!important;
+    right:
+      90px;letter-spacing: 0px;
+    top: -120px;
+    width: 640px;
+    z-index: 44455555444 !important;
     text-shadow: none;
     border-radius: 9px;
     position: absolute;
     word-spacing: -.75px;
-    left: 0px;
+    left: 0px;word-spacing: 2px;
     margin-right: auto;
     margin-left: auto;
     font-weight: 700 !important;
-    text-shadow: 2px 3px 4px black!important;
+    text-shadow: 2px 3px 4px black !important;
   }
+
   .sel-img {
     height: 175px;
     margin-left: auto;
@@ -337,17 +344,17 @@
     filter: hue-rotate(-102deg);
   }
 
-  .citySelect,
-  .countrySelect {
+  .groupSelect,
+  .courseSelect {
     color: #ffffff !important;
     left: 450px !important;
-    top:50px !important;
-    font-size: 12px !important;
-    border-radius: 9px !important;
+    top: 50px !important;
+    font-size: 11px !important;
+  
     font-family: 'kalame' !important;
     font-weight: 700 !important;
     position: absolute !important;
-    width: 160px !important;
+    width: 140px !important;
     height: 43px !important;
     font-weight: 600 !important;
     margin-left: auto !important;
@@ -356,29 +363,32 @@
     padding: 0px 12px 0px 2px !important;
     transform: scale(1.4);
     z-index: 44444444444 !important;
- border-left: 30px solid transparent;
+    border-left: 30px solid transparent;
     letter-spacing: .6px;
- background-color: transparent;
- border-top-right-radius: 8px!important;
-    text-shadow: 2px 3px 3px black!important;
-border-bottom: 2px solid #13182c;
- border-radius: 9px !important;
-   border-right: 2px solid #0d132c;
-     background-image: linear-gradient(to left, transparent, transparent, transparent);
+    background-color: transparent;
+
+    border-bottom: 2px solid #1a1a1b;
+    border-radius: 3px !important;
+    border-right: 2px solid #1a1b1d;    border-bottom-right-radius: 9px !important;  
+    background-image: linear-gradient(to left, transparent, transparent, transparent);
   }
-  .citySelect {
+
+  .groupSelect {
     left: 140px !important;
     padding: 0px 6px 0px 2px !important;
 
   }
-  .countrySelect:active{transform: translateY(.3px)scale(1.4);
-    border-bottom: 1.9px solid #0d132c;
- border-right: 1.9px solid #0d132c;
+
+  .courseSelect:active {
+    transform: translateY(.4px)scale(1.4);
+   
   }
-  .citySelect:active{transform: translateY(.3px)scale(1.4);
-    border-bottom: 1.9px solid #0d132c;
- border-right: 1.9px solid #0d132c;
+
+  .groupSelect:active {
+    transform: translateY(.4px)scale(1.4);
+
   }
+
   .up-sel {
     color: #9c9c9c !important;
     font-size: 12.6px !important;
@@ -403,9 +413,11 @@ border-bottom: 2px solid #13182c;
     background-image: linear-gradient(to left, transparent, transparent, transparent);
     top: 120px !important;
   }
+
   .left-sel {
     left: 82px !important;
   }
+
   .right-num {
     width: 40px;
     height: 40px;

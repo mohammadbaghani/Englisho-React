@@ -266,16 +266,15 @@ p {
         transform: scale(1);
         right: 60px;
     }
-
     .btn-primary-film {
-        top: 195px !important;
+        top: 170.5px !important;
         transform: scale(1);
-        width: 85% !important;
-        height: 50px !important;
+        width: 150px !important;
+        height: 42px !important;
         left: 0px !important;
-        border-radius: 5px;
+        border-radius: 8px;
         justify-content: center !important;
-        background-color: rgb(31, 105, 202) !important;
+        background-color: rgb(185, 158, 0) !important;
         color: rgb(255, 255, 255) !important;
         right: 0px !important;
         font-weight: 400 !important;
@@ -283,16 +282,17 @@ p {
         z-index: 44444444444444 !important;
         padding: 0px !important;
         opacity: 0;
+        letter-spacing: 0px;
         direction: rtl;
+        word-spacing: -1.65px;
         display: flex !important;
-        font-size: 17px !important;
-        font-family: 'kalame' !important;
-        border: 1px solid rgb(42, 51, 177);
+        font-size: 15.6px !important;
+        font-family: 'IRY';
         transition: all .01s !important;
-        min-width: 200px !important;
+        padding-right: 20px !important;
+        min-width: unset !important;
+        z-index: 2266662222 !important;
     }
-
-
     .shop-item-price-text {
         color: #f0f0f0 !important;
         font-size: 13px !important;
@@ -327,9 +327,15 @@ p {
         height: 27px !important;
         position: absolute !important;
         background: transparent !important;
-        right: 25px;
+        margin-right: auto;
+        margin-left: auto;
+        right: 14px;
+        opacity: 1;
+        left: 129px;
+        transform: scale(.68);
+        filter: brightness(400%);
+        bottom: 7px;
     }
-
     .price {
         color: #000 !important;
         font-size: 20px !important;
@@ -357,7 +363,7 @@ p {
         font-weight: 400 !important;
         margin: 350px auto -679px;
         padding-bottom: 30px;
-        top: -467px !important;
+        top: -490px !important;
         width: 795px;
     }
 
@@ -420,6 +426,15 @@ details:hover {
 }
 
 @media only screen and (max-width:992px) {
+    .courses-body::before {
+             top: 59px;
+ 
+    }
+    .courses-title {
+        font-size: 26px !important;
+        margin: 542px auto 143px;
+        top: -480px !important;
+    }
 
     .btn-primary-film,
     .shop-item-price,
@@ -449,7 +464,33 @@ details:hover {
         border: 0px solid #3264de;
         transition: all .6s;
     }
-
+    .btn-primary-film {
+        top: 170.5px !important;
+        transform: scale(1);
+        width: 150px !important;
+        height: 42px !important;
+        left: 0px !important;
+        border-radius: 8px;
+        justify-content: center !important;
+        background-color: rgb(185, 158, 0) !important;
+        color: rgb(255, 255, 255) !important;
+        right: 0px !important;
+        font-weight: 400 !important;
+        position: absolute !important;
+        z-index: 44444444444444 !important;
+        padding: 0px !important;
+        opacity: 0;
+        letter-spacing: 0px;
+        direction: rtl;
+        word-spacing: -1.65px;
+        display: flex !important;
+        font-size: 15.6px !important;
+        font-family: 'IRY';
+        transition: all .01s !important;
+        padding-right: 20px !important;
+        min-width: unset !important;
+        z-index: 2266662222 !important;
+    }
     .reg {
         color: #fff !important;
         top: 116px !important;
@@ -469,31 +510,6 @@ details:hover {
         z-index: 333333333 !important;
         right: 0px;
         min-width: 100% !important;
-    }
-
-    .btn-primary-film {
-        top: 195px !important;
-        transform: scale(1);
-        width: 85% !important;
-        height: 50px !important;
-        left: 0px !important;
-        border-radius: 5px;
-        justify-content: center !important;
-        background-color: rgb(31, 105, 202) !important;
-        color: rgb(255, 255, 255) !important;
-        right: 0px !important;
-        font-weight: 400 !important;
-        position: absolute !important;
-        z-index: 44444444444444 !important;
-        padding: 0px !important;
-        opacity: 0;
-        direction: rtl;
-        display: flex !important;
-        font-size: 17px !important;
-        font-family: 'kalame' !important;
-        border: 1px solid rgb(42, 51, 177);
-        transition: all .01s !important;
-        min-width: 200px !important;
     }
 
     .shop-item-price-text {
@@ -744,8 +760,13 @@ details:hover {
     }
 }
 
-@media screen and (max-width:358px) {
+@media screen and (max-width:338px) {
+    .shopha {
+        margin-bottom: -126px !important;
+        top: -1652px !important;
+        transform: scale(.4) !important;
 
+    }
     .shop-item-price,
     .title {
         font-family: dana !important
@@ -885,7 +906,7 @@ details:hover {
     }
 
     .btn-primary-film {
-        top: 180.5px !important;
+        top: 170.5px !important;
         transform: scale(1);
         width: 150px !important;
         height: 42px !important;
@@ -911,7 +932,20 @@ details:hover {
         min-width: unset !important;
         z-index: 2266662222 !important;
     }
-
+    .btn-primary-film:hover {
+        transition: all .01s;
+        transform: scale(1) translateY(1px) !important;
+        background-color: rgb(168, 143, 0) !important;
+    }
+    
+    .btn-primary-film:hover .shop-delete-image {
+        transition: all .01s;
+    }
+    
+    .btn-primary-film:active {
+        transform: scale(5.22);
+        transition: all .01s;
+    }
     .shop-delete-image {
         width: 27px !important;
         height: 27px !important;
@@ -926,12 +960,10 @@ details:hover {
         filter: brightness(400%);
         bottom: 7px;
     }
-
     .reg {
         margin-top: 80px;
         transition: all .6s;
     }
-
     .reg {
         color: #fff !important;
         top: 206px !important;
@@ -949,12 +981,12 @@ details:hover {
         font-size: 18.5px !important;
         word-spacing: 0px !important;
         display: flex !important;
-        width: 26% !important;
+        width: 25% !important;
         justify-content: center !important;
         height: 50px;
         position: absolute !important;
         right: 8px;
-        top: 60px !important;
+        top: 50px !important;
         align-items: center;
         max-width: 200px !important;
         border-radius: 7px;
@@ -1121,7 +1153,7 @@ details:hover {
     padding-bottom: 20px !important;
     z-index: 333333333 !important;
     height: 180px !important;
-    padding: 23px 18px 0px 18px !important;
+    padding: 20px 18px 0px 18px !important;
     right: 0px;
     font-size: 14.25px !important;
     color: white !important;
@@ -1256,21 +1288,6 @@ details:hover {
     transition: all .01s !important;
 }
 
-.btn-primary-film:hover {
-    transition: all .01s;
-    transform: scale(1) translateY(1px) !important;
-    background-color: rgb(168, 143, 0) !important;
-}
-
-.btn-primary-film:hover .shop-delete-image {
-    transition: all .01s;
-}
-
-.btn-primary-film:active {
-    transform: scale(5.22);
-    transition: all .01s;
-}
-
 .icon-title {
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -1279,7 +1296,7 @@ details:hover {
 }
 
 .icon-title-text {
-    top: -180px;
+    top: -187px;
     position: relative;
     display: flex;
     align-items: center;

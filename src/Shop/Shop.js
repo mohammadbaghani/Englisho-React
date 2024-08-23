@@ -211,12 +211,12 @@ export default class Shop extends Component {
     render() {
         const scrolltosells = () => {
             if (this.state.all === "true") {
-                window.scrollTo({ top: 3370, left: 0, behavior: 'smooth' });
+                window.scrollTo({ top: 3170, left: 0, behavior: 'smooth' });
             }
 
             
             else {
-                window.scrollTo({ top: 1350, left: 0, behavior: 'smooth' });
+                window.scrollTo({ top: 1280, left: 0, behavior: 'smooth' });
             }
         };
         const scrollToTopfilm = () => {
@@ -261,10 +261,7 @@ export default class Shop extends Component {
                     <h1 class="movies-title">{this.state.name}  </h1>
                 </header>
                 <div className='valed-parent-filters' >
-                    <h1 class="bottom-text">   فیلتر بر اساس ژانر فیلم
-                        <img className='filterimage' src="imagess.png" />
-                    </h1>
-                    {['radio'].map((type) => (
+                                  {['radio'].map((type) => (
                         <div key={`reverse-${type}`} className="parent-filters">
                             <Form.Check onClick={this.all.bind(this)} className={this.state.all ? 'formcheck-shop blue-border' : 'formcheck-shop'}
                                 reverse
@@ -298,22 +295,7 @@ export default class Shop extends Component {
 
                     ))}
                 </div>
-                <div className='valed-parent-actressimage'>
-                    <div className='parent-actressimage' data-aos="fade-down" data-aos-duration="1200">
-                        <button className={this.state.three ? 'btn-actressthree opa' : 'btn-actressthree '} type="button" onClick={this.onFilterj.bind(this)}>
-                        </button>
-                        <img className={this.state.three ? 'actressimage opai ' : '  actressimage '} src={this.state.actresses[0].imgactress} />
-                    </div>
-                    <div className='parent-actressimage' data-aos="fade-down" data-aos-duration="1200" data-aos-delay="1000" >
-                        <button className={this.state.tow ? 'btn-actresstow opa' : 'btn-actresstow '} type="button" onClick={this.onFilterc.bind(this)}>
-                        </button> <img className={this.state.tow ? 'actressimage opai' : 'actressimage '} src={this.state.actresses[1].imgactress} />
-                    </div>
-                    <div className='parent-actressimage' data-aos="fade-down" data-aos-duration="1200" data-aos-delay="1700" >
-                        <button className={this.state.one ? 'btn-actressone opa' : 'btn-actressone '} type="button" onClick={this.onFiltere.bind(this)}>
-                        </button>
-                        <img className={this.state.one ? 'actressimage opai' : '  actressimage '} src={this.state.actresses[2].imgactress} />
-                    </div>
-                </div>
+          
                 <div class="movie-items">
                     {this.state.filteredmovies.map(product => (
                         <Product {...product} onFilterj={this.onFilterj.bind(this)}

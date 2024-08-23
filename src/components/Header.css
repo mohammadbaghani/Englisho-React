@@ -2,16 +2,18 @@
     .link-image {
         display: none;
     }
+
     .button-register {
-        font-weight: 700 !important;
-        color: #000000 !important;
+        font-family: 'IRY' !important;
+        font-weight: 400 !important;
+        color: #ffffff !important;
         transform: scale(1);
-        background-color: #ffffff !important;
+        background-color: initial;
         width: 105px;
         height: 39px;
         position: absolute;
         right: 808px !important;
-        top: 56px !important;
+        top: 25px !important;
         margin-left: auto;
         text-align: center;
         font-size: 14px;
@@ -26,16 +28,10 @@
 
     .button-register:hover {
         transition: all .2s ease;
-
-        border: 1.8px solid transparent !important;
         border: 1.5px solid rgb(53, 70, 145) !important;
         background-color: #3b48a0 !important;
         color: #ffffff !important;
-
-
     }
-
-
 
 
     .nav {
@@ -47,7 +43,7 @@
         font-weight: bolder;
         font-size: 16px !important;
         z-index: 66666 !important;
-        height: 112px !important;
+        height: 100px !important;
         top: 0px;
         padding-top: 40px !important;
         width: 1240px;
@@ -55,29 +51,9 @@
         padding-right: 96px;
         margin-bottom: -15px;
         height: 100px;
-        background-color: white;
-        border-bottom: 2px solid rgb(236, 236, 236);
+        background-color: transparent;
     }
-    .nav::before {
-        filter: blur(0px);
-        opacity: 15;
-        content: 'Pooyan';
-        font-family: 'LuckiestGuy' !important;
-        display: flex;
-        font-size: 22px;
-        height: 40px;
-        justify-content: center;
-        margin-right: -178px;
-        position: fixed;
-        top: 0px;
-        align-items: center !important;
-        width: 1358px !important;
-        z-index: 1 !important;
-        background: rgb(59, 72, 160);
-        color: rgb(255, 255, 255) !important;
-        letter-spacing: 4px !important; text-shadow: 1px 1px 1px black;
-        background-image: linear-gradient(0deg, #2c3b93, #375096, #2b5391, #345291) !important;
-    }
+
     .navbrand:hover {
         border-radius: 8px;
         color: #ffffff !important;
@@ -101,13 +77,29 @@
     .valed-navbar {
         width: 200px !important;
         position: absolute !important;
-
     }
 
+    .nav::after {
+        filter: blur(1px);
+        border-radius: 12px;
+        content: '';
+        margin-left: 0px !important;
+        background-color: #373e42 !important;
+        border-radius: 2px;
+        display: flex;
+        font-size: 15px;
+        height: 88px;
+        justify-content: space-between;
+        margin-right: -674px !important;
+        padding: 25px 121px 0 434px;
+        position: fixed;
+        top: -1px;
+        transition: all .4s;
+        width: 1990px;
+        z-index: -1 !important;
+    }
 }
-
 @media only screen and (max-width: 992px) {
-
     .css-1ontqvh {
         list-style: none !important;
         margin: 0px !important;
@@ -116,25 +108,20 @@
         right: -2px !important;
         top: -9px !important;
     }
-
-    .button-register {
-            color: #0a0a0a !important;
+    .button-register {   
         font-size: 14px;
         margin: 51px 51px 51px auto;
         padding: 3px 4px;
-        position: absolute;
-        right: 572px !important;
         text-align: center;
-        top: 2px !important;
+        top: -33px !important;
         transform: scale(1);
-        width: 96px;  
-
+        width: 96px;
+        position: absolute;
+        right: 544px !important;
     }
-
     .button-register:active {
         transform: scale(.94);
     }
-
     .button-register:hover {
         transition: all .1s ease;
         border: 1px solid rgb(255, 255, 255);
@@ -144,7 +131,6 @@
         font-weight: 400 !important;
         background-color: rgb(2, 0, 145);
     }
-
     .nav {
         display: flex;
         justify-content: space-between;
@@ -157,34 +143,13 @@
         padding-top: 19px;
         padding-right: 524px;
         right: 500px;
+        
     }
-
-    .nav::before {
-        filter: blur(0px);
-        opacity: 15;
-        content: 'Pooyan';
-        display: flex;
-        font-size: 22px;
-        height: 40px;
-        justify-content: center;
-        margin-right: -178px;
-        position: fixed;
-        right: -50px;
-        top: 0px;
-        align-items: center !important;
-        width: 1358px !important;
-        z-index: 1 !important;
-        color: rgb(255, 255, 255) !important;
-    }
-
     .container {
         top: 65px;
     }
-
 }
-
 @media only screen and (max-width: 768px) {
-
     .nav {
         display: flex;
         justify-content: space-between;
@@ -203,7 +168,6 @@
         margin-bottom: -15px;
         height: 100px;
     }
-
     .button-register {
         color: rgb(255, 245, 245);
         width: 120px;
@@ -224,7 +188,6 @@
         transform: scale(.85) !important;
         border: 2px solid rgb(234, 243, 241);
     }
-
     .nav {
         display: flex;
         justify-content: space-between;
@@ -327,24 +290,26 @@
     }
 
     .button-register {
-        font-family: 'kalame';
+        font-family: 'IRY' !important;
         background-color: initial;
-        border-radius: 6px !important;
+        border-radius: 5px !important;
         color: #ffffff !important;
-        font-size: 13.5px;
+        font-size: 13px;
         font-weight: 500 !important;
         height: 42px;
         margin-left: auto;
         padding-bottom: 0px;
-        padding-right: 25px;
+        padding-right: 24px;
+        letter-spacing: 0px;
         position: absolute;
         right: 1540px !important;
         text-align: center;
         top: 60px !important;
         transform: scale(1.1);
         transition: all .1s ease;
-        width: 114px;
-        z-index: 30;border: 0px solid rgb(9, 12, 22) !important;
+        width: 116px;
+        z-index: 30;
+        border: 0px solid rgb(9, 12, 22) !important;
     }
 
     .button-register:hover .userimage {
@@ -355,10 +320,10 @@
     .userimage {
         transform: scale(.53);
         position: absolute;
-        right: -5px;
+        right: -3.3px;
         top: 5px;
-        width: 44px;
-        height: 33px;
+        width: 38px;
+        height: 35px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-color: transparent;
@@ -368,14 +333,14 @@
 
     .button-register:active {
         transform: scale(1.09);
-       
+
     }
 
     .button-register:hover {
         transition: all .2s ease;
         color: #ffffff !important;
-        background-color: #57585a !important;
-        border: 0px solid rgb(9, 12, 22) !important;
+        border: 1px solid rgb(68, 70, 70);
+        background-color: #4a5053 !important;
     }
 
     .container-valed-navbar {
@@ -397,14 +362,14 @@
         margin-right: -1240px;
         padding: 25px 1021px 0 434px;
         position: fixed;
-        top: -37px;
+        top: -37px;background-color: transparent;
         width: 2358px;
         z-index: 44441 !important;
         transition: all .4s;
     }
 
     .navdown {
-        top: -107px;
+        top: -127px;
         height: 122px;
         transition: all .4s;
     }
@@ -429,7 +394,6 @@
         z-index: -1 !important;
 
     }
-
     .navdown::after {
         filter: blur(1px);
         border-radius: 12px;
@@ -443,12 +407,12 @@
         justify-content: space-between;
         margin-right: -674px !important;
         padding: 25px 121px 0 434px;
-        position: fixed; 
+        position: fixed;
         transition: all .4s;
         width: 1990px;
         z-index: -1 !important;
         top: -88px !important;
-      
+
     }
 
     .container {

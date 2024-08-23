@@ -235,7 +235,7 @@ function Main() {
               <img class="userimage" />
             </button>
             <ul class="valed-ul">
-              <Link className='main-navy tr' to="/">
+              <Link className='navbar-item tr' to="/">
                 <li class=" parentnav ">
                   دوره ها<MdKeyboardArrowDown class="arrow" />
                   <ul class="inside-nav">
@@ -278,19 +278,19 @@ function Main() {
                 </li>
               </Link>
             </ul>
-            <Link className='main-navy navf' to="/">خانه
+            <Link className='navbar-item navf' to="/">خانه
               <Link className='child-navy ' to="/">
               </Link>
            </Link>
-            <Link className='main-navy online-shop' to="/فروشگاه" >
+            <Link className='navbar-item online-shop' to="/فروشگاه" >
               <Link className='child-navy navone' to="/">
               </Link>
               خرید آنلاین
            </Link>
-            <Link className='main-navy  ' to="/چک لیست" >چک لیست
+            <Link className='navbar-item  ' to="/چک لیست" >چک لیست
               <Link className='child-navy navcheck' to="/">
               </Link></Link>
-            <Link className='main-navy  ' to="/دوره ها" > دپارتمان ها
+            <Link className='navbar-item  ' to="/دوره ها" > دپارتمان ها
               <Link className='child-navy navcourses' to="/">
               </Link></Link>
           </Nav>
@@ -344,7 +344,7 @@ function Main() {
           <div className='parent-all-texts'>
             <h class="all-texts-title" data-aos="zoom-in" data-aos-duration="600">
               ما
-              متفاوت هستیم , زیرا ....
+              متفاوت هستیم , زیرا ...
             </h>
             <div className='text-containerlist-one flex-three' data-aos="fade-up" data-aos-duration="600">
               اساتید با تجربه
@@ -630,84 +630,57 @@ function Main() {
               Pooyan
             </li>
             <li className={fixedchild} onClick={scrolwhyus} title='Why us'>
-
               <img className='book-child info-book' src="info.png">
               </img>
-
               Why us
             </li>
             <li className={fixedchild} onClick={scrocourses} title='Courses'>
               <img className='book-child' src="eng222.png">
-
-              </img>
-
+             </img>
               Courses
             </li>
             <li className={fixedchild} onClick={scrolcontactus} title='Contact us'>
-
               <img className='book-child' src="email.png">
-
               </img>
-
               Contact us
             </li>
-
             <li className={fixedchild} onClick={scrolquestions} title='Ask us'>
               <img className='book-child ' src="que1.png">
-
               </img>
-
               Ask us
             </li>
-
           </div>
-
           <div className="parent-all-image-button">
             <p className="text-original-header showy">
               ارتباط با ما
-
             </p>
-
             <p className="text-original-header">
               <p className="text-original-header-sub">
                 <img src="backimage.jpg" className='left-image'>
                 </img>
                       با استفاده از آموزش‌های پویان این اطمینان را دارید که مسیر یادگیری زبان انگلیسی را با همراهی اساتید باتجربه‌ای که با نیاز‌های شما آشنا هستند طی می‌کنید و مطمئن خواهید بود که مدرسین دوره‌ها مسلط به جدیدترین متدهای روز دنیا هستند
               </p>
-
             </p>
-
           </div>
-
           <li class="slider-details-video">
-         
-          </li>
-
+                  </li>
           <div className='parent-border'>
             <div className='parent-border-child' >
-
               <div className='parent-video parent-video-one'>
               </div>
-
               <div class="english-register">
-
                 <div class="cards " onClick={() => { navigate('/ثبت نام') }}>
                   <p className='register-text-tow tow-register'>
                     ثبت نام آنلاین در سایت
-
                   </p>
                   <p className='store-text-tow threey'>
-
                     ثبت نام یادت نره
                   </p>
-
                   <a onClick={() => { navigate('/ثبت نام') }} className='register-text'>
                     <img src="girl.png" className='icon-image register-icon '>
                     </img>
                     ثبت نام</a>
-
                   با پر کردم فرم ثبت نام,عضو سایت پویان شوید و از مزایای  ویژه ما بهره مند شوید
-
                   و اما کدام مزایا ؟...
                   <li>
                     اشتراک ویژه فیلم های انگلیسی
@@ -718,128 +691,67 @@ function Main() {
                   <li>
                     عضویت در گروه اعضای .ویژه
                   </li>
-
                 </div>
-
-
               </div>
-
               <div class="english-store">
-
                 <div class="cards " onClick={() => { navigate('/فروشگاه') }}>
                   <p className='store-text-tow tow-store'>
-
-
                     فیلم انگلیسی با زیر نویس
-
                   </p>
                   <p className='store-text-tow foury'>
-
-
-
                     تقویت اسپیکینگ
                   </p>
-
                   <a onClick={() => { navigate('/فروشگاه') }} className='store-text' >
-
                     <img src="f.png" className='icon-image store-icon'>
                     </img>
-
                     فروشگاه</a>
-
-
                   برای اینکه اسپیکینگ شما قوی تر بشه سایت آموزشگاه پویان , مجموعه فیلم های
-
                   انگلیسی با زیرنویس فارسی  با قیمت مناسب آماده کرده
                   <br>
                   </br>
-
                   لیست بازیگرانی که ازشون فیلم گذاشتیم :
                   <li>
-
                     امیلی بلانت
                   </li>
-
                   <li>
                     اما استون
                   </li>
-
                   <li>
                     جنیفر لورنس
                   </li>
-
                 </div>
-
-
-              </div>
-
+             </div>
               <div class="english-music">
-
                 <a class="cards " href="https://nowmusic.liara.run" >
                   <p className='english-text-tow tow-music'>
-
                     در یک موزیک پلیر حرفه ای
-
                   </p>
-
                   <p className='english-text-tow towy'>
-
                     تقویت لیسنینگ
-
                   </p>
                   <a href="https://nowmusic.liara.run" className='english-text '>
-
                     آهنگ
                     <img src="goo.png" className='icon-image english-icon ' >
                     </img>
                   </a>
-
-
-
                 </a>
-
-
               </div>
-
             </div>
-
           </div>
-
-
         </div>
-
-
         <Ticket />
-
-
         <h class="slider-details-soalha">
-
-
-          پاسخ به سوالات شما
-
-
-        </h>
-
-        <h class="slider-details-soalha-sub ">
-
+         پاسخ به سوالات شما
+       </h>
+       <h class="slider-details-soalha-sub ">
           هر آنچه که در مورد پویان باید بدانید
         </h>
-
         <section class="acordian">
           <div >
             <div class="acordian-items">
-
-
-
               <img class="girl-image" src="qu62.png">
-
-
-
-
               </img>
-
               <div class="acordian__item">
-
                 <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')} class="acordian__img">
                   <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
                     <Typography class="font s-f">
@@ -854,8 +766,6 @@ function Main() {
                   </AccordionDetails>
                 </Accordion>
               </div>
-
-
               <div class="acordian__item">
                 <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')} class="acordian__img">
                   <AccordionSummary aria-controls="panel4d-content" id="panel4d-header">
@@ -870,10 +780,7 @@ function Main() {
                   </AccordionDetails>
                 </Accordion>
               </div>
-
               <div class="acordian__item">
-
-
                 <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} class="acordian__img">
                   <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
                     <Typography class="font s-f">
@@ -881,7 +788,6 @@ function Main() {
                       <p className='circle-border'>
                         ?
                       </p>
-
 
                       آیا آکادمی دوره های آنلاین  دارد   ؟              </Typography>
                   </AccordionSummary>
@@ -954,7 +860,6 @@ function Main() {
 
 
         <div className='parent-media'>
-
           <h class="slider-details-shop-tow">
             در رسانه های اجتماعی ما را  دنبال کنید
 

@@ -28,7 +28,7 @@ export default function Header() {
                             <img class="userimage" />
                         </button>
                         <ul class="valed-ul">
-                            <Link className='main-navy  tr' to="/">
+                            <Link className='navbar-item  tr' to="/">
                                 <li class=" parentnav ">
                                     دوره ها<MdKeyboardArrowDown class="arrow" />
                                     <ul class="inside-nav">
@@ -79,21 +79,21 @@ export default function Header() {
                             </Link>
 
                         </ul>
-                        <Link className='main-navy navf' to="/">خانه
+                        <Link className='navbar-item navf' to="/">خانه
                             <Link className='child-navy ' to="/">
                             </Link>
                         </Link>
-                        <Link className='main-navy online-shop' to="/فروشگاه" >
+                        <Link className='navbar-item online-shop' to="/فروشگاه" >
                             <Link className='child-navy navone' to="/">
                             </Link>
                             خرید آنلاین
                         </Link>
 
-                        <Link className='main-navy ' to="/چک لیست" >چک لیست
+                        <Link className='navbar-item ' to="/چک لیست" >چک لیست
                             <Link className='child-navy navcheck' to="/">
                             </Link></Link>
 
-                        <Link className='main-navy ' to="/دوره ها" > دپارتمان ها
+                        <Link className='navbar-item ' to="/دوره ها" > دپارتمان ها
                             <Link className='child-navy navcourses' to="/">
                             </Link></Link>
                     </Nav>

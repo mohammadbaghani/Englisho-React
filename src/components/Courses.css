@@ -12,7 +12,7 @@
   position: absolute;
   height: 106px;
   content: '';
-  width: 100%;
+  width: 102%;
   margin-right: auto;
   margin-left: auto;
   top: 99px;
@@ -36,12 +36,12 @@
   }
   .courses-body::before {
     position: absolute;
-    height: 100px;
+    height: 106px;
     content: '';
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    top: 80px;
+    top: 58px;
     display: flex;
     z-index: 0;
   }

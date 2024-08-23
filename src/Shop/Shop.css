@@ -1,6 +1,7 @@
 * {
     text-decoration: none;
 }
+
 .zz {
     margin-top: -307px;
     color: black !important;
@@ -11,23 +12,290 @@
     display: block !important;
     padding-top: 45px;
 }
-.movie-items {
-    margin-top: 20px;
-}
+
 .shop-items {
     margin-top: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
+
+    .filterimage {
+        height: 40px;
+        position: absolute;
+        left: 141px;
+        transform: scale(.95);
+        width: 40px;
+    }
+
+    .listimage {
+        display: none !important;
+    }
+
+    .cart-body {
+        background-color: black;
+        height: 1500px;
+    }
+
+    .hidden {
+        display: none !important;
+    }
+
+    .btn-parent-orig {
+        position: relative;
+        width: 883px !important;
+        height: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        top: -1865px !important;
+        margin-top: 306px !important;
+        right: -65px;
+        left: 0px;
+    }
+
+    .movies-title {
+        align-items: center;
+        text-shadow: none;
+        color: rgb(255, 255, 255) !important;
+        font-family: 'IRY';
+        font-size: 42px;
+        margin-top: -135px;
+        padding-top: 26px;
+        position: absolute;
+        text-align: center;
+        top: 195px;
+        background-color: transparent;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 102% !important;
+        display: block !important;
+        right: -6px !important;
+        object-fit: cover;
+        left: 15px;
+        word-spacing: -1.5px;
+        background-size: 100% 100%;
+        font-weight: 600 !important;
+        background-position: 0px 0px;
+        height: 220px;
+        transition: all 1s;
+    }
+
+    .formcheck-shop {
+        align-items: center;
+        background-color: black !important;
+        border-radius: 20px;
+        direction: ltr !important;
+        display: flex;
+        font-size: 16px;
+        height: 45px;
+        justify-content: center;
+        left: 11px !important;
+        margin-bottom: 51px;
+        margin-right: 20px !important;
+        padding: 0 !important;
+        position: relative !important;
+        right: 20px;
+        top: -10px;
+        transition: all .1s !important;
+        width: 100px;
+        z-index: 981 !important;
+    }
+
+    label {
+        width: 100%;
+        height: 100%;
+        z-index: 99;
+        font-family: 'IRY';
+        font-size: 18px;
+        font-weight: 400 !important;
+        color: #ffffff !important;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        padding: 2px;
+        right: 0px;
+        left: 0px;
+        letter-spacing: .6px;
+        background-color: transparent !important;
+        z-index: 333333333 !important;
+        top: 0px !important;
+        margin-left: auto;
+        margin-right: auto;
+        transition: all .01s !important;
+    }
+
+    label:hover {
+        transition: all .01s !important;
+        z-index: 99999999;
+        cursor: pointer;
+        border: .4px solid rgb(116, 117, 128) !important;
+    }
+
+    input[type=checkbox],
+    input[type=radio] {
+        box-sizing: border-box;
+        padding: 0;
+        opacity: 0;
+    }
+
+    label:active {
+        transition: all .03s !important;
+        z-index: 99999999;
+        cursor: pointer;
+    }
+
+    .blue-border {
+        border-radius: 20px;
+        background-color: transparent !important;
+        border: .4px solid rgb(116, 117, 128) !important;
+    }
+
+    .valed-parent-filters {
+        height: 110px;
+        width: 100%;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        z-index: 6 !important;
+        display: flex;
+        right: 0px;
+        left: 0px;
+        z-index: 3333333 !important;
+        margin-bottom: -199px;
+        position: fixed;
+        top: 85px !important;
+        padding-top: 20px;
+        justify-content: center;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        border-radius: 0px !important;
+        align-items: center;
+    }
+
+    .parent-filters {
+        display: flex;
+        height: 45px;
+        width: 100%;
+        right: 0px;
+        left: 0px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .shop-count-count {
+        font-size: 34px;
+        color: #ffffff;
+        right: 56px;
+        font-family: 'Iry';
+        top: -10px;
+        align-self: flex-start !important;
+        background-color: #2b333a !important;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        transform: scale(.4);
+        border: none !important;
+        z-index: 4;
+        border: 2px solid rgb(46, 52, 59) !important;
+        position: absolute !important;
+
+    }
+
+    .shop-count {
+        color: rgb(255, 255, 255);
+        width: 120px;
+        height: 50px !important;
+        position: fixed;
+        word-spacing: -3px !important;
+        left: 0px !important;
+        top: 18px !important;
+        text-align: center;
+        border-radius: 4px !important;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column !important;
+        display: flex !important;
+        border: none !important;
+        background-color: transparent !important;
+        font-size: 17px;
+        font-weight: 400 !important;
+        padding-right: 5px;
+        margin-right: auto;
+        right: 800px;
+        margin-left: auto;
+        font-family: 'IRY' !important;
+        border: none !important;
+        transform: scale(.85);
+        z-index: 66666 !important;
+    }
+
+    .z-i {
+        background-color: transparent !important;
+        width: 120px !important;
+        z-index: 66 !important;
+        word-spacing: -3px !important;
+    }
+
+    .shop-list {
+        color: rgb(255, 255, 255) !important;
+        width: 115px;
+        height: 50px !important;
+        position: fixed;
+        z-index: 30;
+        font-family: 'IRY';
+        cursor: pointer;
+        left: 20px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        top: 136px !important;
+        text-align: center;
+        border-radius: 5px !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column !important;
+        display: flex !important;
+        padding: 0px;
+        background-color: transparent !important;
+        font-size: 18px !important;
+        font-weight: 500 !important;
+        transition: all .1s;
+    }
+
+    .shop-list {
+        left: 340px !important;
+        top: 115px !important;
+        z-index: 33333333 !important;
+    }
+
+    .films {
+        left: 60px !important;
+        margin-right: unset !important;
+        margin-left: auto !important;
+        position: fixed;
+        transition: all .1s;
+        top: 115px !important;
+        z-index: 11111111222222222 !important;
+    }
+ 
     .search {
-        width: 285px;
+        width: 250px;
         left: 0px;
         background-color: #23272b;
         position: absolute;
-        height: 120%;
+        height: 110%;
         border: none;
         position: absolute;
-        top: -4px;
+        top: -3px;
         border-radius: 16px;
     }
 
@@ -46,7 +314,7 @@
     }
 
     .search:hover {
-        background-color: #242424;
+        background-color: #2c2f33;
     }
 
     .search-input:hover {
@@ -76,421 +344,6 @@
         border-top-left-radius: 6px !important;
         border-bottom-left-radius: 6px !important;
         z-index: 555;
-    }
-
-
-
-
-   .filterimage {
-        height: 40px;
-        position: absolute;
-        left: 141px;
-        transform: scale(.95);
-        width: 40px;
-    }
-    .listimage {
-        display: none !important;
-    }
-    .cart-body {
-        background-color: black;
-        height: 1500px;
-    }
-    .hidden {
-        display: none !important;
-    }
-    .btn-parent-orig {
-        position: relative;
-        width: 883px !important;
-        height: 100px;
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
-        top: -1865px !important;
-        margin-top: 306px !important;
-        right: -65px;
-        left: 0px;
-    }
-    .movies-title {
-        align-items: center;
-        text-shadow: none;
-        color: rgb(255, 255, 255) !important;
-        font-family: 'IRY';
-        font-size: 42px;
-        margin-top: -135px;
-        padding-top: 26px;
-        position: absolute;
-        text-align: center;
-        top: 595px;
-        background-color: transparent;
-        margin-right: auto !important;
-        margin-left: auto !important;
-        width: 102% !important;
-        display: block !important;
-        right: -6px !important;
-        object-fit: cover;
-        left: 15px;
-        word-spacing: -1.5px;
-        background-size: 100% 100%;
-        font-weight: 600 !important;
-        background-position: 0px 0px;
-        height: 220px;
-        transition: all 1s;
-    }
-
-    .actressimage {
-        position: absolute !important;
-        display: flex !important;
-        width: 310px !important;
-        height: 310px !important;
-        top: -15px !important;
-        justify-content: center !important;
-        border: 3px solid #ebedee;
-        align-items: center !important;
-        border-radius: 300px !important;
-        transform: scale(.9);
-        filter: blur(0px);
-        transition: all .3s !important;
-    }
-    .one {
-        position: absolute !important;
-        display: flex !important;
-        top: 135px !important;
-        right: -10px;
-
-    }
-
-    .tow {
-        position: absolute !important;
-        top: 105px !important;
-        display: flex !important;
-        right: 80px;
-
-    }
-
-    .three {
-        position: absolute !important;
-        display: flex !important;
-        right: 35px !important;
-
-    }
-
-    .all-actressimage {
-        position: absolute !important;
-        display: flex !important;
-        width: 25% !important;
-        height: 25% !important;
-        top: 94px !important;
-        transform: scale(1.3);
-        margin-right: 65px;
-        justify-content: center !important;
-        border: 2px solid rgb(243, 247, 246);
-        align-items: center !important;
-        border-radius: 5px !important;
-
-
-
-    }
-
-    .all-actressimage:hover {
-
-
-        filter: blur(0px);
-    }
-
-    .emily {
-        top: 400px !important;
-
-
-    }
-
-    .emily-image {
-        top: 0px !important;
-    }
-
-    .btn-actress:active {
-        transform: scale(.69) rotate(0deg) !important;
-
-    }
-
-    .parent-actressimage {
-        margin-left: auto;
-        margin-right: 50px;
-        z-index: 1;
-        width: 280px !important;
-        height: 280px !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        left: 0px;
-        top: -50px;
-        right: 0px;
-        position: relative;
-        margin-bottom: -55px;
-        transition: all .5s !important;
-        transform: scale(.65) !important;
-        overflow: hidden !important;
-        background-color: transparent;
-        border-radius: 300px !important;
-    }
-
-    .bottom-text {
-        margin-top: auto;
-        margin-bottom: auto;
-        text-align: center;
-        justify-content: center !important;
-        font-family: kalame !important;
-        align-items: center !important;
-        height: 40px !important;
-        direction: ltr;
-        z-index: 2;
-        font-size: 15px !important;
-        right: 19px !important;
-        top: 24px !important;
-        position: absolute;
-        margin-right: auto !important;
-        width: 180px !important;
-        display: flex !important;
-        border-radius: 5px !important;
-        line-height: 30px;
-        font-weight: 500 !important;
-        color: #ffffff !important;
-        background-color: #0c79c2 !important;
-        padding-right: 26px;
-        padding-left: 0px;
-    }
-
-    .formcheck-shop {
-        direction: ltr !important;
-        font-size: 15px;
-        height: 40px;
-        left: 0px !important;
-        margin-bottom: 51px;
-        padding-top: 0 !important;
-        position: relative !important;
-        right: 206px;
-        top: -9px;
-        width: 100px;
-        z-index: 988888881 !important;
-        margin-right: 16px !important;
-        display: flex;
-        border-radius: 5px;
-        align-items: center;
-        justify-content: center;
-        transition: all .1s !important;
-        direction: ltr !important;
-        border-radius: 5px;  
-        background-color: transparent !important;
-
-    }
-
-    label {
-        width: 100%;
-        height: 100%;
-        z-index: 99;
-        font-family: 'kalame';
-        font-size: 16px;
-        font-weight: 400 !important;
-        color: #ffffff !important;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        padding: 2px;
-        right: 0px;
-        left: 0px;
-        letter-spacing: .6px;
-        background-color: transparent !important;
-        z-index: 333333333 !important;
-        top: 0px !important;
-        margin-left: auto;
-        margin-right: auto;
-        transition: all .01s !important;
-    }
-
-    label:hover {
-        transition: all .01s !important;
-        z-index: 99999999;
-        cursor: pointer;
-        color: #ffffff !important;
-        background-color: rgb(12, 121, 194) !important;
-    }
-
-    input[type=checkbox],
-    input[type=radio] {
-        box-sizing: border-box;
-        padding: 0;
-        opacity: 0;
-    }
-
-    label:active {
-        transition: all .03s !important;
-        z-index: 99999999;
-        cursor: pointer;
-
-    }
-
-    .blue-border {
-        background-color: rgb(12, 121, 194) !important;
-        border: .4px solid transparent !important;
-    }
-
-
-    .valed-parent-filters {
-        height: 90px;
-        width: 100%;
-        align-items: center;
-        padding-left: 40px;
-        padding-right: 40px;
-        z-index: 6 !important;
-        display: flex;
-        right: 0px;
-        left: 0px;
-        margin-bottom: -199px;
-        position: fixed;
-        top: 112px !important;
-        padding-top: 20px;
-        justify-content: center;
-        background-color: black;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        border-radius: 0px !important;
-        align-items: center;
-    }
-    .parent-filters {
-        display: flex;
-        height: 45px;
-        width: 100%;
-        right: 0px;
-        left: 0px;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .valed-parent-actressimage {
-        top: 10px !important;
-        margin-right: auto;
-        height: 310px;
-        width: 950px;
-        align-items: center;
-        z-index: 0;
-        padding-left: 0px;
-        padding-right: 0px;
-        z-index: 0;
-        display: flex;
-        margin-left: auto;
-        right: 0px;
-        left: 0px;
-        margin-bottom: 1176px;
-        position: relative;
-        padding-top: 80px;
-    }
-
-    .shop-count-count {
-        font-size: 34px;
-        color: #ffffff;
-        right: 56px;
-        font-family: 'Iry';
-        top: -10px;
-        align-self: flex-start !important;
-        background-color: #232fcf;
-        width: 50px;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50px;
-        transform: scale(.4);
-        border: none !important;
-        z-index: 4;
-        background-color: #2334cf !important;
-        position: absolute !important;
-
-    }
-
-    .shop-count {
-        color: rgb(0, 0, 0);
-        width: 120px;
-        height: 50px !important;
-        position: fixed;
-        word-spacing: -3px !important;
-
-        left: 0px !important;
-        top: 50px !important;
-        text-align: center;
-        border-radius: 4px !important;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column !important;
-        display: flex !important;
-        border: none !important;
-        background-color: white !important;
-        font-size: 17px;
-        font-weight: 600 !important;
-        padding-right: 5px;
-        margin-right: auto;
-        right: 800px;
-        margin-left: auto;
-        border: none !important;
-        transform: scale(.85);
-        z-index: 66666 !important;
-    }
-
-    .z-i {
-        background-color: transparent !important;
-        width: 120px !important;
-        z-index: 66 !important;
-        word-spacing: -3px !important;
-    }
-
-    .shop-list {
-        color: rgb(255, 255, 255) !important;
-        width: 105px;
-        height: 40px !important;
-        position: fixed;
-        z-index: 30;
-        font-family: kalame;
-        cursor: pointer;
-        left: 20px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-        top: 136px !important;
-        text-align: center;
-        border-radius: 5px !important;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column !important;
-        display: flex !important;
-        padding: 0px;
-
-        background-color: rgb(10, 110, 177) !important;
-        font-size: 14px !important;
-        font-weight: 500 !important;
-        transition: all .1s;
-        border: 1px solid rgb(38, 84, 153);
-
-
-    }
-
-    .films {
-        left: 100px !important;
-        margin-right: unset !important;
-        margin-left: auto !important;
-        position: fixed;
-        transition: all .1s;
-    }
-
-
-
-
-    .shop-list:hover {
-        color: rgb(255, 255, 255) !important;
-        background-color: rgb(10, 103, 165) !important;
-        transition: all .1s;
     }
 
     .upper {
@@ -523,24 +376,19 @@
         top: 6px;
     }
 
-
     .shop-body {
         position: relative;
-
         margin-bottom: 20px;
-
         width: 102%;
         margin-right: auto;
         margin-left: auto;
-        height: 4655px;
+        height: 4955px;
         right: 0px;
         left: 0px;
         background-size: 100% 100%;
-
         background-repeat: no-repeat !important;
         background-image: url(n.webp);
         top: 363px !important;
-
         background-position: 0px 0px;
     }
 
@@ -548,11 +396,11 @@
         position: absolute;
         margin-bottom: 20px;
         content: '';
-        width: 100%;
+        width: 110%;
         margin-right: auto;
         margin-left: auto;
-        height: 4100px;
-        right: 0px;
+        height: 4955px;
+        right: -12px;
         left: 0px;
         background-size: 100% 100%;
         background-repeat: no-repeat !important;
@@ -563,8 +411,7 @@
     }
 
     .movie-items {
-
-        top: -470px;
+        top: 600px;
         position: relative;
         margin-top: 10px;
         width: 90%;
@@ -583,6 +430,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
     .parent-shopha {
         animation-duration: all .3s !important;
         animation: fade-right !important;
@@ -642,147 +490,7 @@
         left: 0px;
     }
 
-    .movies-title {
-        align-items: center;
-        text-shadow: none;
-        color: transparent !important;
-        font-family: 'kalame';
-        font-size: 30px;
-        margin-top: -135px;
-
-        padding-top: 26px;
-        position: absolute;
-        text-align: center;
-        top: -4px;
-        background-color: transparent;
-        margin-right: auto !important;
-        margin-left: auto !important;
-        width: 102% !important;
-        display: block !important;
-        right: -6px !important;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        left: 15px;
-        background-size: 100% 100%;
-        font-weight: 400 !important;
-        background-position: 0px 0px;
-        filter: saturate(60%) blur(3px) hue-rotate(80deg);
-        transform: skew(1deg) scale(1.23);
-        height: 520px;
-        transition: all 1s;
-    }
-
-    .actressimage {
-        position: absolute !important;
-        display: flex !important;
-        width: 242px !important;
-        height: 242px !important;
-        top: 42px !important;
-        justify-content: center !important;
-        border: 3px solid #ebedee;
-        align-items: center !important;
-        border-radius: 300px !important;
-        transform: scale(.9);
-        filter: blur(0px);
-        transition: all .3s !important;
-
-    }
-    .one {
-        position: absolute !important;
-        display: flex !important;
-        top: 135px !important;
-        right: -10px;
-    }
-    .tow {
-        position: absolute !important;
-        top: 105px !important;
-        display: flex !important;
-        right: 80px;
-    }
-
-    .three {
-        position: absolute !important;
-        display: flex !important;
-        right: 35px !important;
-
-    }
-
-    .all-actressimage {
-        position: absolute !important;
-        display: flex !important;
-        width: 25% !important;
-        height: 25% !important;
-        top: 94px !important;
-        transform: scale(1.3);
-        margin-right: 65px;
-        justify-content: center !important;
-        border: 2px solid rgb(243, 247, 246);
-        align-items: center !important;
-        border-radius: 5px !important;
-    }
-
-    .all-actressimage:hover {
-        filter: blur(0px);
-    }
-    .emily {
-        top: 400px !important;
-    }
-
-    .emily-image {
-        top: 0px !important;
-
-    }
-    .btn-actress:active {
-       transform: scale(.69) rotate(0deg) !important;
-
-    }
-    .parent-actressimage {
-        margin-left: auto;
-        margin-right: 30px;
-        z-index: 1;
-        width: 280px !important;
-        height: 280px !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        left: 0px;
-        top: 0px;
-        right: 0px;
-        position: relative;
-        margin-bottom: -55px;
-        transition: all .5s !important;
-        transform: scale(.8);
-        overflow: hidden !important;
-        background-color: transparent;
-        border-radius: 300px !important;
-
-    }
-    .bottom-text {
-        margin-top: auto;
-        margin-bottom: auto;
-        text-align: center;
-        justify-content: center !important;
-        font-family: kalame !important;
-        align-items: center !important;
-        height: 35px !important;
-        direction: ltr;
-        z-index: 2;
-        font-size: 13px !important;
-        right: 15px !important;
-        top: 34px !important;
-        position: absolute;
-        padding: 0px !important;
-        margin-right: auto !important;
-        width: 140px !important;
-        display: flex !important;
-        border-radius: 5px !important;
-        line-height: 30px;
-        font-weight: 500 !important;
-        color: #ffffff !important;
-        background-color: #0c79c2 !important;
-    }
-
-   .formcheck-shop {
+    .formcheck-shop {
         direction: ltr !important;
         font-size: 17px;
         height: 42px;
@@ -790,43 +498,24 @@
         margin-bottom: 51px;
         padding-top: 0 !important;
         position: relative !important;
-        right: 160px;
+        right: 10px;
         top: -3px;
         width: 100px;
         z-index: 988888881 !important;
-        margin-right: -5px !important;
+        margin-right: 8px !important;
         display: flex;
         align-items: center;
         justify-content: center;
-        transform: scale(.8);
+        transform: scale(.9);
     }
+
     label:active {
         transition: all .03s !important;
         z-index: 99999999;
         cursor: pointer;
     }
-    .valed-parent-filters {
-        height: 90px;
-        width: 100%;
-        align-items: center;
-        padding-left: 40px;
-        padding-right: 40px;
-        z-index: 6 !important;
-        display: flex;
-        right: 0px;
-        left: 0px;
-        margin-bottom: -199px;
-        position: fixed;
-        top: 112px !important;
-        padding-top: 20px;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        border-radius: 0px !important;
-        align-items: center;
-    }
-     .parent-filters {
+
+    .parent-filters {
         display: flex;
         height: 45px;
         width: 100%;
@@ -839,54 +528,13 @@
         margin-bottom: auto;
     }
 
-    .valed-parent-actressimage {
-        top: -61px !important;
-        margin-right: auto;
-        height: 310px;
-        width: 778px;
-        align-items: center;
-        z-index: 0;
-        padding-left: 0px;
-        padding-right: 0px;
-        z-index: 0;
-        display: flex;
-        margin-left: auto;
-        right: -20px;
-        left: 0px;
-        margin-bottom: 1176px;
-        position: relative;
-        padding-top: 80px;
-    }
-
-    .shop-count-count {
-        font-size: 34px;
-        color: #ffffff;
-        right: 56px;
-        font-family: 'Iry';
-        top: -10px;
-        align-self: flex-start !important;
-        background-color: #232fcf;
-        width: 50px;
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50px;
-        transform: scale(.4);
-        border: none !important;
-        z-index: 4;
-        background-color: #2334cf !important;
-        position: absolute !important;
-
-    }
     .shop-count {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         width: 120px;
         height: 50px !important;
         position: fixed;
         word-spacing: -3px !important;
         left: 0px !important;
-        top: 53px !important;
         text-align: center;
         border-radius: 4px !important;
         justify-content: center;
@@ -896,15 +544,15 @@
         border: none !important;
         background-color: transparent !important;
         font-size: 17px;
-        font-weight: 600 !important;
         padding-right: 5px;
         margin-right: auto;
         right: 653px;
-        top: 53px !important;
+        top: 18px !important;opacity: 0;
         margin-left: auto;
         transform: scale(.78) !important;
         z-index: 66666 !important;
     }
+
     .z-i {
         background-color: transparent !important;
         width: 120px !important;
@@ -914,37 +562,67 @@
 
     .shop-list {
         color: rgb(255, 255, 255) !important;
-        width: 90px;
-        height: 35px !important;
+        width: 110px;
+        height: 40px !important;
         position: fixed;
         z-index: 320;
-        font-family: kalame;
         cursor: pointer;
-        left: 20px !important;
+        left: 245px !important;
         margin-right: auto !important;
         margin-left: auto !important;
-        top: 145px !important;
+        top: 125px !important;
         text-align: center;
         border-radius: 5px !important;
         display: flex !important;
         padding: 0px;
-        font-size: 12px !important;
+        font-size: 15px !important;
         font-weight: 500 !important;
         transition: all .1s;
-
     }
+
     .films {
-        left: 130px !important;
+        left: 30px !important;
         margin-right: unset !important;
         margin-left: auto !important;
         position: fixed;
         transition: all .1s;
+        top: 145px !important;
     }
+    .search-icon {
+        position: absolute;
+        width: 67px;
+        top: 2px;
+        height: 100% !important;
+        z-index: 555;
+        right: -8px !important;
+        margin-left: auto !important;
+        display: flex;
+        transform: scale(1.5);
+        padding: 17px !important;
+        background-color: transparent !important;
+        border-top-left-radius: 6px !important;
+        border-bottom-left-radius: 6px !important;
+        z-index: 555;
+    }
+
+    .search {
+        width: 200px;
+        left: 0px;
+        background-color: #23272b;
+        position: absolute;
+        height: 125%;
+        border: none;
+        position: absolute;
+        top: -25px;
+        border-radius: 16px;
+    }
+
     .shop-list:hover {
         color: rgb(255, 255, 255) !important;
         background-color: rgb(10, 103, 165) !important;
         transition: all .1s;
     }
+
     .upper {
         position: fixed;
         background-color: #add8e5 !important;
@@ -979,7 +657,7 @@
         margin-bottom: 20px;
         margin-right: auto;
         margin-left: auto;
-        height: 4655px;
+        height: 7955px;
         right: 0px;
         left: 0px;
         background-size: 100% 100%;
@@ -989,26 +667,23 @@
         background-position: 0px 0px;
     }
 
-    .shop-body::before {
-        position: absolute;
+    .shop-body::before{
         margin-bottom: 20px;
-        content: '';
         margin-right: auto;
         margin-left: auto;
-        height: 5955px;
+        height: 7955px;
         right: 0px;
         left: 0px;
         background-size: 100% 100%;
         background-repeat: no-repeat !important;
-        opacity: .9;
-        background: rgb(23, 23, 36) !important;
-        top: 130px !important;
+        width: 102%;
+        top:114px !important;
         background-position: 0px 0px;
     }
 
     .movie-items {
         z-index: 0;
-        top: -470px;
+        top: 210px;
         position: relative;
         margin-top: 10px;
         width: 90%;
@@ -1025,21 +700,7 @@
     }
 
     .parent-shopha {
-        animation-duration: all .3s !important;
-        animation: fade-right !important;
-        width: 32%;
-        margin-right: auto;
-        margin-left: auto;
-        position: relative;
-        right: 0px;
-        left: 0px;
-        height: 537px;
-        margin-bottom: -8px;
-        display: flex;
-
-        max-width: 400px;
-        top: 30px;
-
+            top: 30px;
     }
 
     .shop-items {
@@ -1056,32 +717,11 @@
 }
 
 @media only screen and (max-width: 768px) {
-
-
-
     .parent-shopha {
         width: 42%;
-
         right: -50px;
         left: 0px;
         top: -127px;
-    }
-
-    .actressimage {
-        position: absolute !important;
-        display: flex !important;
-        width: 181px !important;
-        height: 178px !important;
-        top: 61px;
-        justify-content: center !important;
-
-        align-items: center !important;
-        border-radius: 18px !important;
-        transform: scale(.79);
-        right: -14px;
-        border: 2px solid rgb(22, 142, 197);
-        margin-right: 6px;
-        margin-left: 11px;
     }
 
     .valed-parent-filters {
@@ -1089,22 +729,6 @@
         top: 76px !important;
         background-color: transparent;
         z-index: 222222 !important;
-    }
-
-
-    .bottom-text {
-
-
-        height: 35px !important;
-        font-size: 13px !important;
-        right: 8px !important;
-        top: 170px !important;
-        position: absolute;
-        width: 60px !important;
-        font-weight: 500 !important;
-        line-height: 30px;
-        background-color: transparent !important;
-        line-height: 18px;
     }
 
     label:hover {
@@ -1115,12 +739,10 @@
         top: 50px;
         margin-left: -17px !important;
         left: 0px !important;
-        right: -7px;
+        right: -22px;
         margin-bottom: 45px !important;
-
         border: none !important;
     }
-
 
     label:active {
         transition: all .03s !important;
@@ -1129,15 +751,14 @@
     }
 
     label {
-        width: 65px;
-        height: 40px;
+        width: 48px;
+        height: 36px;
         z-index: 99999999;
-        font-family: 'kalame';
-        font-size: 16px;
+        font-size: 10px;
         font-weight: 400 !important;
         color: #ffffff !important;
         background-color: transparent !important;
-        border-radius: 5px;
+        border-radius: 3px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1145,7 +766,6 @@
         padding: 2px;
         z-index: 333333333 !important;
         border: 1px solid rgb(131, 131, 131);
-
     }
 
     .parent-filters {
@@ -1153,31 +773,14 @@
         right: 0px;
         left: 0px;
         top: -65px !important;
-
     }
 
-    .parent-filters::before {
-        content: '';
-        display: flex;
-        background-color: #1f3e9e;
-        height: 290px !important;
-        width: 65px;
-        right: 5px;
-        left: unset !important;
-        position: absolute;
-        margin-left: auto;
-        margin-right: unset;
-        margin-top: auto;
-        margin-bottom: auto;
-        top: 0px;
-        border-top: none;
-        border-radius: 5px;
-    }
     .shop-list {
         left: 18px !important;
         top: 70px !important;
-        z-index: 33333333 !important;
+        z-index: 33333333 !important;opacity: 0;
     }
+
     .films {
         top: 20px !important;
         left: 18px !important;
@@ -1185,8 +788,9 @@
         margin-left: auto !important;
         position: fixed;
         transition: all .1s;
-        z-index: 33333333 !important;
+        z-index: 33333333 !important;opacity: 0;
     }
+
     .btn-parent-orig {
         position: relative;
         width: 72% !important;
@@ -1205,34 +809,6 @@
         margin-left: -1.25rem;
     }
 
-    .valed-parent-actressimage {
-        display: block;
-        position: relative !important;
-        top: 540px !important;
-        left: 0px !important;
-        width: 575px !important;
-        display: flex !important;
-        margin-left: auto !important;
-        right: 0px !important;
-        margin-right: auto;
-    }
-
-    .parent-actressimage {
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 1;
-        width: 160% !important;
-        height: 260px !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        left: 0px;
-        top: 130px;
-        border-radius: 15px !important;
-        position: relative;
-        right: 0px;
-    }
-
     .shop-items {
         top: -1300px !important;
     }
@@ -1249,7 +825,7 @@
     .movie-items {
         z-index: 0 !important;
         height: 1964px !important;
-        top: 662px !important;
+        top: 1862px !important;
         margin-right: auto !important;
         margin-left: auto !important;
         right: 0px !important;
@@ -1258,29 +834,16 @@
     }
 
     .movies-title {
-        align-items: center;
-        text-shadow: none;
-        color: #ffffff !important;
-        align-items: center;
-        text-shadow: none;
-        color: #ffffff !important;
-        font-family: 'y' !important;
-        font-size: 25px;
+            font-size: 28px;
         margin-top: 337px;
         height: 80px;
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 28px;
-        position: relative;
+         position: relative;
         text-align: center;
         top: 132px !important;
-        font-weight: 400 !important;
-        z-index: 0;
-        border-radius: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        right: 0px !important;
-    }
+     }
+
     .zz {
         color: #000 !important;
         display: block !important;
@@ -1292,6 +855,7 @@
         top: -678px;
         background-color: #8fb19b !important;
     }
+
     .shopha {
         top: -1022px !important;
         right: 42px !important;
@@ -1302,63 +866,12 @@
 
 @media screen and (max-width: 576px) {
 
-
     .parent-shopha {
         width: 59%;
         right: 0px;
         left: 0px;
         top: -13px;
     }
-
-
-
-
-    .btn-actress {
-        right: 0px;
-        left: 0px;
-        top: 169px;
-        height: -moz-fit-content;
-        height: fit-content;
-        color: rgb(255 255 255);
-        background-color: rgb(238, 91, 5);
-        border-top: none;
-        border-right: none;
-        border-left: none;
-        border-image: initial;
-        font-family: dana;
-        z-index: 1;
-        position: absolute !important;
-        margin-right: auto !important;
-        display: flex !important;
-        margin-left: auto !important;
-        width: 63% !important;
-        text-align: center !important;
-        align-items: center !important;
-        justify-content: center !important;
-        align-self: flex-sr !important;
-        font-size: 13px !important;
-        font-weight: 400 !important;
-        transform: skew(-2deg, -2deg);
-        border: 1px solid #ffffff;
-    }
-
-    .actressimage {
-        position: absolute !important;
-        display: flex !important;
-        width: 100% !important;
-        height: 152px !important;
-        top: 49px;
-        justify-content: center !important;
-        border: 2px solid rgb(22, 142, 197);
-        align-items: center !important;
-        border-radius: 18px !important;
-        transform: scale(.79);
-        right: 0px !important;
-        left: 0px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-    }
-
 
     .shop-count {
         color: rgb(255, 255, 255);
@@ -1374,39 +887,6 @@
         align-items: center !important;
         flex-direction: row !important;
         display: flex !important;
-
-    }
-
-
-
-    .valed-parent-actressimage {
-        position: relative !important;
-        margin-left: auto;
-        width: 100% !important;
-        right: 0px !important;
-        left: 0px !important;
-        margin-bottom: 58px !important;
-        direction: rtl;
-        top: 387px !important;
-        display: flex;
-    }
-
-    .parent-actressimage {
-        margin-left: auto;
-        margin-right: auto;
-        z-index: 1;
-        width: 80% !important;
-        height: 223px !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        left: 0px;
-        top: 505px;
-        border-radius: 15px !important;
-        margin-top: 15px;
-        position: relative;
-        right: 0px;
-
     }
 
     .shop-items {
@@ -1422,59 +902,14 @@
         margin-left: auto;
         right: 0px;
         left: 0px;
-
-
-    }
-
-    .shop-body {
-        position: relative;
-        top: -106px;
-        height: 10600px;
-        margin-top: 0px;
-        padding-top: 500px;
-        overflow-y: hidden;
-        overflow-x: hidden;
-        position: relative;
-        top: -249px !important;
-        margin-bottom: 20px;
-        width: 100%;
-        margin-right: auto !important;
-        margin-left: auto !important;
-        right: 0px !important;
-        left: 0px !important;
-
-    }
-
-    .shop-body::before {
-        position: absolute;
-        margin-bottom: 20px;
-        content: '';
-        margin-right: auto;
-        margin-left: auto;
-        height: 10600px;
-        right: 0px;
-        left: 0px;
-        background-size: 100% 100%;
-        background-repeat: no-repeat !important;
-        opacity: .9;
-        background: rgb(23, 23, 36) !important;
-        top: 130px !important;
-        background-position: 0px 0px;
-    }
-
-    .movies-title {
-        top: 112px !important;
-        right: -55px !important;
     }
 
     .movie-items {
         margin-top: 34px !important;
         z-index: 0 !important;
         text-align: center;
-        top: 266px !important;
-
+        top: 766px !important;
     }
-
     .zz {
         height: 150px;
         margin-top: -132px;
@@ -1482,7 +917,6 @@
         left: -55px;
         position: relative;
     }
-
     .shopha {
         display: block;
         margin-bottom: -115px !important;
@@ -1491,6 +925,17 @@
         margin-left: auto !important;
         right: 0px !important;
         left: 0px !important;
+    }
+
+    .movies-title {
+        font-size: 28px;
+        margin-top: 337px;
+        height: 80px;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        text-align: center;
+        top: 432px !important;
     }
 }
 
@@ -1570,24 +1015,7 @@
         position: relative;
     }
 
-    .shopha {
-        margin-bottom: -126px !important;
-        top: -1652px !important;
-        transform: scale(.4) !important;
 
-    }
-
-    .valed-parent-actressimage {
-        position: relative !important;
-        margin-left: 197px !important;
-        width: 41% !important;
-        right: 223px !important;
-        left: 429px !important;
-        margin-bottom: 57px !important;
-        direction: rtl;
-        top: 519px !important;
-        transform: scale(.7);
-    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1641,213 +1069,12 @@
         transition: all 1s;
     }
 
-    .one {
-        position: absolute !important;
-        display: flex !important;
-        top: 135px !important;
-        right: -10px;
-    }
-
-    .tow {
-        position: absolute !important;
-        top: 105px !important;
-        display: flex !important;
-        right: 80px;
-    }
-
-    .three {
-        position: absolute !important;
-        display: flex !important;
-        right: 35px !important;
-    }
-
-    .all-actressimage {
-        position: absolute !important;
-        display: flex !important;
-        width: 25% !important;
-        height: 25% !important;
-        top: 94px !important;
-        transform: scale(1.3);
-        margin-right: 65px;
-        justify-content: center !important;
-        border: 2px solid rgb(243, 247, 246);
-        align-items: center !important;
-        border-radius: 5px !important;
-    }
-
-    .all-actressimage:hover {
-        filter: blur(0px);
-    }
-
-    .emily {
-        top: 400px !important;
-    }
-
-    .emily-image {
-        top: 0px !important;
-    }
-
-    .btn-actressone,
-    .btn-actresstow,
-    .btn-actressthree {
-        position: absolute !important;
-        display: flex !important;
-        width: 310px !important;
-        height: 310px !important;
-        top: -15px !important;
-        justify-content: center !important;
-        align-items: center !important;
-        border-radius: 300px !important;
-        transform: scale(1);
-        transition: all .1s !important;
-        opacity: .2 !important;
-        z-index: 666666666666 !important;
-        background-color: transparent;
-    }
-
     .opa {
         opacity: 85 !important;
     }
 
     .opai {
         filter: blur(0px) grayscale(0%) !important;
-    }
-
-    .btn-actresstow:active.actressimage {
-        transform: scale(.93) !important;
-    }
-
-    .btn-actresstone:active.actressimage {
-        transform: scale(.93) !important;
-    }
-
-    .btn-actressthree:active.actressimage {
-
-        transform: scale(.93) !important;
-
-    }
-
-    .btn-actresstow::after,
-    .btn-actressone::after,
-    .btn-actressthree::after {
-        align-items: center !important;
-        background-color: initial !important;
-        border-image: none;
-        border-image: initial;
-        border-radius: 300px !important;
-        color: #fff;
-        content: ' Action اکشن';
-        direction: ltr !important;
-        display: flex !important;
-        flex-direction: row-reverse !important;
-        font-size: 23px !important;
-        font-weight: 400 !important;
-        height: 183% !important;
-        justify-content: center !important;
-        left: 0 !important;
-        letter-spacing: 1px;
-        line-height: 250px;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        opacity: 1 !important;
-        padding: 2px 110px;
-        position: absolute !important;
-        right: 0 !important;
-        text-align: center !important;
-        text-shadow: 2px 1px 1px #242424 !important;
-        top: -122px !important;
-        transform: scale(1.6);
-        transition: all .1s !important;
-        width: 310px !important;
-        z-index: 1;
-        z-index: -1 !important;
-
-    }
-
-    .btn-actressthree::after {
-        content: 'Romantic عاشقانه';
-    }
-
-    .btn-actressone::after {
-        content: 'Drama درام';
-
-    }
-
-    .actressimage {
-        position: absolute !important;
-        display: flex !important;
-        width: 310px !important;
-        height: 310px !important;
-        top: -15px !important;
-        justify-content: center !important;
-        border: 5px solid rgb(74 74 74) !important;
-        align-items: center !important;
-        border-radius: 300px !important;
-        transform: scale(.95);
-        padding: -19px;
-        transition: all .1s !important;
-        filter: blur(.6px) grayscale(20%);
-    }
-
-    .parent-actressimage:hover .actressimage {
-        cursor: pointer;
-        transition: all .1s !important;
-        filter: blur(0px) !important;
-    }
-
-    .parent-actressimage {
-        margin-left: 260px;
-        margin-right: 0px;
-        z-index: 1;
-        width: 250px !important;
-        height: 250px !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        left: 0px;
-        top: -60px;
-        right: 150px;
-        position: relative;
-        margin-bottom: -55px;
-        background-color: transparent;
-        border-radius: 300px !important;
-        cursor: pointer;
-        box-shadow: 2px 2px 20px 6px #34393b !important;
-    }
-
-    .parent-actressimage:hover .btn-actresstow {
-        cursor: pointer;
-        transition: all .1s !important;
-        opacity: .6 !important;
-    }
-
-    .parent-actressimage:hover .btn-actressone {
-        cursor: pointer;
-        transition: all .1s !important;
-        opacity: .6 !important;
-    }
-
-    .parent-actressimage:hover .btn-actressthree {
-        cursor: pointer;
-        transition: all .1s !important;
-        opacity: .6 !important;
-    }
-
-    .parent-actressimage:hover .btn-actresstow::after {
-        opacity: .9 !important;
-    }
-
-    .parent-actressimage:hover .btn-actressone::after {
-        opacity: .9 !important;
-    }
-
-    .parent-actressimage:hover .btn-actressthree::after {
-        opacity: .9 !important;
-
-    }
-
-    .btn-actress:active {
-        transform: scale(.69) rotate(0deg) !important;
     }
 
     .formcheck-shop {
@@ -1870,6 +1097,7 @@
         width: 100px;
         z-index: 981 !important;
     }
+
     label {
         width: 100%;
         height: 100%;
@@ -1897,7 +1125,8 @@
 
 
     .blue-border {
-        background-color: transparent!important; border: .4px solid rgb(116, 117, 128) !important;
+        background-color: transparent !important;
+        border: .4px solid rgb(116, 117, 128) !important;
     }
 
 
@@ -1906,8 +1135,10 @@
         z-index: 99999999;
         cursor: pointer;
         color: #ffffff !important;
-        background-color: transparent!important;border: .4px solid rgb(116, 117, 128) !important;
+        background-color: transparent !important;
+        border: .4px solid rgb(116, 117, 128) !important;
     }
+
     .formcheck-shop:active {
         transition: all .01s !important;
         z-index: 99999999;
@@ -1951,27 +1182,6 @@
         margin-bottom: auto;
     }
 
-    .valed-parent-actressimage {
-        top: 30px !important;
-        margin-right: auto;
-        height: 310px;
-        width: 1300px;
-        align-items: center;
-        z-index: 0;
-        padding-left: 0px;
-        padding-right: 0px;
-        z-index: 0;
-        display: flex;
-        margin-left: auto;
-        right: 0px;
-        left: 0px;
-        margin-bottom: 1176px;
-        position: relative;
-        padding-top: 80px;
-        transform: scale(.6);
-        opacity: 0;
-    }
-
     .shop-count-count {
         font-size: 36px !important;
         color: #ffffff !important;
@@ -1988,14 +1198,14 @@
         transform: scale(.37) !important;
         border: none !important;
         z-index: 4 !important;
-        border: 2px solid rgb(71, 140, 219) !important;
+        border: 2px solid rgb(46, 52, 59) !important;
         position: absolute !important;
         left: unset !important;
         max-width: unset !important;
         min-width: unset !important;
         padding-left: unset !important;
         padding-right: unset !important;
-        background-color: #0669b9 !important;
+        background-color: #2b333a !important;
     }
 
     .shop-count {
@@ -2005,7 +1215,7 @@
         position: fixed;
         word-spacing: -2px !important;
         left: 0px !important;
-        top: 20px !important;
+        top: 18px !important;
         text-align: center;
         border-radius: 4px !important;
         justify-content: center;
@@ -2016,7 +1226,7 @@
         background-color: transparent !important;
         font-size: 17px;
         font-weight: 400 !important;
-        padding-right: 5px;
+        padding-right: 4.6px;
         margin-right: auto;
         right: 900px;
         margin-left: auto;
@@ -2059,20 +1269,32 @@
         display: flex !important;
         padding: 0px;
         transform: scale(.95);
-        background-color: transparent !important;
         font-size: 19.5px !important;
         font-weight: 500 !important;
         transition: all .1s;
-        padding-right: 0px;word-spacing: -2px;
-        border: 1px solid transparent;
+        padding-right: 0px;
+        word-spacing: -2px;
         background-color: transparent !important;
     }
-
-    .films {top: 144px !important;
+    .shop-list:hover {
+        transition: all .04s;
+        background-color: rgb(49, 49, 51)!important;
+    }
+    .films {
+        top: 144px !important;
         left: 70px !important;
         margin-right: unset !important;
         margin-left: auto !important;
         position: fixed;
+        transition: all .1s;
+    }
+    .films:hover {
+        transition: all .1s;
+        background-color: transparent !important;
+    }
+
+    .shop-list:active {
+        transform: translateY(1px)scale(.95);
         transition: all .1s;
     }
 
@@ -2085,22 +1307,8 @@
         height: 40px;
         opacity: 0;
     }
-    .shop-list:hover {
-        transition: all .1s;
-        background-color: rgb(89, 90, 94)!important;
-    }
-    .films:hover {
-        transition: all .1s;
-        background-color: transparent !important;
-    }
-    .shop-list:active {
 
-        transform: translateY(1px)scale(.95);
-        transition: all .1s;
-
-    }
-
-    .upper {
+     .upper {
         position: fixed;
         background-color: #add8e5 !important;
         top: 320px !important;
@@ -2136,7 +1344,7 @@
         width: 100%;
         margin-right: auto;
         margin-left: auto;
-        height: 4100px;
+        height: 4700px;
         right: 0px;
         left: 0px;
         background-size: 100% 100%;
@@ -2147,8 +1355,8 @@
         background-position: 0px 0px;
         overflow: hidden;
         padding-top: 299px;
-
     }
+
     .shop-body::before {
         position: absolute;
         margin-bottom: 20px;
@@ -2156,7 +1364,7 @@
         width: 100%;
         margin-right: auto;
         margin-left: auto;
-        height: 4100px;
+        height: 4700px;
         right: 0px;
         left: 0px;
         background-size: 100% 100%;
@@ -2166,6 +1374,7 @@
         top: 15px !important;
         background-position: 0px 0px;
     }
+
     .filterimage {
         height: 40px;
         left: 142px;
@@ -2175,35 +1384,8 @@
         width: 40px;
     }
 
-    .bottom-text {
-        align-items: center !important;
-        border-radius: 6px !important;
-        color: #fff !important;
-        direction: ltr;
-        display: flex !important;
-        font-family: kalame !important;
-        font-size: 15px !important;
-        font-weight: 500 !important;
-        height: 45px !important;
-        justify-content: flex-start !important;
-        line-height: 30px;
-        margin-bottom: auto;
-        margin-right: auto !important;
-        margin-top: auto;
-        padding-left: 10px;
-        padding-right: 15px;
-        position: absolute;
-        right: 19px !important;
-        text-align: center;
-        top: 33px !important;
-        width: 180px !important;
-        z-index: 2;
-        opacity: 0;
-        background-color: #0c79c2 !important;
-    }
-
     .movie-items {
-        top: -1300px;
+        top: 200px;
         position: relative;
         margin-top: 10px;
         right: 0px;
@@ -2234,7 +1416,7 @@
         position: relative;
         right: 0px;
         left: 0px;
-        height: 400px;
+        height: 390px;
         margin-bottom: 94px;
         display: flex;
         background-color: transparent !important;
@@ -2253,6 +1435,7 @@
         display: flex;
         left: 0px;
     }
+
     .search {
         width: 285px;
         left: 0px;
@@ -2264,6 +1447,7 @@
         top: -34px;
         border-radius: 16px;
     }
+
     .search-input {
         border-radius: 20px;
         color: white !important;
@@ -2277,12 +1461,12 @@
         padding-right: 50px;
         font-size: 23px;
     }
-    .search:hover {
-        background-color: #242424;
-    }
 
+    .search:hover { 
+        background-color: #23272b;
+    }
     .search-input:hover {
-        background-color: transparent;
+        background-color: #2c2f33;
     }
 
     input,

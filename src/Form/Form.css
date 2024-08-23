@@ -4,7 +4,7 @@
 
 ::-webkit-input-placeholder {
   color: #ffffff;
-  font-size: 13px!important;
+  font-size: 13px !important;
   padding-right: -15px;
   font-family: 'kalame' !important;
   opacity: .5 !important
@@ -13,22 +13,29 @@
 .form-field {
   margin: -52px 0 10px 0;
   padding: 15px;
-
- 
-  border: #5e6ad8 1px solid!important;
   color: #efeeff;
   font-size: 14px;
+  border: #4f5052 1px solid;
   font-weight: 600;
-  font-family: 'IRY'!important;
+  font-family: 'IRY' !important;
   background-color: transparent !important;
   padding-right: 0;
   width: 240px;
   height: 37px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;position: relative;
-  border-radius: 6px;top: 25px;
+  padding-right: 15px;
+  position: relative;
+  border-radius: 6px;
+  top: 25px;
 }
+
+input[type=text]::placeholder {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  padding-top: 20px !important;
+}
+
 
 .form-enter {
   top: -20px !important;
@@ -37,7 +44,6 @@
   width: 240px !important;
   height: 34px !important;
   text-align: center;
-
   font-weight: 200;
   background-color: transparent !important;
   color: #ffffff !important;
@@ -47,12 +53,12 @@
 }
 
 span {
- 
-    font-family:unset;
-    font-size: unset;
-    color: rgb(255, 255, 255);
-    margin-bottom: 15px
-  }
+  font-family: unset;
+  font-size: unset;
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px
+}
+
 input {
   background: #f2f2f2
 }
@@ -67,11 +73,9 @@ button:disabled {
 }
 
 @media screen and (max-width:1200px) {
-
   .swal-overlay--show-modal {
     z-index: 333333333333333;
   }
-
 
   .swal-title {
     font-family: 'kalame' !important;
@@ -100,7 +104,6 @@ button:disabled {
     font-size: 20px;
   }
 
-
   .table td,
   .table th {
     padding: 1.75rem;
@@ -115,11 +118,9 @@ button:disabled {
     height: 1800px;
     margin-right: auto;
     margin-left: auto;
-
     background-color: #010614 !important;
     padding-top: 600px;
   }
-
 
   .moshakhasat {
     color: #ffffff !important;
@@ -143,18 +144,18 @@ button:disabled {
     letter-spacing: 0px;
     font-family: 'kalame' !important;
     text-align: center !important;
-    margin-top:-47px ;
-
+    margin-top: -47px;
   }
-  .btn-mosh{
+
+  .btn-mosh {
     width: fit-content;
-    font-size: 30px !important;top: 60px;
-    font-family: 'dana';font-weight: 700!important;
+    font-size: 30px !important;
+    top: 60px;
+    font-family: 'dana';
+    font-weight: 700 !important;
   }
 
   .form-enter {
-
-
     font-size: 15px;
     font-weight: 200 !important;
     border-radius: 0;
@@ -163,22 +164,18 @@ button:disabled {
     position: relative;
     text-align: center;
     top: 5px;
-
     text-align: center;
     margin-right: auto;
     margin-left: auto;
     font-family: 'kalame' !important;
-    right: 0px; background-color: transparent !important;
+    right: 0px;
+    background-color: transparent !important;
     border-radius: 7px !important;
     border: 1px solid white !important;
-  
-}
+  }
 
   .form-enter:hover {
- 
     transition: all .6s ease !important;
-  
-   
   }
 
   .register-form {
@@ -196,7 +193,6 @@ button:disabled {
     font-family: 'kalame' !important;
     position: relative;
     z-index: 1;
-
     padding-right: 20px !important;
     left: 0;
     margin-right: auto;
@@ -224,31 +220,37 @@ button:disabled {
   ::-webkit-input-placeholder {
     color: #ffffff !important
   }
+
   .form-field {
     margin: -52px 0 10px 0;
     padding: 15px;
-  
+
     border: #ffffff 1px solid;
     color: #000000;
     font-size: 14px;
     font-weight: 600;
-    font-family: 'IRY'!important;
+    font-family: 'IRY' !important;
     background-color: transparent !important;
     padding-right: 0;
     width: 260px;
     height: 37px;
     margin-right: auto;
-    margin-left: auto;border: #ffffff 1px solid;
-    padding-right: 15px;position: relative;
-    border-radius: 6px;top: 25px;
+    margin-left: auto;
+    border: #ffffff 1px solid;
+    padding-right: 15px;
+    position: relative;
+    border-radius: 6px;
+    top: 25px;
   }
-  }
+}
+
 @media screen and (max-width:956px) {
-   .moshakhasat {
-   top: -360px !important;
+  .moshakhasat {
+    top: -360px !important;
     font-size: 15px !important;
 
   }
+
   .form-enter {
     font-size: 15px;
     font-weight: 200;
@@ -273,8 +275,11 @@ button:disabled {
     margin-left: auto;
 
   }
-  .form-container{top: -500px !important;
+
+  .form-container {
+    top: -500px !important;
   }
+
   .form-field {
     margin: -52px 0 10px 0;
     padding: 15px;
@@ -283,7 +288,7 @@ button:disabled {
     color: #000;
     font-size: 16px;
     font-weight: 600;
-    font-family: 'IRY'!important;
+    font-family: 'IRY' !important;
     padding-right: 0;
     text-align: center;
     margin-right: auto;
@@ -299,8 +304,8 @@ button:disabled {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-}
-  
+  }
+
 
   .moshakhasat {
 
@@ -319,7 +324,7 @@ button:disabled {
     text-align: center;
     top: 5px;
     width: 79% !important;
-    font-family: 'IRY'!important;
+    font-family: 'IRY' !important;
     margin-right: auto;
     margin-left: auto;
     right: -6px
@@ -347,7 +352,7 @@ button:disabled {
     justify-content: space-evenly;
     right: 829px;
     padding: 10px;
-   
+
     top: 268px;
     font-size: 17px !important;
     font-family: 'kalame' !important;
@@ -392,7 +397,7 @@ button:disabled {
     border-bottom: #7c7274 1px solid;
     color: #ffffff;
     font-weight: 600;
-    font-family: 'dana'!important;
+    font-family: 'dana' !important;
     padding-right: 0;
     width: 80%;
     height: 40px;
@@ -410,7 +415,7 @@ button:disabled {
     padding-bottom: 29px;
     padding-top: 4px !important;
     font-family: 'kalame' !important;
-    height: 40px !important
+    height: 40px !important;
   }
 
   .register-body {
@@ -424,17 +429,11 @@ button:disabled {
 
   .moshakhasat {
     font-size: 10px !important;
-
-
     text-align: center;
-
     top: -490px !important;
-
-
   }
 
   .register-form {
-
     display: flex;
     width: 81%;
     flex-direction: column;
@@ -521,15 +520,14 @@ button:disabled {
 }
 
 @media screen and (min-width:1200px) {
-
-
-
-
-
-
+  .form-field::placeholder {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    padding-top: 20px !important;
+  }
 
   ::-webkit-input-placeholder {
-    color: #ffffff!important;
+    color: #ffffff !important;
     font-size: 10px !important;
     padding-right: -15px;
     font-family: 'dana' !important;
@@ -556,7 +554,7 @@ button:disabled {
     border-top: none;
     overflow: hidden;
     background-color: #2a2b2f !important;
-        }
+  }
 
   .moshakhasat {
     color: #ffffff !important;
@@ -575,21 +573,25 @@ button:disabled {
     list-style: none;
     display: flex;
     align-items: center;
-    font-weight: 400!important;
+    font-weight: 400 !important;
     height: 80px;
-    margin-top:-46px ;
+    margin-top: -46px;
     justify-content: center;
-    list-style-type: circle!important;
+    list-style-type: circle !important;
     background-color: transparent;
     text-align: center !important;
 
 
   }
-  .btn-mosh{
+
+  .btn-mosh {
     width: fit-content;
-    font-size: 30px !important;top: -680px;
-;font-weight: 700!important;
+    font-size: 30px !important;
+    top: -680px;
+    ;
+    font-weight: 700 !important;
   }
+
   .register-form {
     display: flex;
     height: 340px;
@@ -613,9 +615,10 @@ button:disabled {
     overflow: hidden;
 
   }
+
   .swal-button {
     font-family: 'kalame';
-   margin-right: auto;
+    margin-right: auto;
     margin-left: auto;
     right: 110px;
     position: absolute;
@@ -627,19 +630,28 @@ button:disabled {
     justify-content: center;
     align-items: center;
     top: -40px;
-    transform: scale(.63);color: white!important;
-    font-size: 24px;font-weight: 400!important;
-    background-color: rgb(20, 87, 189) !important;
+    transform: scale(.63);
+    color: white !important;
+    font-size: 24px;box-shadow: none!important;
+    font-weight: 400 !important;border-color: #6c757e!important;
+    background-color: rgb(77, 81, 88) !important;
+
+  }
+  .swal-button:active { 
+    transform: scale(.615);transition: all .0001;
+ 
+
   }
   .swal-title {
-    color: #000 !important;
-    font-family: kalame !important;
-    font-size: 17px !important;
+    color: #000000 !important;
+    font-family: IRY !important;
+    font-size: 15px !important;
     font-weight: 500 !important;
     line-height: 33px;
     padding: 0 10px;
     top: -6px;
-}
+  }
+
   .swal-button:hover {
     font-family: 'kalame';
     margin-right: auto;
@@ -654,47 +666,60 @@ button:disabled {
     justify-content: center;
     align-items: center;
     top: -40px;
-    transform: scale(.63);color: white!important;
-    font-size: 24px;font-weight: 400!important;
-    background-color: rgb(3, 14, 110) !important;
-    
+    transform: scale(.63);
+    color: white !important;
+    font-size: 24px;
+    font-weight: 400 !important;
+    background-color: rgb(82, 93, 99) !important;
+
   }
-.rrr .swal-button { background-color: rgb(182, 43, 66) !important;
-}  .swal-overlay--show-modal {
+
+  .rrr .swal-button {
+    background-color: rgb(182, 43, 66) !important;
+  }
+
+  .swal-overlay--show-modal {
     z-index: 333333333333333;
   }
+
   .swal-icon {
     width: 80px;
     height: 80px;
     border-width: 4px;
     border-style: solid;
-    border-radius: 50%;top: -5px;
+    border-radius: 50%;
+    top: -5px;
     padding: 0;
     position: relative;
     box-sizing: content-box;
     margin: 20px auto;
     transform: scale(.95);
-}
-.swal-modal{
-  opacity: 0;
-  pointer-events: none;
-  background-color: white;
-  text-align: center;
-  border-radius: 5px;
-  position: static;
-  margin: 20px auto;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  z-index: 10001;
-  transition: opacity .2s, -webkit-transform .3s;
-  transition: transform .3s, opacity .2s;
-  transition: transform .3s, opacity .2s, -webkit-transform .3s;
-  width: 380px;
-}
+  }
+
+  .swal-modal {
+    opacity: 0;
+    pointer-events: none;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: static;
+    margin: 20px auto;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    z-index: 10001;
+    transition: opacity .2s, -webkit-transform .3s;
+    transition: transform .3s, opacity .2s;
+    transition: transform .3s, opacity .2s, -webkit-transform .3s;
+    width: 380px;
+    transform: scale(1.2);
+    box-shadow: -3px 5px 19px 8px #171718;
+
+  }
+
   .form-container {
     height: 1115px;
     padding-left: 20px;
@@ -710,32 +735,44 @@ button:disabled {
     margin-left: auto;
     right: 0
   }
+
   .formparent {
     width: 403px
   }
+
   .form-enter {
-    background-color: transparent !important;
+    background-color: #686d72 !important;
     color: #e8e6ff !important;
     font-size: 14px;
     font-weight: 400 !important;
     padding-top: auto !important;
     text-align: center;
-    top: -25px!important;
+    top: -25px !important;
     min-width: 211px;
-    border-radius: 6px!important;
-    font-family: 'kalame' !important;
+    border-radius: 6px !important;
+    font-family: 'IRY' !important;
     height: 37px !important;
-    right: 0;  border: #4452d3 1px solid!important;
+    right: 0;
+    border: inherit solid !important;
     margin-right: auto;
     margin-left: auto;
-    left: 0;
+    left: 0;    background-color: #75828b !important;
     display: flex;
     align-items: center;
-    justify-content: center;transform: translateY(0px)!important;
+    justify-content: center;
+    transform: translateY(0px) !important;
 
   }
-  .form-enter:hover {transform: translateY(1px)!important;
-    transition: all .1s !important;
+
+  .form-enter:hover {
+    transition: all .2s !important;
+    background-color: #7e868b !important;
+  }
+
+  .form-enter:active {
+    transform: translateY(1px)!important;
+    transition: all .05s !important;
+    background-color: #7c8e9c !important;
   }
 
   .form-field::marker {

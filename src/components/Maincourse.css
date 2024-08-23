@@ -11,52 +11,8 @@
 
     }
 
-    .course-description {
-        border-bottom-left-radius: 3px;
-        border-bottom-right-radius: 3px;
-        box-sizing: border-box !important;
-        color: #000000 !important;
-        font-size: 16px !important;
-        font-weight: 400 !important;
-        height: 1000px;
-        left: 0 !important;
-        line-height: 37px !important;
-        list-style: none;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        padding: 80px 15px 0;
-        position: absolute;
-        right: 0px !important;
-        text-align: right;
-        top: -18px;
-        width: 1210px;
-        padding-top: 190px !important;
-        z-index: 2 !important;
-        padding-left: 312px;
-        padding-right: 326px;
-        font-family: 'Kalame';
-        direction: rtl !important;
-        z-index: 666666666666666666;
-        border: 1px solid rgb(228, 228, 228);
+    .course-description {opacity: 0;
         background-color: transparent;
-
-        top: 145px;
-        padding: 6px !important;
-        justify-content: flex-start;
-        color: #4446e4 !important;
-        padding-top: 0px !important;
-        font-size: 16px !important;
-        right: -438px !important;
-        font-family: 'Kalame-bold';
-        height: 35px;
-        width: fit-content;
-        border-radius: 0px;
-        display: flex;
-        padding-bottom: 5px;
-        border: none;
-        border-bottom: 2px solid rgb(81, 103, 223);
-        background-color: transparent;
-
     }
 
     .image-course {
@@ -276,8 +232,6 @@
         z-index: 666666666666666666;
     }
 
-
-
     .p-coursee {
         margin-left: auto !important;
         position: absolute;
@@ -304,11 +258,7 @@
         word-spacing: 2px;
         border-radius: 0px;
         letter-spacing: 0px;
-        background-color: #023a47;
-        background-color: #013135;
         right: 0px !important;
-        border-bottom: 1px solid rgb(39, 48, 58);
-
     }
 
     .p-coursee::before,
@@ -338,17 +288,11 @@
         padding: .5px;
         border-radius: 240px;
         background-color: white;
-
     }
 
     .p-coursee::after {
-
         right: 32px;
-
         width: 16px !important;
-
-
-
     }
 
     .p-course {
@@ -358,22 +302,18 @@
         top: 40px;
         z-index: 3 !important;
         font-size: 33px !important;
-
         margin-top: 0 !important;
         padding: 0px !important;
         height: 60px;
         text-align: center;
         letter-spacing: 0.5px;
-
         display: flex;
         justify-content: center !important;
         align-items: center !important;
         margin-right: auto;
         left: 0px;
         color: rgb(0, 0, 0) !important;
-
         font-weight: 700 !important;
-
         width: 900px !important;
 
     }
@@ -400,12 +340,9 @@
         background-color: #e0e0e0;
     }
 
-
     .more-info {
         position: relative;
-
         height: 38px;
-
         flex-direction: row-reverse;
         display: flex;
         width: 260px;
@@ -413,13 +350,11 @@
         align-items: center;
         margin-top: 185px;
         border-bottom: 2px solid rgb(175, 175, 175) !important;
-
         font-family: 'kalame-bold' !important;
         right: 0px;
         top: -175px !important;
         line-height: 55px;
         padding-right: 6px;
-
         letter-spacing: 0px !important;
         word-spacing: 0px !important;
         background: transparent;
@@ -430,12 +365,7 @@
         left: 0px;
         margin-right: auto;
         margin-left: auto;
-
-
-
-
         direction: ltr;
-
     }
 
     .danger-icon {
@@ -482,52 +412,25 @@
         margin-left: auto;
         padding-left: 26px;
         background: transparent;
-
         border-radius: 5px;
         direction: ltr;
 
     }
 
     .hover-left-child-price {
-
         flex-direction: row-reverse !important;
-
         right: 0px !important;
-
-
         top: -200px !important;
-
-
-
-
-
-
     }
 
     .hover-left-child-time {
-
-
-
-
-
         top: -215px !important;
         right: 0px !important;
     }
 
-
     .hover-left-child-online {
-
         top: -180px !important;
-
-
-
-
-
-
         right: 0px !important;
-
-
-
     }
 
     .hover-left-child-sath {
@@ -535,196 +438,78 @@
         top: -434px !important;
     }
 
-
     .hover-left-child-online:hover {
-
-
         .book-one {
             color: rgb(165, 165, 170) !important;
             transform: rotate(-50deg) scale(1.6);
-
-
         }
-
-
-
-
-
-
-
-
-
 
         .age-book {
             color: rgb(165, 165, 170) !important;
-
-
-
-
         }
 
         color: rgb(165, 165, 170) !important;
-
         cursor: pointer;
     }
 
-
-
-
-
     .hover-left-child-sath:hover {
-
-
         .book-one {
             color: blue !important;
             transform: rotate(-50deg) scale(1.4);
-
-
         }
-
-
-
-
-
-
-
-
-
 
         .sath-book {
             color: blue !important;
-
-
-
-
         }
 
         color: blue !important;
-
         cursor: pointer;
     }
-
-
-
-
-
-
-
-
-
-
 
     .hover-left-child-price:hover {
         .book-one {
             color: blue !important;
             transform: rotate(-50deg) scale(1.4);
-
-
         }
 
         .top-p {
             color: blue !important;
-
-
-
-
         }
 
         color: blue !important;
-
         cursor: pointer;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .hover-left-child-time:hover {
         .book-one {
             color: blue !important;
             transform: rotate(-50deg) scale(1.4);
-
-
         }
-
-
-
-
-
-
-
-
-
 
         .time-book {
             color: blue !important;
-
-
-
-
         }
 
         color: blue !important;
-
         cursor: pointer;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .hover-left-child-price-adad {
-
-
         color: rgb(252, 252, 252) !important;
         letter-spacing: 0px !important;
         font-size: 16px !important;
         font-weight: 400 !important;
         position: relative;
-
         align-items: center !important;
-
         justify-content: center !important;
         font-family: 'kalame';
-
     }
 
     .top-t {
         color: white !important;
-        ;
     }
 
     .top-p {
-
         position: absolute;
         top: 6px !important;
         right: 192px;
@@ -742,8 +527,6 @@
         font-family: 'dana';
     }
 
-
-
     .book-one {
         position: absolute;
         top: 18px;
@@ -754,8 +537,6 @@
         height: 20px;
         transform: scale(1.6);
         padding: 3px;
-
-
         border-radius: 22px;
         color: rgb(156, 212, 230) !important;
         border: 1px solid #abe2e2;
@@ -763,13 +544,10 @@
 
     .book-one:hover {
         position: absolute;
-
         z-index: 777777777777777777;
-
         margin-right: auto;
         width: 20px;
         height: 20px;
-
         color: #01587e !important;
         background-color: #fff7e2;
         cursor: pointer;
@@ -780,21 +558,15 @@
     .sath-book {
         right: -8px;
         background-color: transparent !important;
-
     }
-
 
     .age-book {
         background-color: transparent !important;
         right: -6px;
-
-
-
     }
 
     .showlup {
         position: relative;
-
         align-items: flex-start;
         display: flex;
         justify-content: center;
@@ -809,12 +581,7 @@
         top: 140px !important;
         height: 337px !important;
         border-radius: 3px;
-
     }
-
-
-
-
 
     .range {
         display: flex;
@@ -836,11 +603,8 @@
         background: transparent;
         border: none;
         padding-top: 10px !important;
-
         z-index: 55555555555555555555551 !important;
         border-radius: 4px;
-
-
     }
 
     .percent-number {
@@ -861,10 +625,7 @@
         color: rgb(255, 255, 255) !important;
     }
 
-
     .progress {
-
-
         height: 18px;
         background-color: rgb(206, 215, 236);
         top: 755px;
@@ -876,32 +637,25 @@
         left: 0px;
         z-index: 2222222222;
         border-radius: 70px;
-
     }
 
     .progress-bar {
         color: transparent;
         padding-top: 0px;
         font-size: 13px !important;
-
         background-color: rgb(0, 16, 156);
         font-family: 'IRY';
     }
 
-
     .progress-bar:hover {
-
         padding-top: 0px;
         font-size: 13px !important;
         cursor: pointer;
-
         font-family: 'IRY';
     }
 
-
-
     .main-course-body {
-        top: 30px !important;
+        top: -16px !important;
         margin-right: auto !important;
         margin-left: auto !important;
         right: 0 !important;
@@ -910,17 +664,12 @@
         width: 100% !important;
         display: flex !important;
         height: 1200px;
-
         overflow: hidden;
         padding-bottom: 150px;
-
         background-size: 100% 100%;
-
-
-        background-image: linear-gradient(to left, #000313, #020518, #010816);
         background-repeat: no-repeat;
+        background-image: linear-gradient(to left, #01020a, #02030a, #000102);
     }
-
 
     .pi {
         color: #182577;
@@ -928,20 +677,15 @@
     }
 
     .parentallitems {
-
-
-
         background-color: transparent !important;
         z-index: 333333333333333;
         width: 280px;
         height: 320px;
-
         margin-left: auto;
         margin-right: auto;
         left: 0px;
         right: -200px;
         top: 380px;
-
         position: relative;
         border-radius: 4px;
     }
@@ -1150,7 +894,6 @@
         border-radius: 6px;
         color: #ffffff !important;
     }
-
     .teacher-name {
         top: 240px;
         width: 86%;
@@ -1162,61 +905,14 @@
         margin: auto;
         height: 40px !important;
     }
-
     img {
         vertical-align: middle;
         border-style: none;
-
-
     }
 
-
-
-    .course-description {
-        box-sizing: border-box !important;
-
-        font-size: 19px !important;
-        font-weight: 400 !important;
-
-        left: 0 !important;
-        line-height: 37px !important;
-
-        margin-left: auto !important;
-        margin-right: auto !important;
-
-        position: absolute;
-        right: 0px !important;
-        text-align: right;
-
-        width: 1210px;
-
-        z-index: 2 !important;
-
-        padding-left: 54px;
-
-        direction: rtl !important;
-
-
+    .course-description {opacity: 0;
         background-color: transparent;
-
-        top: 175px;
-        justify-content: flex-start;
-
-
-        right: -426px !important;
-
-        font-family: 'Kalame-bold';
-        height: 37px;
-        width: fit-content;
-        color: #b3dcf3 !important;
-        display: flex;
-        border: none;
-
-        background-color: transparent;
-
-
     }
-
     .h-course {
         border-bottom-left-radius: 3px;
         border-bottom-right-radius: 3px;
@@ -1244,9 +940,7 @@
         direction: rtl !important;
         z-index: 666666666666666666;
         background-color: transparent;
-
     }
-
     .p-coursee {
         margin-left: auto !important;
         position: absolute;
@@ -1291,8 +985,8 @@
         height: 1200px;
         overflow: hidden;
         padding-bottom: 150px;
-        background-size: 100% 100%;
-        background-image: linear-gradient(to left, #010311, #020410, #000307);
+        background-size: 100% 100%; 
+        background-image: linear-gradient(to left, #01020a, #02030a, #000102);
         background-repeat: no-repeat;
     }
 
