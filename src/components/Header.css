@@ -392,6 +392,7 @@
         transition: all .4s;
         width: 1990px;
         z-index: -1 !important;
+        
 
     }
     .navdown::after {
@@ -412,17 +413,13 @@
         width: 1990px;
         z-index: -1 !important;
         top: -88px !important;
-
     }
-
     .container {
         top: 65px;
     }
-
     .secondy:hover .link-image {
         filter: saturate(100%)
     }
-
     .link-image {
         filter: saturate(90%);
         position: absolute;

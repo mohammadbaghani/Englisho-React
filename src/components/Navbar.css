@@ -440,7 +440,6 @@
     .navbar-item li:hover .secondy {
         opacity: 1 !important;
     }
-
     .navbar-item li:hover>.inside-nav {
         width: 974px !important;
         z-index: 4444444444441 !important;
@@ -451,17 +450,14 @@
         height: 218px !important;
         font-size: 12px !important;
         z-index: 444466664444444444 !important;
-        background-color: #373e42 !important;
+        background-color: #373e42 !important;          
     }
-
     .navbar-item li:hover {
         transition: .001s all !important;
         color: rgb(208, 248, 245) !important;
         background-color: #373e42 !important;
     }
-
     /* navbar-items codes ended */
-
 
     /* navbar-opening-menu codes started */
     .inside-nav {
@@ -482,7 +478,7 @@
         padding-top: 0px !important;
         height: 0px !important;
         transition: .1s all !important;
-    }
+         }
 
     .left-nav {
         z-index: 444444444;
@@ -492,7 +488,6 @@
         background-color: transparent !important;
         right: 120px;
     }
-
     .right-nav {
         z-index: 444444444;
         position: absolute;
@@ -503,7 +498,6 @@
         padding-right: 0px;
         padding-left: 0px;
     }
-
     .secondy {
         height: 40px;
         margin-top: 0px;
@@ -526,7 +520,6 @@
         transition: all 0.1s !important;
         border-bottom: 1px solid transparent;
     }
-
     .underline,
     .underline-left {
         right: 0px !important;
@@ -537,7 +530,6 @@
         width: 156px !important;
         border-bottom: none !important;
     }
-
     .secondy:hover {
         cursor: pointer;
         transition: all 0.1s !important;

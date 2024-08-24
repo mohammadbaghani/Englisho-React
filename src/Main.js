@@ -112,11 +112,11 @@ function Main() {
 
   };
   const scrolwhyus = () => {
-    window.scrollTo({ top: 1480, right: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 1520, right: 0, behavior: 'smooth' });
   };
 
   const scrocourses = () => {
-    window.scrollTo({ top: 2730, right: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 2785, right: 0, behavior: 'smooth' });
 
   };
   const scrolupgrade = () => {
@@ -125,7 +125,7 @@ function Main() {
   };
 
   const scrolquestions = () => {
-    window.scrollTo({ top: 6250, right: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 6310, right: 0, behavior: 'smooth' });
   };
   const [show, setShow] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -281,12 +281,12 @@ function Main() {
             <Link className='navbar-item navf' to="/">خانه
               <Link className='child-navy ' to="/">
               </Link>
-           </Link>
+            </Link>
             <Link className='navbar-item online-shop' to="/فروشگاه" >
               <Link className='child-navy navone' to="/">
               </Link>
               خرید آنلاین
-           </Link>
+            </Link>
             <Link className='navbar-item  ' to="/چک لیست" >چک لیست
               <Link className='child-navy navcheck' to="/">
               </Link></Link>
@@ -308,17 +308,17 @@ function Main() {
           </div>
 
           <img src="bx2.png" className='top-img'
-            data-aos="fade-up" data-aos-duration="1700" data-aos-delay="800" >
+            data-aos="fade-up" data-aos-duration="1700" data-aos-delay="1500">
           </img>
 
-          <p className='head-text-color' data-aos="fade-down" data-aos-duration="1500">
+          <p className='first-top-text' data-aos="fade-down" data-aos-duration="1500" >
             مرکز تخصصی  آموزش زبان
             پویان
 
             توانایی هایت را را ارتقا بده !
           </p>
-          <div class="second" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1500" >
-           ما با بهترین آموزش ها  و بهره گیری از اساتید مجرب
+          <div class="second-top-text" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="800" >
+            ما با بهترین آموزش ها  و بهره گیری از اساتید مجرب
             شما را در یادگیری  مهارت مهم امروزه یعنی زبان انگلیسی یاری میکنیم
             <bottun className="button-one" data-aos="fade-down" onClick={() => {
               navigate('/فروشگاه')
@@ -356,7 +356,7 @@ function Main() {
               <p className='text-detail-one' data-aos="fade-up" data-aos-duration="600">
                 با یادگیری زبان از طریق آکادمی پویان شما  برترین اساتید ایران  را  در  کنار خودتان خواهید داشت و از تجربه آن ها بهره مند خواهید شد
               </p>
-           </div>
+            </div>
             <div className='text-containerlist-tow flex-tow' data-aos="fade-up" data-aos-duration="600">متدهای  پیشرفته
               <br>
               </br>
@@ -605,7 +605,7 @@ function Main() {
               </li>
               برای این کار فیلم های انگلیسی زبان را مشاهده نمایید
 
-           </li>
+            </li>
             <li class="list-arrow listen" data-aos="zoom-in" data-aos-duration="1000">
               <li class="list-title listennig" data-aos-duration="1000">
                 Writing
@@ -616,7 +616,7 @@ function Main() {
               <li class="list-title speaking" data-aos-duration="1000">
                 Listenning
               </li>
-             گوش دادن به آهنگ راه کسب مهارت لیسنینگ است
+              گوش دادن به آهنگ راه کسب مهارت لیسنینگ است
             </li>
           </h>
           <div className={show ? height : sit}>
@@ -636,7 +636,7 @@ function Main() {
             </li>
             <li className={fixedchild} onClick={scrocourses} title='Courses'>
               <img className='book-child' src="eng222.png">
-             </img>
+              </img>
               Courses
             </li>
             <li className={fixedchild} onClick={scrolcontactus} title='Contact us'>
@@ -655,15 +655,11 @@ function Main() {
               ارتباط با ما
             </p>
             <p className="text-original-header">
-              <p className="text-original-header-sub">
-                <img src="backimage.jpg" className='left-image'>
-                </img>
-                      با استفاده از آموزش‌های پویان این اطمینان را دارید که مسیر یادگیری زبان انگلیسی را با همراهی اساتید باتجربه‌ای که با نیاز‌های شما آشنا هستند طی می‌کنید و مطمئن خواهید بود که مدرسین دوره‌ها مسلط به جدیدترین متدهای روز دنیا هستند
-              </p>
+
             </p>
           </div>
           <li class="slider-details-video">
-                  </li>
+          </li>
           <div className='parent-border'>
             <div className='parent-border-child' >
               <div className='parent-video parent-video-one'>
@@ -720,7 +716,7 @@ function Main() {
                     جنیفر لورنس
                   </li>
                 </div>
-             </div>
+              </div>
               <div class="english-music">
                 <a class="cards " href="https://nowmusic.liara.run" >
                   <p className='english-text-tow tow-music'>
@@ -741,9 +737,9 @@ function Main() {
         </div>
         <Ticket />
         <h class="slider-details-soalha">
-         پاسخ به سوالات شما
-       </h>
-       <h class="slider-details-soalha-sub ">
+          پاسخ به سوالات شما
+        </h>
+        <h class="slider-details-soalha-sub ">
           هر آنچه که در مورد پویان باید بدانید
         </h>
         <section class="acordian">
@@ -784,11 +780,9 @@ function Main() {
                 <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} class="acordian__img">
                   <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
                     <Typography class="font s-f">
-
                       <p className='circle-border'>
                         ?
                       </p>
-
                       آیا آکادمی دوره های آنلاین  دارد   ؟              </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
@@ -798,7 +792,6 @@ function Main() {
                   </AccordionDetails>
                 </Accordion>
               </div>
-
               <div class="acordian__item">
                 <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} class="acordian__img">
                   <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
@@ -816,10 +809,6 @@ function Main() {
                   </AccordionDetails>
                 </Accordion>
               </div>
-
-
-
-
               <div class="acordian__item">
                 <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')} >
                   <AccordionSummary aria-controls="panel5d-content" id="panel5d-header">
@@ -856,52 +845,36 @@ function Main() {
             </div>
           </div>
         </section>
-
-
-
         <div className='parent-media'>
           <h class="slider-details-shop-tow">
             در رسانه های اجتماعی ما را  دنبال کنید
-
             <img class='kid-image' src="kid.png">
             </img>
           </h>
-
           <div className='parent-media-child'>
-
             <a class="list-inline-item  third-scale" title=" لینکدین" href="https://www.linkedin.com/in/mohammad-baghani-7065ba242/" >
-
-
-              <a class="text-decoration-none  insta-text"
+              <a class="svg-text  insta-text"
               >
                 لینکدین  </a>
               <svg xmlns="http://www.w3.org/2000/svg" class="svg linkdin"
                 viewBox="0 0 24 24">
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
-
-
             </a>
-
-
-
             <a class="list-inline-item first-scale" href="#" title=" توئیتر ">
-
-              <a class="text-decoration-none insta-text"
+              <a class="svg-text insta-text"
               > توئیتر</a>
               <svg
                 class="svg twiteer"
                 xmlns="http://www.w3.org/2000/svg"
 
-                viewBox="0 0 16 16"   >
+                viewBox="0 0 16 16"  >
                 <path
                   d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-                ></path></svg
-              >
+                ></path></svg>
             </a>
-
             <a class="list-inline-item second-scale" title="اینستاگرام" href="#" >
-              <a href="#" class="text-decoration-none insta-text"
+              <a href="#" class="svg-text insta-text"
               > اینستاگرام</a>
               <svg
                 class="svg instagram"

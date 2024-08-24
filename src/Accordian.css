@@ -461,12 +461,14 @@
 }
 
 @media only screen and (max-width:576px) {
+
     .acordian-items,
     .acordian__item,
     .valed-parent-border {
         margin-right: auto !important;
         margin-left: auto !important
     }
+
     .valed-parent-border {
         top: -3271px !important;
         position: relative !important;
@@ -475,15 +477,18 @@
         height: 2000px !important;
         width: 100% !important
     }
+
     .css-1q13jnw-MuiSvgIcon-root {
         font-size: 2rem;
         right: -102px;
         position: relative
     }
+
     .css-14ueyac,
     .css-1wh7kkw {
         background-color: transparent !important
     }
+
     .acordian {
         display: flex !important;
         top: 7670px;
@@ -494,6 +499,7 @@
         margin-bottom: 62px;
         width: 100% !important;
     }
+
     .girl-image {
         height: 75% !important;
         width: 125% !important;
@@ -508,9 +514,11 @@
         display: flex;
         z-index: 1 !important
     }
+
     .css-1ljbola-MuiButtonBase-root-MuiAccordionSummary-root .MuiAccordionSummary-content {
         margin-left: -15px !important
     }
+
     .acordian__item {
         right: -35px !important;
         top: 120px !important;
@@ -525,6 +533,7 @@
         text-align: center;
         padding-left: 4px
     }
+
     .font,
     .subtext {
         font-size: 11px !important
@@ -675,7 +684,7 @@
         left: 0 !important;
         margin-left: auto !important;
         position: relative;
-        right: 95px !important;
+        right: 135px !important;
         top: -35px;
         width: 600px;
         z-index: 2 !important;
@@ -743,21 +752,23 @@
         z-index: -1 !important;
         margin-right: auto !important;
         margin-left: auto !important;
-        background-color: #96bac5;opacity: 0;
+        background-color: #96bac5;
+        opacity: 0;
         filter: contrast(130%) hue-rotate(10deg) saturate(90%);
     }
 
     .girl-image {
-            height: 650px !important;
+        height: 650px !important;
         left: 0 !important;
         margin-left: auto !important;
         margin-right: auto !important;
         position: absolute;
         right: 208px !important;
         top: 176px !important;
-        transform: scale(.8);
-        width: 900px;    filter: contrast(130%) hue-rotate(15deg) saturate(95%);
-        }
+        transform: scale(.915);
+        width: 900px;
+        filter: contrast(130%) hue-rotate(15deg) saturate(95%);
+    }
 
     /* image and blue shadow codes ended*/
 
@@ -794,22 +805,25 @@
 
     .font:hover {
         transition: all .3s;
-        color: #021830!important;
+        color: #021830 !important;
     }
+
     .s-f:hover {
         transition: all .3s;
-        color: #021830!important;
+        color: #021830 !important;
     }
+
     .font:hover .circle-border {
         transform: rotate(-10deg)scale(1.1) !important;
         transition: all .03s;
         color: #ffffff !important;
-       background-color: #024877 !important;
+        background-color: #024877 !important;
     }
+
     .circle-border {
         align-items: center !important;
         background-color: #024877 !important;
-        color: #ffffff !important;       
+        color: #ffffff !important;
         border-radius: 230px;
         display: flex !important;
         height: 30px;

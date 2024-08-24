@@ -154,7 +154,6 @@ export default function MainCourse() {
                                 </p>
                             </div>
                             <div className='teacher course-book'>
-
                                 <img src={mainCouseData.img} className="image-teacher course-img" />
                                 کتاب
                                 <br>
@@ -168,16 +167,13 @@ export default function MainCourse() {
                             <p className="more-info">
                                 اطلاعات دوره
                             </p><CgDanger className="danger-icon" />
-
                             <h className="hover-left-child-price left-one" >
                                 قیمت<h className="hover-left-child-price-adad top-p">
                                     {mainCouseData.price}   تومان
                                 </h>
                                 <        PiBookOpenTextLight className="book-one the-price" />
                             </h>
-
                             <h className="hover-left-child-online left-one">
-
                                 رده سنی                        <h className="hover-left-child-price-adad online age-book">
                                     {mainCouseData.age}
                                 </h>
@@ -199,25 +195,19 @@ export default function MainCourse() {
                             </h>
                         </div>
                     </div>
-
                     <div className={show ? 'showlup' : 'hidden'} style={{ width: '80%', height: '300px' }} >
                     </div>
                 </h2>
                     <img src={mainCouseData.image} className="image-teacher" />
-     
-
-                <li className="h-course" data-aos="fade-up" >
-
+                     <li className="h-course" data-aos="fade-up" >
                     <p className='course-description'>
                     </p>
                     <br>
                     </br>
                     {mainCouseData.description}
-                    <div
-                        style={{
+                    <div style={{
                             whiteSpace: "pre"
-                        }}
-                    >
+                        }}>
                     </div>
                 </li>
             </body>
