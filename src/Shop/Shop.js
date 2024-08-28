@@ -59,7 +59,7 @@ export default class Shop extends Component {
                     , title:
                         'آرامش در دره'
                 },
-                 { actress: 'j', id: 22, desc: '7.5/10', price: "120", img: 'images/1/zz.jpg', title: 'معمای قتل', description: "ویتنی یک گلف باز حرفه ای است که برای کمک به گرداندن زمین گلف خانوادگی اش به زادگاهش بر می گردد. او در آنجا با یک گلف باز حرفه ای دیگر به نام آستین آشنا می شود و با اکراه در تورنمنت سالانه گلف شرکت می کند" },
+                { actress: 'j', id: 22, desc: '7.5/10', price: "120", img: 'images/1/zz.jpg', title: 'معمای قتل', description: "ویتنی یک گلف باز حرفه ای است که برای کمک به گرداندن زمین گلف خانوادگی اش به زادگاهش بر می گردد. او در آنجا با یک گلف باز حرفه ای دیگر به نام آستین آشنا می شود و با اکراه در تورنمنت سالانه گلف شرکت می کند" },
                 {
                     actress: 'c', id: 21, desc: '6.5/10', price: "20", img: 'images/1/27.jpg', title:
                         'نجات کریسمس'
@@ -73,7 +73,7 @@ export default class Shop extends Component {
                     description: "خانم امدادگری در شهر نیویورک متوجه می شود توانایی غیب بینی دارد. او حالا در مواجهه با حقایق گذشته خود قرار گرفته و هم زمان باید از سه زن جوان محافظت کند که دشمن خطرناکی قصد جانشان را کرده است",
                     title: 'خانم وب '
                 }
-            
+
             ],
             shoppingCart: [],
             filteredmovies: [],
@@ -214,7 +214,7 @@ export default class Shop extends Component {
                 window.scrollTo({ top: 3170, left: 0, behavior: 'smooth' });
             }
 
-            
+
             else {
                 window.scrollTo({ top: 1280, left: 0, behavior: 'smooth' });
             }
@@ -226,7 +226,7 @@ export default class Shop extends Component {
             this.setState({
                 search: (e.target.value)
             })
-            const seareched =this.state.products.filter((g) => g.title.startsWith(this.state.search));
+            const seareched = this.state.products.filter((g) => g.title.startsWith(this.state.search));
             this.setState({
                 filteredmovies: seareched
             })
@@ -247,8 +247,8 @@ export default class Shop extends Component {
                 </p>
 
                 <p onClick={scrolltosells} className='shop-list'>
-                  لیست خرید ها
-                    
+                    لیست خرید ها
+
                 </p>
                 <figure className='shop-count'>
                     <img class="shop-count-image" src="carty.png" />
@@ -261,7 +261,7 @@ export default class Shop extends Component {
                     <h1 class="movies-title">{this.state.name}  </h1>
                 </header>
                 <div className='valed-parent-filters' >
-                                  {['radio'].map((type) => (
+                    {['radio'].map((type) => (
                         <div key={`reverse-${type}`} className="parent-filters">
                             <Form.Check onClick={this.all.bind(this)} className={this.state.all ? 'formcheck-shop blue-border' : 'formcheck-shop'}
                                 reverse
@@ -295,7 +295,7 @@ export default class Shop extends Component {
 
                     ))}
                 </div>
-          
+
                 <div class="movie-items">
                     {this.state.filteredmovies.map(product => (
                         <Product {...product} onFilterj={this.onFilterj.bind(this)}

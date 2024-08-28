@@ -310,7 +310,6 @@ function Main() {
           <img src="bx2.png" className='top-img'
             data-aos="fade-up" data-aos-duration="1700" data-aos-delay="1500">
           </img>
-
           <p className='first-top-text' data-aos="fade-down" data-aos-duration="1500" >
             مرکز تخصصی  آموزش زبان
             پویان
@@ -655,7 +654,11 @@ function Main() {
               ارتباط با ما
             </p>
             <p className="text-original-header">
+              <p className="text-original-header-sub">
+                <img src="backimage.jpg" className='left-image'>
+                </img>
 
+              </p>
             </p>
           </div>
           <li class="slider-details-video">
@@ -885,12 +888,12 @@ function Main() {
             </a>
           </div>
         </div>
-        <Link className={cheklist} to={'https://nowmusic.liara.run'}>
+        <Link className={cheklist} to={'https://mohammadbaghani.github.io/Nowmusic-JS'}>
           <img src="zarbdar.png"
             class="cheklist-image upper-img" onClick={hide}>
           </img>
           <div>
-            <Link className="linkto" to={'https://nowmusic.liara.run'}>
+            <Link className="linkto"  to={'https://mohammadbaghani.github.io/Nowmusic-JS'}>
               <img src="nowlisten.png"
                 class="cheklist-image">
               </img>
