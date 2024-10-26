@@ -1,3 +1,0 @@
-If you faced this error => ! [rejected] master -> master (fetch first),for pushing to git-hub
-use this code :
-git push remote-name master --force

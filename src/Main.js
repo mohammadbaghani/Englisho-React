@@ -13,7 +13,7 @@ import Tilt from 'react-parallax-tilt';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import './Accordian.css';
+import './Accordian/Accordian.css';
 import { useNavigate, } from 'react-router-dom';
 import Footer from './Footer/Footer';
 import Select from './components/Select/Select';
