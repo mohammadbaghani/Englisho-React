@@ -12,7 +12,9 @@ export default function Header() {
             <Container className='container-valed-navbar' >
                 <Navbar className='valed-navbar' >
                     <Nav className='nav'>
-                        <img className='logoimage-header logoimage' src="easli.png" href="/" >
+                        <img className='logoimage-header logoimage' src="easli.png" href="/" onClick={() => {
+              navigate('/')
+            }}>
                         </img>
                         <figure className='shop-count z-i'>
                             <img class="shop-count-image" src="carty.png" />

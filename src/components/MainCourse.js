@@ -40,7 +40,9 @@ export default function MainCourse() {
                 <Container className='container-valed-navbar' >
                     <Navbar className='valed-navbar' >
                         <Nav className='nav'>
-                            <img className='logoimage-header logoimage' src={CoursesData[6].image} href="/" >
+                            <img className='logoimage-header logoimage' src={CoursesData[6].image} href="/" onClick={() => {
+              navigate('/')
+            }}>
                             </img>
                             <figure className='shop-count z-i'>
                                 <img class="shop-count-image" src={CoursesData[6].image2} />

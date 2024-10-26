@@ -84,7 +84,7 @@
         border-radius: 12px;
         content: '';
         margin-left: 0px !important;
-        background-color: #373e42 !important;
+        background-color: #222527!important;
         border-radius: 2px;
         display: flex;
         font-size: 15px;
@@ -290,26 +290,27 @@
     }
 
     .button-register {
-        font-family: 'IRY' !important;
         background-color: initial;
+        border: 0 solid #090c16 !important;
         border-radius: 5px !important;
-        color: #ffffff !important;
-        font-size: 13px;
+        color: #fff !important;
+        font-family: IRY !important;
+        font-size: 14.5px;
         font-weight: 500 !important;
         height: 42px;
+        letter-spacing: 0;
         margin-left: auto;
-        padding-bottom: 0px;
-        padding-right: 24px;
-        letter-spacing: 0px;
+        padding-bottom: 0;
+        padding-right: 25px;
         position: absolute;
-        right: 1540px !important;
+        right: 1517px !important;
         text-align: center;
         top: 60px !important;
         transform: scale(1.1);
         transition: all .1s ease;
-        width: 116px;
+        width: 140px;
         z-index: 30;
-        border: 0px solid rgb(9, 12, 22) !important;
+    
     }
 
     .button-register:hover .userimage {
@@ -318,12 +319,12 @@
     }
 
     .userimage {
-        transform: scale(.53);
+        transform: scale(.5);
         position: absolute;
-        right: -3.3px;
-        top: 5px;
+        right: 1px;
+        top: 4px;
         width: 38px;
-        height: 35px;
+        height: 37px;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         background-color: transparent;
@@ -331,8 +332,8 @@
         background-image: url("user11.png");
     }
 
-    .button-register:active {
-        transform: scale(1.09);
+    .button-register:active {transition: all .5s;
+        transform: scale(1.097);
 
     }
 
@@ -379,7 +380,7 @@
         border-radius: 12px;
         content: '';
         margin-left: 0px !important;
-        background-color: #373e42 !important;
+        background-color: #222527!important;        
         border-radius: 2px;
         display: flex;
         font-size: 15px;
@@ -392,6 +393,7 @@
         transition: all .4s;
         width: 1990px;
         z-index: -1 !important;
+    box-shadow:  0 8px 13px 2px rgba(53, 53, 53, 0.1),0 3px 14px 2px rgba(49, 49, 49, 0.1),0 5px 5px -3px rgba(66, 66, 66, 0.1)
         
 
     }

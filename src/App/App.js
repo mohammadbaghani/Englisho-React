@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Courses from '../components/Courses'
 import MainCourse from '../components/MainCourse'
 
-import Ticket from '../components/Ticket/Ticket'
+import Select from '../components/Select/Select'
 import Shop from '../Shop/Shop'
 import TodoList from '../Todolist/TodoList';
 
@@ -26,10 +26,10 @@ export default function App() {
         <Routes>
           <Route path='/دوره ها' element={<Courses />} />
           <Route path='/e/:courseID' element={<MainCourse />} />
-          <Route path='/لیست انجام وظایف' element={<Ticket />} />
+          <Route path='/لیست انجام وظایف' element={<Select />} />
           <Route path='/فروشگاه' element={<Shop />} />
           <Route path='/چک لیست' element={<TodoList />} />
-          <Route path='/لیست دوره ها' element={<Ticket />} />
+          <Route path='/لیست دوره ها' element={<Select />} />
           <Route path='/' element={<Main />} />
           <Route path='/ثبت نام' element={<Form />} />
           <Route path='/m' element={<Users />} />

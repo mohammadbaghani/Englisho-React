@@ -57,7 +57,7 @@ export default function Partickle() {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "transparent",
           },
           links: {
             color: "transparent",
@@ -74,7 +74,7 @@ export default function Partickle() {
               default: "bounce",
             },
             random: false,
-            speed: 6,
+            speed: 5,
             straight: false,
           },
           number: {

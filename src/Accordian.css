@@ -18,11 +18,10 @@
         font-size: 23px !important;
         position: absolute;
         top: 0px !important;
-        transform: scale(1.2);
+        transform: scale(1);
         width: 30px;
-        background-color: #fdfdfd !important;
-        color: #002d81 !important;
-        border: 1px solid rgb(3, 36, 126);
+        background-color: #024877 !important;
+        color: #ffffff !important;
     }
 
     .css-19wkpd7-MuiButtonBase-root-MuiAccordionSummary-root {
@@ -70,7 +69,7 @@
         overflow: hidden;
         width: 466px;
         margin-left: auto;
-        right: -217px;
+        right: -160px;
         margin-bottom: 5px;
         z-index: 1;
         margin-right: auto;
@@ -83,28 +82,6 @@
         color: black !important;
     }
 
-    .acordian-items::after {
-        border: 2.5px solid #000;
-        border-radius: 650px;
-        content: "";
-        display: flex;
-        flex-wrap: wrap;
-        height: 800px;
-        justify-content: space-evenly;
-        left: 0 !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        padding-left: 0;
-        padding-top: 278px;
-        position: absolute !important;
-        right: 280px !important;
-        top: -80px;
-        transform: scale(.4);
-        width: 800px;
-        z-index: -1 !important;
-        background-color: #002383;
-
-    }
 
     .css-1q13jnw-MuiSvgIcon-root {
 
@@ -153,17 +130,14 @@
         padding-left: 0;
         width: 928px;
         top: 534px;
-
         margin-right: auto;
     }
-
 
     .css-1q13jnw-MuiSvgIcon-root,
     .font {
         position: relative;
         color: #1b1a1a !important
     }
-
     .font {
         direction: rtl;
         height: auto !important;
@@ -173,17 +147,13 @@
         left: 0;
         color: black !important;
         font-family: 'Kalame';
-
+        font-weight: 700 !important;
     }
-
     .css-1fx8m19 {
         color: #fff !important
     }
-
     .css-1q13jnw-MuiSvgIcon-root {
-
         opacity: 0;
-
         padding-top: 4px !important;
         top: -5px !important;
         margin-right: 6px;
@@ -195,39 +165,13 @@
         color: rgba(255, 255, 255, .87)
     }
 }
-
 @media only screen and (max-width:992px) {
-    .acordian-items::after {
-        content: '';
-        padding-top: 278px;
-
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        position: absolute !important;
-        top: -520px;
-        padding-left: 0;
-        right: 180px !important;
-        left: 0px !important;
-        margin-right: auto !important;
-        margin-left: auto !important;
-        width: 800px;
-
-        z-index: -4 !important;
-        transform: scale(.4);
-        height: 800px;
-
-        border-radius: 650px;
-        border: 2.5px solid black;
-        background-color: #002383;
-    }
 
     .acordian-items,
     .subtext {
         position: relative;
         direction: rtl
     }
-
 
     .girl-image {
         top: -436px !important;
@@ -238,7 +182,6 @@
         filter: contrast(130%);
         right: 200px !important;
     }
-
     .css-14ueyac,
     .css-1wh7kkw {
         background-color: transparent !important
@@ -257,15 +200,12 @@
         margin-top: -164px;
         padding-left: 0;
         width: 700px;
-
-
         left: 0px !important;
         right: 0 !important;
         left: 0 !important;
         margin-left: auto !important;
 
     }
-
     .subtext {
         height: 180px !important;
         padding-right: 50px;
@@ -274,13 +214,10 @@
         left: 55px;
         width: 390px
     }
-
     .circle-border {
-
         position: absolute;
         top: 0px !important;
-        transform: scale(1.15);
-
+        transform: scale(1);
         width: 30px;
     }
 
@@ -297,7 +234,6 @@
         z-index: 33333;
         margin-bottom: 5px;
     }
-
     .acordian {
         height: 795px !important;
         padding-bottom: 100px;
@@ -306,8 +242,6 @@
     }
 
     .css-x1tti5 {
-
-
         display: none !important;
         font-size: 2rem;
         right: -22px !important;
@@ -315,27 +249,18 @@
         transform: scale(1.2) !important;
         fill: #101038 !important
     }
-
-
     .container {
         max-width: 100%;
         position: relative;
         top: 859px
     }
-
-
 }
 
 @media only screen and (max-width:768px) {
-
     .css-x1tti5 {
-
-
-        display: none !important;
+       display: none !important;
 
     }
-
-
     .girl-image {
         top: -358px !important;
         transform: scale(1.25);
@@ -353,19 +278,12 @@
         display: inline-flex;
         position: relative;
         box-sizing: border-box;
-
-
         border-radius: 0;
         padding: 0 16px;
         cursor: pointer;
-
-
-
         color: inherit;
         display: flex;
         min-height: 48px;
-
-
         background-color: rgba(0, 0, 0, .03);
         flex-direction: row;
         right: -26px
@@ -387,7 +305,6 @@
         left: 0 !important;
         margin-left: auto !important;
     }
-
     .subtext {
         font-size: 15px !important;
         height: 180px;
@@ -422,22 +339,14 @@
     }
 
     .css-1q13jnw-MuiSvgIcon-root {
-
-
-
-
-
         font-size: 2rem;
         right: 32px;
         position: relative
     }
 
-
-
-    .acordian-items::after {
+   .acordian-items::after {
         content: '';
         padding-top: 278px;
-
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -449,11 +358,9 @@
         margin-right: auto !important;
         margin-left: auto !important;
         width: 800px;
-
-        z-index: -4 !important;
+       z-index: -4 !important;
         transform: scale(.45);
         height: 800px;
-
         border-radius: 650px;
         border: 2.5px solid black;
         background-color: #002383;
@@ -461,7 +368,6 @@
 }
 
 @media only screen and (max-width:576px) {
-
     .acordian-items,
     .acordian__item,
     .valed-parent-border {
@@ -788,7 +694,7 @@
         display: flex;
         align-items: center;
         width: 656px !important;
-        font-size: 21px !important;
+        font-size: 19px !important;
         margin-left: -119px;
         font-family: 'dana-bold' !important;
         padding-top: 16px;
@@ -796,7 +702,7 @@
         background-color: transparent !important;
         overflow: hidden;
         transition: all .1s;
-        font-weight: 700 !important;
+        font-weight: 600 !important;
     }
 
     .s-f {

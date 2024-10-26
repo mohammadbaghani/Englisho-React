@@ -82,6 +82,7 @@
   ]
  },
  "devDependencies": {
+  "ajv": "^7.2.4",
   "gh-pages": "^5.0.0"
  }
 }

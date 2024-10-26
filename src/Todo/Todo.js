@@ -9,16 +9,9 @@ import { MdDone } from "react-icons/md";
 
 export default class Todo extends Component {
 
-
-
-
-
-
-
     removeClickHandler(id) {
         this.props.onRemove(id)
     }
-
     editClickHandler(id) {
         this.props.onEdit(id)
     }
@@ -28,9 +21,6 @@ export default class Todo extends Component {
 
             <div className={`todo ${this.props.completed ? 'completed' : ''}`} style={{ display: 'flex' }}>
                 <li className="todo-item">{this.props.title}</li>
-
-
-
 
                 <MdDone className="check-btn" onClick={this.editClickHandler.bind(this, this.props.id)}></MdDone>
 

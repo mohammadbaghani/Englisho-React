@@ -756,7 +756,7 @@ button:disabled {
     border: inherit solid !important;
     margin-right: auto;
     margin-left: auto;
-    left: 0;    background-color: #75828b !important;
+    left: 0;    background-color: #495055 !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -766,13 +766,13 @@ button:disabled {
 
   .form-enter:hover {
     transition: all .2s !important;
-    background-color: #7e868b !important;
+    background-color: #3e4549 !important;
   }
 
   .form-enter:active {
     transform: translateY(1px)!important;
     transition: all .05s !important;
-    background-color: #7c8e9c !important;
+
   }
 
   .form-field::marker {

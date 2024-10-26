@@ -1007,8 +1007,7 @@
         width: -moz-fit-content !important;
         width: 6px !important;
         padding: .5px;
-        border-radius: 240px;
-        background-color: white;
+        border-radius: 240px; 
     }
 
     .p-coursee::after {

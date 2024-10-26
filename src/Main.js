@@ -8,9 +8,7 @@ import Slider from "./Slider/Slider";
 import { useState } from "react";
 import { styled } from '@mui/material/styles';
 import MuiAccordion, { AccordionProps } from '@mui/material/Accordion';
-import MuiAccordionSummary, {
-  AccordionSummaryProps,
-} from '@mui/material/AccordionSummary';
+import MuiAccordionSummary, { AccordionSummaryProps, } from '@mui/material/AccordionSummary';
 import Tilt from 'react-parallax-tilt';
 import MuiAccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
@@ -18,13 +16,18 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import './Accordian.css';
 import { useNavigate, } from 'react-router-dom';
 import Footer from './Footer/Footer';
-import Ticket from './components/Ticket/Ticket';
+import Select from './components/Select/Select';
 import Navside from './Navside/Navside';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { MdKeyboardArrowDown } from 'react-icons/md';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import P from './Particles/MainPartice';
+import { PiQuestion } from "react-icons/pi";
+import { MdOutlineEmail } from "react-icons/md";
+import { FiBook } from "react-icons/fi";
+import { IoInformationCircleOutline } from "react-icons/io5";
+import { AiOutlineHome } from "react-icons/ai";
 const Accordion = styled((props: AccordionProps) => (
   <MuiAccordion disableGutters elevation={0} square {...props} />
 ))(({ theme }) => ({
@@ -218,7 +221,9 @@ function Main() {
       <Container className='container-valed-navbar' >
         <Navbar className='valed-navbar' >
           <Nav className={show ? 'nav' : 'nav navdown'}>
-            <img className='logoimage-header logoimage' src="easli.png" href="/" >
+            <img className='logoimage-header logoimage' src="easli.png" onClick={() => {
+              navigate('/')
+            }}>
             </img>
             <figure className={show ? 'shop-count z-i' : 'shop-count z-i upper-count'}>
               <img class="shop-count-image" src="carty.png" />
@@ -231,7 +236,6 @@ function Main() {
               navigate('/ثبت نام')
             }}>
               ورود / ثبت نام
-
               <img class="userimage" />
             </button>
             <ul class="valed-ul">
@@ -324,12 +328,12 @@ function Main() {
             }} data-aos-duration="1000" data-aos-delay="2000">
               خرید
             </bottun>
-            <Link className="button-tow" data-aos="fade-down" to={`https://nowmusic.liara.run`} data-aos-duration="1000" data-aos-delay="2000" > آهنگ
+            <Link className="button-tow" data-aos="fade-down" to={'https://mohammadbaghani.github.io/Nowmusic-JS'} data-aos-duration="1000" data-aos-delay="2000" > آهنگ
             </Link>
           </div>
         </div>
         <a href="#" className='headlist-first' data-aos="zoom-in" data-aos-duration="700">
-          نظرات زبان آموزان ...
+          نظرات زبان آموزان
           <li href="#" className='headlist-second'>
             نظرات زبان آموزان ما
           </li>
@@ -602,7 +606,7 @@ function Main() {
               <li class="list-title writing" data-aos-duration="1000">
                 Speaking
               </li>
-              برای این کار فیلم های انگلیسی زبان را مشاهده نمایید
+            برای این کار فیلم های انگلیسی زبان را مشاهده نمایید
 
             </li>
             <li class="list-arrow listen" data-aos="zoom-in" data-aos-duration="1000">
@@ -614,39 +618,26 @@ function Main() {
             <li class="list-arrow speak" data-aos="zoom-in" data-aos-duration="1000">
               <li class="list-title speaking" data-aos-duration="1000">
                 Listenning
-              </li>
-              گوش دادن به آهنگ راه کسب مهارت لیسنینگ است
+              </li> 
+         گوش دادن به آهنگ راه کسب مهارت لیسنینگ است
             </li>
           </h>
           <div className={show ? height : sit}>
-            <img src="zarbdar.png"
-              class="fixed-image" onClick={hide}>
-            </img>
-            Menu
-            <li className={fixedchild} onClick={scrolupgrade} title='Pooyan'>
-              <img className='book-child ' src="home1.png">
-              </img>
-              Pooyan
+                <li className={fixedchild} onClick={scrolupgrade} title='Pooyan'>
+            <AiOutlineHome  className='book-child'/>   
+            
             </li>
             <li className={fixedchild} onClick={scrolwhyus} title='Why us'>
-              <img className='book-child info-book' src="info.png">
-              </img>
-              Why us
-            </li>
+            <IoInformationCircleOutline  className='book-child filled-info'/>   
+                      </li>
             <li className={fixedchild} onClick={scrocourses} title='Courses'>
-              <img className='book-child' src="eng222.png">
-              </img>
-              Courses
+            <FiBook className='book-child filled-white'/>             
             </li>
             <li className={fixedchild} onClick={scrolcontactus} title='Contact us'>
-              <img className='book-child' src="email.png">
-              </img>
-              Contact us
+            <MdOutlineEmail className='book-child '/>      
             </li>
             <li className={fixedchild} onClick={scrolquestions} title='Ask us'>
-              <img className='book-child ' src="que1.png">
-              </img>
-              Ask us
+            < PiQuestion  className='book-child quest'/>     
             </li>
           </div>
           <div className="parent-all-image-button">
@@ -721,14 +712,14 @@ function Main() {
                 </div>
               </div>
               <div class="english-music">
-                <a class="cards " href="https://nowmusic.liara.run" >
+                <a class="cards " href="https://mohammadbaghani.github.io/Nowmusic-JS" >
                   <p className='english-text-tow tow-music'>
                     در یک موزیک پلیر حرفه ای
                   </p>
                   <p className='english-text-tow towy'>
                     تقویت لیسنینگ
                   </p>
-                  <a href="https://nowmusic.liara.run" className='english-text '>
+                  <a href="https://mohammadbaghani.github.io/Nowmusic-JS" className='english-text '>
                     آهنگ
                     <img src="goo.png" className='icon-image english-icon ' >
                     </img>
@@ -738,7 +729,7 @@ function Main() {
             </div>
           </div>
         </div>
-        <Ticket />
+        <Select />
         <h class="slider-details-soalha">
           پاسخ به سوالات شما
         </h>
@@ -893,7 +884,7 @@ function Main() {
             class="cheklist-image upper-img" onClick={hide}>
           </img>
           <div>
-            <Link className="linkto"  to={'https://mohammadbaghani.github.io/Nowmusic-JS'}>
+            <Link className="linkto" to={'https://mohammadbaghani.github.io/Nowmusic-JS'}>
               <img src="nowlisten.png"
                 class="cheklist-image">
               </img>

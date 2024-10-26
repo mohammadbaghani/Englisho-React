@@ -92,7 +92,7 @@
     top: 28px !important;
     border-radius: 0px !important;
     height: 73px !important;
-    border: none !important;  background-color: #373e42 !important;
+    border: none !important;  background-color: #222527!important;
 }
 
 .tr:active {
@@ -436,7 +436,7 @@
 #today {
     border-bottom: 1px solid rgb(204, 204, 204) !important;
     color: #ffffff !important;
-    font-family: 'dana' !important;
+    font-family: 'IRY' !important;
     font-weight: 400;
     margin-top: 1px;
     height: 45px;
@@ -492,7 +492,6 @@
 }
 #today:hover {
     transition: all .1s !important;
-    font-size: 16px !important;
     background-color: rgb(23, 23, 39) !important;
 }
 .logoimage-feh {
@@ -1570,7 +1569,7 @@
         margin-left: auto;
         left: 0px;
         right: 412px;
-        margin-top: 7690px;
+        margin-top: 7665px;
         display: flex;
         transition: all .7s ease-out;
         z-index: 2222;

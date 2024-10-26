@@ -1035,7 +1035,7 @@
         text-shadow: none;
         color: rgb(255, 255, 255) !important;
         font-family: 'IRY';
-        font-size: 42px;
+        font-size: 40px;
         margin-top: -135px;
         padding-top: 26px;
         position: absolute;
@@ -1075,7 +1075,7 @@
         background-image: url(n.webp);
         background-position: 0px 0px;
         overflow: hidden;
-        padding-top: 299px;
+        padding-top: 296px;
     }
 
     .shop-body::before {
@@ -1229,7 +1229,7 @@
         min-width: unset !important;
         padding-left: unset !important;
         padding-right: unset !important;
-        background-color: #1d2227 !important;
+        background-color: #1d2227 !important;border: 2px solid rgb(87 87 87) !important;
     }
 
     .shop-count {

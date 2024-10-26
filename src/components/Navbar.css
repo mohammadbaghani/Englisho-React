@@ -34,14 +34,14 @@
         font-family: 'IRY' !important;
         width: -moz-fit-content !important;
         width: 100px !important;
-        z-index: 0 !important;
+        z-index: 0 !important;       
     }
 
     .navbar-item:hover {
         transition: all .1s !important;
         color: rgb(255, 255, 255) !important;
-        border: 1px solid rgb(114, 122, 122) !important;
-        background-color: #373e42 !important;
+        border: 1px solid rgb(114, 122, 122);
+        background-color: #222527!important;
     }
 
     .secondy {
@@ -398,7 +398,7 @@
         transition: all .1s !important;
         color: rgb(255, 255, 255) !important;
         border: 1px solid rgb(114, 122, 122);
-        background-color: #373e42 !important;
+        background-color: #222527!important;
     }
 
     .arrow {
@@ -450,12 +450,12 @@
         height: 218px !important;
         font-size: 12px !important;
         z-index: 444466664444444444 !important;
-        background-color: #373e42 !important;          
+        background-color: #222527!important;          
     }
     .navbar-item li:hover {
         transition: .001s all !important;
         color: rgb(208, 248, 245) !important;
-        background-color: #373e42 !important;
+        background-color: #222527!important;
     }
     /* navbar-items codes ended */
 

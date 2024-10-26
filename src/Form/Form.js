@@ -16,14 +16,14 @@ export default function Form() {
             lastName,
             email
         }
-        fetch('https://englisho-e7c7a-default-rtdb.firebaseio.com/users.json', {
+        fetch('https://englisho-data-base-default-rtdb.firebaseio.com/users.json', {
             method: 'POST',
             body: JSON.stringify(userInfo)
         }).then(response => console.log(response))
     }
     return (<>
         <Header />
-       <div className="register-body"  >
+        <div className="register-body"  >
             <li className='moshakhasat  btn-mosh'>
                 ثبت نام کاربر
             </li>
@@ -40,8 +40,7 @@ export default function Form() {
                 3 -
                 پس از ثبت نام درصورت روشن بودن فیلترشکن مشخصات شما در جدول زیر نمایش داده می شود
             </li>
-
-           <div className="form-container">
+            <div className="form-container">
                 <form className="register-form" autoComplete="on" onSubmit={registerHandler}>
                     <input
                         id="first-name"
@@ -50,24 +49,21 @@ export default function Form() {
                         className="form-field"
                         type="text"
                         placeholder="نام کاربری"
-                        name="firstName"
-                    />
+                        name="firstName" />
                     <input
                         id="last-name"
                         value={lastName}
                         onChange={(event) => setLastName(event.target.value)}
                         className="form-field"
                         type="password"
-                        placeholder="رمز عبور"
-                   />
+                        placeholder="رمز عبور" />
                     <input
                         id="email"
                         value={email}
                         onChange={(event) => setEmail(event.target.value)}
                         className="form-field"
                         type="email"
-                        placeholder="ایمیل"
-                    />
+                        placeholder="ایمیل" />
                     <Button variant="outline-primary" className="form-enter" type="submit" onClick={() => swal({
                         title: "حساب  کاربری شما ساخته شد",
                         icon: "success",
@@ -76,9 +72,7 @@ export default function Form() {
                 </form>
             </div>
             <Users />
-
-
         </div >
-
     </>
- )}
+    )
+}

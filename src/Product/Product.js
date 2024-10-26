@@ -85,44 +85,23 @@ export default class Product extends Component {
 
     }
 
-
-
-
     render(t) {
-
         let a = false
-        let { desc, id, title, price, img ,description} = this.props
-
+        let { desc, id, title, price, img, description } = this.props
         return (
             <div class="parent-shopha" >
-
-
                 <div class="shopha">
-           
-
-
                     <div class="icon-title">
-
-
-
                         <Link class="icon-title-text" >
-
                             {title}
-
                         </Link>
                     </div>
 
                     <img class="shop-item-image" src={this.props.img} />
-
-
-
-
                     <div class="reg">
 
+                        <div class="woman">
 
-
-                        <div class="woman">               
-                     
                         </div>
 
                         <hr>
@@ -131,32 +110,18 @@ export default class Product extends Component {
                         <p class="shop-item-price-text">
                             {desc}
                         </p>
-
-
-
                     </div>
-
-
-
-
                     <span class="shop-item-price">
-                    {description}
-                   
+                        {description}
 
-                    </span>
-
+                   </span>
                     <button
                         class=" btn-primary-film"
                         type="button"
-
                         onClick={this.clickHandler.bind(this, id)}>
-
                         <img className='shop-delete-image ' src='/carty.png'
 
-
                             onClick={() =>
-
-
                                 swal({
                                     title: "محصول مورد نظر شما به سبد خرید اضافه شد",
                                     icon: "success",
@@ -164,22 +129,10 @@ export default class Product extends Component {
 
                                 })
 
-
-
-
                             }></img>
-
-   خرید محصول
-
-
-
-                    </button>
-
-
-
+                        خرید محصول
+                  </button>
                 </div>
-
-            </div>
-        )
+            </div>        )
     }
 }
