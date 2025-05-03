@@ -1,5 +1,4 @@
 سایت آموزشگاهی با ری اکت زدم
-
 <br>
 </br>
 لایو پروژه اینجا ⭐ https://englisho.liara.run ⭐
@@ -16,5 +15,5 @@ React-Icons
 Educational website using React JS
 <br>
 </br>
-Live of project is here : https://englisho.liara.run     
+Live of project is here : https://englisho.liara.run       
 ![alt text](https://github.com/mohammadbaghani/Englisho-React/blob/master/Screenshot_2025_05_01-1.png)
