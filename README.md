@@ -15,13 +15,16 @@ React-Icons
 Educational website using React JS
 
 Data Base : Fire Base
-
+<br>
+</br>
 Technologies :
 React Js , MUI Material ,
 AOS ,
 React-Paralex-Tilt ,
 React-particles ,
 React-Icons 
+<br>
+</br>
 یسیببیس
 Live of project is here : https://englisho.liara.run       
 ![alt text](https://github.com/mohammadbaghani/Englisho-React/blob/master/Screenshot_2025_05_01-1.png)
