@@ -3,13 +3,8 @@
 </br>
 لینک پروژه ⭐ https://englisho.liara.run ⭐
 
-کتابخانه هایی که استفاده کردم :
 
-MUI Material ,
-AOS ,
-React-Paralex-Tilt ,
-React-particles ,
-React-Icons 
+
 <br>
 </br>
 Educational website using React JS
