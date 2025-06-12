@@ -5,8 +5,7 @@
 
 
 
-<br>
-</br>
+
 Educational website using React JS
 <br>
 </br>
