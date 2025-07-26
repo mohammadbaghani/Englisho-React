@@ -22,4 +22,6 @@ Live Demo ⭐ https://englisho.liara.run ⭐
 <br>
 </br>
 ![alt text](https://github.com/mohammadbaghani/Englisho-React/raw/master/Screenshot_2025_05_01-1.png)
-![alt text](https://github.com/mohammadbaghani/Englisho-React/blob/master/Screenshot_2025_05_01-1.png)
+<br>
+</br>
+![alt text](https://github.com/mohammadbaghani/Englisho-React/blob/master/bb.png)
