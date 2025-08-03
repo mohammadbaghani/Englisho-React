@@ -1,4 +1,4 @@
-Educational website uwith React JS
+Educational website with React JS
 <br>
 </br>
 Technologies :
