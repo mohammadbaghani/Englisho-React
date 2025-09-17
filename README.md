@@ -1,5 +1,4 @@
 Educational website with React JS
-<br>
 </br>
 Technologies :
 React Js , MUI Material ,
